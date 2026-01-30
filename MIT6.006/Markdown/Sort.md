@@ -510,7 +510,7 @@ T(n)\le T(\frac{1}{5}n) + T(\frac{7}{10}n) + O(n)
 $$
 
 PS. 为什么选择5个元素分组.
-首先偶数个元素分组, 中位数将是出发的形式, 显然不够简便. 我们设选择 $2k+1$ 个元素, 按上述过程进行寻找, 最终 `M` 的rank为:
+首先偶数个元素分组, 中位数将是除法的形式, 显然不够简便. 我们设选择 $2k+1$ 个元素, 按上述过程进行寻找, 最终 `M` 的rank为:
 $$
 (k+1)\times \lceil\frac{\lceil \frac{n}{2k+1}\rceil}{2}\rceil\approx\frac{k+1}{4k+2}n
 $$
@@ -521,6 +521,43 @@ $$
 注意到 $\frac{1}{3}n + \frac{2}{3}n = n$, 显然会退化为 $O(n\log n)$. 故我们选择最小的可用 $k$ :5
 
 > 我们一般不使用BFPRT的思想选择pivot, 该算法看似将所有情况的时间复杂度均优化到了 $\Theta(n\log n)$, 但是其过大的常数因子, 导致了实际上的效果不如随机选择pivot.
+
+附: 以BFPRT选择**median of medians**, 然后选取第k大的数的代码例:
+```python
+from merge_sort import merge_sort
+data = [1,3,2,4,9,8,7,6,5]
+
+def find_approximate_median(arr):
+        if len(arr) <= 5:# The number usually is more than 30
+            return sort(arr)[len(arr)//2]
+        medians = []
+        i = 0
+        while i < len(arr):
+            if i + 4 > len(arr):
+                medians += [find_approximate_median(arr[i:])]
+            else:
+                medians += [find_approximate_median(arr[i:i+5])]
+            i += 5
+        return find_approximate_median(medians)
+
+def find_kth(arr, k):
+    # k from 0 to len(arr)-1
+    pivot = find_approximate_median(arr)
+    print("pivot = ", pivot)
+    L, M, R = [], 0, []
+    for i in range(len(arr)):
+        if arr[i] < pivot:
+            L += [arr[i]]
+        elif arr[i] == pivot:
+            M += 1
+        else:
+            R += [arr[i]]
+    if k < len(L):
+        return find_kth(L, k)
+    if k < len(L) + M:
+        return pivot
+    return find_kth(R, k-len(L)-M)
+```
 
 #### 分区方式: Tony Hoare's Partitioning
 我们考虑有两个指针在数组左右端点, 并且我们用某种策略选取了一个pivot.
