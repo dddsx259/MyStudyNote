@@ -1,0 +1,7 @@
+glocalization(全球本土化)   
+globalist(全球主义者)    
+skeptic(怀疑论者)   
+hyper-globalization(超全球化)   
+shareholder capitalism(股东资本主义)   
+deregulation(放宽管制)   
+privatization(私有化)   
