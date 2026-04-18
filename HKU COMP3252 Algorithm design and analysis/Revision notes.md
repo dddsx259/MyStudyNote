@@ -370,7 +370,7 @@ In a directed graph.
 + 3.6.1 **Kruskal's Algorithm**
   + Greedy algorithm.
   + Procedure:
-    1. Sort all medges in non-decreasing order of their weights.
+    1. Sort all $m$ edges in non-decreasing order of their weights.
     2. Initialize a forest (a collection of trees), where each vertex is a separate tree.
     3. For each edge in the sorted order:
        - If the edge connects two different trees, add it to the forest, merging the two trees into a single tree.
