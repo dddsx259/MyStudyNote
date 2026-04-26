@@ -43,3 +43,32 @@
 ### **四、结论 (Conclusion)**
 
 论文总结道，《贫民窟的百万富翁》是全球媒体产业政治经济逻辑的一个完美例证。它展示了好莱坞如何系统性地识别、评估并利用全球文化趋势（如宝莱坞的兴起），通过精心计算的风险管理和资源整合，将一种外来文化形式转化为一个低风险、高回报的全球性商品。这一过程不仅巩固了好莱坞的全球霸权，也揭示了在全球资本主义体系下，文化生产与商业利益之间密不可分的关系。
+
+
+### Commentary on "Mimicking Bollywood in Slumdog Millionaire"
+
+**[0:00 - 0:30] Introduction: Beyond the Fairy Tale**
+"Today I want to discuss the 2008 film Slumdog Millionaire, but not through the lens of its Oscars or its heartwarming story. Instead, I want to look at it through the critical lens of Cox and Proffitt’s 2014 paper, *Mimicking Bollywood in Slumdog Millionaire: Global Hollywood’s Newest Co-Optation of Culture*.
+
+While the film appears to be a gritty, independent drama celebrating Indian culture, the authors argue that its massive success was actually a calculated business strategy. They suggest that Hollywood giants like News Corp and Time Warner didn't just stumble upon a hit; they strategically mimicked the aesthetics of Bollywood to maximize profit. This wasn't just a movie; it was a low-risk, high-reward financial product."
+
+**[0:30 - 1:15] The Strategy: Why "Bollywood-esque"?**
+"The core argument here is about the political economy of media. The authors point out that Hollywood didn't simply copy Bollywood—they 'mimicked' it. They borrowed the vibrant colors, the musical numbers, and the melodramatic narrative structure, but crucially, they kept the production costs extremely low.
+
+By filming in Mumbai with a relatively small budget of $15 million, and by packaging the film as an 'indie' success, Hollywood was able to tap into the global popularity of Indian cinema without actually ceding power to the Mumbai studios. It was a form of 'cultural appropriation' where the form was taken, but the economic control remained firmly in the hands of the Western media conglomerates."
+
+**[1:15 - 1:50] Conclusion: The Bigger Picture**
+"So, what does this mean? It means that *Slumdog Millionaire* serves as a perfect example of how global capitalism works in the entertainment industry.
+
+While we were watching a story about Jamal finding love, the studios were executing a masterclass in risk management. They used the 'exotic' appeal of Bollywood to sell a product to a global audience, proving that even when Hollywood borrows from other cultures, it does so to maintain its own dominance. The takeaway is clear: in the world of global media, culture is often just another commodity to be bought, sold, and repackaged for maximum profit."
+
+**[1:50 - 2:00] End**
+"That concludes my commentary. Thank you."
+
+---
+
+### 💡 Key Vocabulary Used
+*   **Calculated business strategy:** A plan made with careful thought to achieve a goal (in this case, profit).
+*   **Political economy:** The study of how politics, economics, and power interact.
+*   **Cultural appropriation:** The adoption or use of elements of one culture by members of another culture.
+*   **Commodity:** A raw material or primary agricultural product that can be bought and sold.
