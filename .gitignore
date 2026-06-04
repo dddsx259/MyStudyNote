@@ -1,3 +1,5 @@
 # Huge file that hard to push
 Project presentation.pdf
 data/
+__pycache__/
+.DS_Store
