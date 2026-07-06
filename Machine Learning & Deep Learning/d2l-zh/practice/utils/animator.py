@@ -48,3 +48,6 @@ class Animator:
         self.config_axes()
         display.clear_output(wait=True)
         display.display(self.fig)
+        
+    def close(self):
+        plt.close()
