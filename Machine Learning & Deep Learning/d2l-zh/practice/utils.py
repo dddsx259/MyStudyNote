@@ -292,4 +292,13 @@ class Vocab:
 
     @property
     def token_freqs(self):
-        return self._token_freqs
+        return self._token_freq
+    
+    
+    
+    
+    
+    
+    
+    
+    
