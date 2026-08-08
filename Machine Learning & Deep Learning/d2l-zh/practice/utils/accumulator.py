@@ -1,12 +1,16 @@
-class Accumulator:
-    def __init__(self, n):
-        self.data = [0.0] * n
+"""兼容层：from utils.accumulator import Accumulator"""
 
-    def add(self, *args):
-        self.data = [a + float(b) for a, b in zip(self.data, args)]
+import importlib.util
+from pathlib import Path
 
-    def reset(self):
-        self.data = [0.0] * len(self.data)
+_spec = importlib.util.spec_from_file_location(
+    '_practice_utils_flat',
+    Path(__file__).resolve().parent.parent / 'utils.py',
+)
+_flat = importlib.util.module_from_spec(_spec)
+assert _spec.loader is not None
+_spec.loader.exec_module(_flat)
 
-    def __getitem__(self, idx):
-        return self.data[idx]
+Accumulator = _flat.Accumulator
+
+__all__ = ['Accumulator']
