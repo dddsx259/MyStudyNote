@@ -1,9 +1,50 @@
-# Huge file that hard to push
+# Huge / local data
 Project presentation.pdf
 data/
+
+# Python
 __pycache__/
-.DS_Store
-*.log
-.vscode/
-.cursor/
+*.py[cod]
+*$py.class
+*.so
+.Python
+*.egg-info/
+.eggs/
+dist/
+build/
+.venv/
+venv/
+.env
 .conda/
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Logs & caches
+*.log
+.cache/
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+
+# OS junk
+.DS_Store
+.AppleDouble
+.LSOverride
+Icon
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+$RECYCLE.BIN/
+
+# Editors / IDEs
+.vscode/
+.idea/
+.cursor/
+*.swp
+*.swo
+*~
+
+# Local recovery leftovers / duplicates
+.git.broken-*/
+Finished/SA CS242/
