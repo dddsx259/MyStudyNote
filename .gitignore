@@ -1,6 +1,16 @@
 # Huge / local data
 Project presentation.pdf
 data/
+**/*idx3-ubyte*
+**/*idx1-ubyte*
+
+# Nested course clones with their own git remotes (do not embed)
+SU CS336/assignment1-basics/
+
+# Experiment tracking / checkpoints
+wandb/
+**/*.pt
+**/*.pth
 
 # Python
 __pycache__/
