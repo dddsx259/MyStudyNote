@@ -10,9 +10,6 @@ wandb/
 **/*.pth
 !SU CS336/assignment1-basics/tests/fixtures/**/*.pt
 
-# Upstream clone metadata (not source files)
-SU CS336/assignment1-basics/.upstream.git/
-
 # Python
 __pycache__/
 *.py[cod]

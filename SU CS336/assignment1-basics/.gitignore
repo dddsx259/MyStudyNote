@@ -183,6 +183,3 @@ test_results.xml
 *.pth
 !tests/fixtures/**/*.pt
 !tests/_snapshots/**
-
-# Keep local upstream clone metadata out of the notes repo
-.upstream.git/
