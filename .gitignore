@@ -4,13 +4,14 @@ data/
 **/*idx3-ubyte*
 **/*idx1-ubyte*
 
-# Nested course clones with their own git remotes (do not embed)
-SU CS336/assignment1-basics/
-
 # Experiment tracking / checkpoints
 wandb/
 **/*.pt
 **/*.pth
+!SU CS336/assignment1-basics/tests/fixtures/**/*.pt
+
+# Upstream clone metadata (not source files)
+SU CS336/assignment1-basics/.upstream.git/
 
 # Python
 __pycache__/
