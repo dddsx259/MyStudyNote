@@ -1,6 +1,6 @@
 # HKU Courses Todo
 
-> 最后更新: 2026-09-09 (COMP3230 OSTEP Ch.2 reading 入库)
+> 最后更新: 2026-09-10 (COMP3230 Mini-Labs 入库)
 > 仅列当前已知且可做的任务; 新材料入库时同步增补. **讲义写入后按章节拆 Read**. 大任务拆 ≤1h; 已完成块置顶. 不写「题面未到 / 待后续」占位.
 
 ## CCST5037 Mathematics A Cultural Heritage
@@ -45,6 +45,26 @@
 
 ## COMP3230 Principles of Operating Systems
 
+- [x] **MiniLab0** Warm up! Welcome to Linux (0 pt; `COMP3230-2026-mini-labs`)
+  - [x] **ML0-setup** Task1: HKUVPN + SSH workbench2 + 拉材料
+  - [x] **ML0-cmds** Task2: 练习基本 Linux 命令
+  - [x] **ML0-admin** Task3: 从 log 识别可疑 IP
+- [x] **MiniLab1** C Basics & Address Space (1 pt)
+  - [x] **ML1-stack** 编译运行 `lab1-stack.c`, 观察返回局部数组的问题
+  - [x] **ML1-heap** 完成 `lab1-heap.c` 三处 TODO (`malloc` / 填 `i*i` / `free`)
+  - [x] **ML1-submit** 提交 `lab1-heap_3036292116.c` (Moodle)
+- [x] **MiniLab2** Signal (1 pt; `lab2-signal.c`)
+  - [x] **ML2-read** 阅读 `Mini_Lab_2__Signal.pdf`
+  - [x] **ML2-code** 完成 signal handler / `SIGUSR1` 相关 TODO
+  - [x] **ML2-submit** 按 PDF 要求命名并提交
+- [x] **MiniLab3** Process (1 pt; `lab3-process.c`)
+  - [x] **ML3-read** 阅读 `Mini_Lab_3__Process.pdf`
+  - [x] **ML3-code** 完成 `fork` / `exec` / `wait` TODO
+  - [x] **ML3-submit** 按 PDF 要求命名并提交
+- [x] **MiniLab4** Pthread Race Condition (1 pt; `lab4-pthread.c`)
+  - [x] **ML4-read** 阅读 `Mini_Lab_4__Pthread_Race_Condition.pdf`
+  - [x] **ML4-code** 完成创建 / join / 同步保护 TODO
+  - [x] **ML4-submit** 按 PDF 要求命名并提交
 - [x] **Read:Overview** 阅读 Course Overview 讲义 (对齐 21 页 PDF)
   - [x] **Read:Overview-staff** 师资 / Tutor 分工 / Moodle
   - [x] **Read:Overview-ILO** 课程目标与 ILO1–4
