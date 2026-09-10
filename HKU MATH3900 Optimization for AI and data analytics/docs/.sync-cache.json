@@ -1,0 +1,71 @@
+{
+  "version": 1,
+  "last_scan": "2026-09-09T07:13:58.270673+00:00",
+  "sources": {
+    "Lec/handout/01-introduction-handout.pdf": {
+      "mtime": 1788234566,
+      "size": 866314,
+      "outputs": [],
+      "processed_at": "2026-09-07",
+      "note": "handout folder; 讲义尚未按此文件重生成"
+    },
+    "Lec/01-introduction-slides.pdf": {
+      "mtime": 1788234521,
+      "size": 380473,
+      "outputs": [
+        "课程信息.md",
+        "Lec/01-introduction-slides-讲义.md"
+      ],
+      "processed_at": "2026-09-07"
+    },
+    "Lec/01-introduction-slides-long.pdf": {
+      "mtime": 1788488791,
+      "size": 1461711,
+      "outputs": [],
+      "processed_at": "2026-09-07",
+      "skip_reason": "duplicate",
+      "duplicate_of": "Lec/01-introduction-slides.pdf",
+      "renamed_from": "Lec/02-introduction-slides-long.pdf"
+    },
+    "Lec/textbook/01-boyd-vandenberghe-convex-optimization.pdf": {
+      "mtime": 1788248538,
+      "size": 6881335,
+      "outputs": [],
+      "processed_at": "2026-09-07",
+      "skip_reason": "optional_textbook",
+      "large_doc": true,
+      "renamed_from": "Lec/04-boyd-vandenberghe-convex-optimization.pdf"
+    },
+    "Lec/handout/02-unconstrained-handout.pdf": {
+      "mtime": 1788488779,
+      "size": 766002,
+      "outputs": [],
+      "processed_at": "2026-09-07",
+      "renamed_from": "Lec/02-unconstrained-slides.pdf",
+      "note": "user_corrected_type: was mislabeled slides; 讲义尚未按此 handout 重生成"
+    },
+    "Lec/02-unconstrained-slides.pdf": {
+      "mtime": 1788488773,
+      "size": 451304,
+      "outputs": [
+        "Lec/02-unconstrained-slides-讲义.md"
+      ],
+      "processed_at": "2026-09-07",
+      "large_doc": true,
+      "sections_done": [
+        "all"
+      ],
+      "renamed_from": "Lec/handout/02-unconstrained-handout.pdf",
+      "note": "user_corrected_type: was mislabeled handout; 讲义基于此 PDF"
+    },
+    "docs/MATH3900.webarchive": {
+      "mtime": 1788243709,
+      "size": 9058558,
+      "outputs": [
+        "课程信息.md"
+      ],
+      "processed_at": "2026-09-09",
+      "skip_reason": "course_info_webarchive"
+    }
+  }
+}

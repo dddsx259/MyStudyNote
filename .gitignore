@@ -1,41 +1,97 @@
-# Huge / local data
-Project presentation.pdf
-data/
-**/*idx3-ubyte*
-**/*idx1-ubyte*
+# =============================================================================
+# My Study Notes — .gitignore
+# 目标: 忽略体积大 / 可本地再生 / 环境类文件; 讲义 md 与小课件仍可纳入版本库.
+# 注意: gitignore 无法按「文件大小」过滤; 已 tracked 的大文件需另用
+#   git rm --cached <path> 后才会不再被提交 (本仓库按需手动处理, 勿自动 commit).
+# =============================================================================
 
-# Experiment tracking / checkpoints
-wandb/
-**/*.pt
-**/*.pth
-!SU CS336/assignment1-basics/tests/fixtures/**/*.pt
-
-# Python
-__pycache__/
-*.py[cod]
-*$py.class
-*.so
+# ----- 环境 / 依赖 (体积大) -----
+.conda/
+.venv/
+venv/
+env/
+node_modules/
 .Python
 *.egg-info/
 .eggs/
 dist/
 build/
-.venv/
-venv/
-.env
-.conda/
 
-# Jupyter
+# ----- 数据集 / 原始张量 (常数十 MB+) -----
+data/
+**/data/
+**/FashionMNIST/
+**/raw/
+**/*idx3-ubyte*
+**/*idx1-ubyte*
+*.parquet
+*.feather
+*.h5
+*.hdf5
+*.npy
+*.npz
+*.npz.gz
+
+# ----- 模型权重 / 实验产物 -----
+wandb/
+**/*.pt
+**/*.pth
+**/*.ckpt
+**/*.safetensors
+**/*.onnx
+!SU CS336/assignment1-basics/tests/fixtures/**/*.pt
+
+# ----- 浏览器另存 / 压缩包 / 磁盘镜像 (webarchive 常 8MB+) -----
+*.webarchive
+*.dmg
+*.iso
+*.tar
+*.tar.gz
+*.tgz
+*.7z
+# lab/assignment 的 zip 若需入库可对具体路径加 ! 例外
+*.zip
+
+# ----- 可选大部头教材 (Boyd / Bartle / Ross 等, 独立编号于 Lec/textbook/) -----
+**/Lec/textbook/
+
+# ----- 超大扫描/图片型课件 (单文件常 >10MB; 讲义 md 已覆盖知识点) -----
+HKU CCST5037 Mathematics A Cultural Heritage/Lec/Lec05-Mathematics-and-Education/*.pdf
+HKU CCST5037 Mathematics A Cultural Heritage/Lec/Lec06-Student-Version/*.pdf
+HKU CCST5037 Mathematics A Cultural Heritage/Lec/Lec07-Non-Euclidean-Geometry/*.pdf
+HKU CCST5037 Mathematics A Cultural Heritage/Lec/Lec09/*.pdf
+HKU CCST5037 Mathematics A Cultural Heritage/Lec/Lec10-Movies-and-Literature/*.pdf
+HKU CCST5037 Mathematics A Cultural Heritage/Lec/Lec11-Mathematics-and-Society/*.pdf
+
+# ----- 已知超大成品 (路径敏感) -----
+**/Project presentation.pdf
+Finished/HKU CCGL5022 Globalization in Question/Presentation/
+# 下列已在历史上被 track; gitignore 仅阻止「重新加入」. 若要从索引移除需:
+#   git rm -r --cached -- <path>   (不要在未请求时 commit)
+Finished/Machine Learning & Deep Learning/d2l-zh/paddle/
+Finished/HKU COMP3366 Quantum algorithms and computer architecture/cheatsheet 3.pdf
+Finished/HKU MATH2211 Multivariable calculus/HKU MATH2211 note.pdf
+
+# ----- 手写扫描 handout (常数 MB 扫描件; 不入库 AI 讲义) -----
+**/Lec/handout/
+
+# ----- Python / Jupyter -----
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
 .ipynb_checkpoints/
+.env
+.env.*
 
-# Logs & caches
+# ----- 日志与缓存 -----
 *.log
 .cache/
 .pytest_cache/
 .mypy_cache/
 .ruff_cache/
 
-# OS junk
+# ----- OS / 编辑器 -----
 .DS_Store
 .AppleDouble
 .LSOverride
@@ -44,8 +100,6 @@ Thumbs.db
 ehthumbs.db
 Desktop.ini
 $RECYCLE.BIN/
-
-# Editors / IDEs
 .vscode/
 .idea/
 .cursor/
@@ -53,6 +107,6 @@ $RECYCLE.BIN/
 *.swo
 *~
 
-# Local recovery leftovers / duplicates
+# ----- 本地恢复残留 -----
 .git.broken-*/
 Finished/SA CS242/

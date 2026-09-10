@@ -1,0 +1,99 @@
+{
+  "version": 1,
+  "last_scan": "2026-09-09T07:13:58.270673+00:00",
+  "sources": {
+    "Lec/01-syllabus-math2241-2026.pdf": {
+      "mtime": 1788234579,
+      "size": 69872,
+      "outputs": [
+        "课程信息.md"
+      ],
+      "processed_at": "2026-09-04"
+    },
+    "Lec/02-chapter1-real-numbers.pdf": {
+      "mtime": 1788234590,
+      "size": 224356,
+      "outputs": [
+        "Lec/01-chapter1-real-numbers-讲义.md"
+      ],
+      "processed_at": "2026-09-04"
+    },
+    "Lec/03-slides-chapter1-sept1.pdf": {
+      "mtime": 1788311506,
+      "size": 1434746,
+      "outputs": [],
+      "processed_at": "2026-09-04",
+      "skip_reason": "no_extractable_text"
+    },
+    "Lec/04-chapter1-real-numbers-2026.pdf": {
+      "mtime": 1788255166,
+      "size": 276691,
+      "outputs": [],
+      "processed_at": "2026-09-04",
+      "skip_reason": "duplicate",
+      "duplicate_of": "Lec/02-chapter1-real-numbers.pdf"
+    },
+    "assignment/01-assignment-1-dedekind-cuts.pdf": {
+      "mtime": 1788489034,
+      "size": 146067,
+      "outputs": [
+        "assignment/01-assignment-1-dedekind-cuts-题目理解.md",
+        "assignment/02-assignment-1-dedekind-cuts-解答.md"
+      ],
+      "processed_at": "2026-09-04"
+    },
+    "exercise/01-extra-exercises-bartle.pdf": {
+      "mtime": 1788489049,
+      "size": 49821,
+      "outputs": [
+        "exercise/01-extra-exercises-bartle-题目理解.md"
+      ],
+      "processed_at": "2026-09-05",
+      "renamed_from": "assignment/02-extra-exercises-bartle.pdf"
+    },
+    "Lec/textbook/01-bartle-sherbert-introduction-to-real-analysis-4ed.pdf": {
+      "mtime": 1788593770,
+      "size": 9621983,
+      "outputs": [],
+      "processed_at": "2026-09-05",
+      "skip_reason": "optional_textbook",
+      "large_doc": true,
+      "renamed_from": "Lec/05-bartle-sherbert-introduction-to-real-analysis-4ed.pdf"
+    },
+    "Lec/textbook/02-ross-elementary-analysis-2ed.pdf": {
+      "mtime": 1788594329,
+      "size": 3390521,
+      "outputs": [],
+      "processed_at": "2026-09-05",
+      "skip_reason": "optional_textbook",
+      "large_doc": true,
+      "renamed_from": "Lec/06-ross-elementary-analysis-2ed.pdf"
+    },
+    "assignment/02-assignment-1-dedekind-cuts-submitted.pdf": {
+      "mtime": 1788606015,
+      "size": 1729203,
+      "outputs": [],
+      "processed_at": "2026-09-05",
+      "skip_reason": "submitted_work",
+      "renamed_from": "assignment/Assignment1.pdf"
+    },
+    "docs/MATH2241.webarchive": {
+      "mtime": 1788243735,
+      "size": 9039918,
+      "outputs": [
+        "课程信息.md"
+      ],
+      "processed_at": "2026-09-09",
+      "skip_reason": "course_info_webarchive"
+    },
+    "docs/Course_info.html": {
+      "mtime": 1788774092,
+      "size": 14035,
+      "outputs": [
+        "课程信息.md"
+      ],
+      "processed_at": "2026-09-09",
+      "skip_reason": "course_info_html"
+    }
+  }
+}

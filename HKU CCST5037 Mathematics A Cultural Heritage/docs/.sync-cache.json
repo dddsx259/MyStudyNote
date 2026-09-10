@@ -1,0 +1,465 @@
+{
+  "version": 1,
+  "last_scan": "2026-09-09T07:13:58.270673+00:00",
+  "sources": {
+    "GP/brief/01-group-project-guidelines.pdf": {
+      "mtime": 1788240026,
+      "size": 378244,
+      "outputs": [
+        "课程信息.md"
+      ],
+      "processed_at": "2026-09-04"
+    },
+    "GP/brief/02-presentation-grade-descriptors.pdf": {
+      "mtime": 1788240025,
+      "size": 49132,
+      "outputs": [
+        "课程信息.md"
+      ],
+      "processed_at": "2026-09-04"
+    },
+    "Lec/Lec00-Unsorted-Readings/01-reading-markowsky-golden-ratio.pdf": {
+      "mtime": 1788240720,
+      "size": 315348,
+      "outputs": [],
+      "processed_at": "2026-09-04"
+    },
+    "Lec/Lec01-Introduction/01-slides-overview-2026.pdf": {
+      "mtime": 1788240196,
+      "size": 4295315,
+      "outputs": [
+        "课程信息.md",
+        "Lec/Lec01-Introduction/01-Lec01-Introduction-讲义.md"
+      ],
+      "processed_at": "2026-09-04"
+    },
+    "Lec/Lec01-Introduction/02-slides-introduction.pdf": {
+      "mtime": 1786434246,
+      "size": 848434,
+      "outputs": [
+        "课程信息.md",
+        "Lec/Lec01-Introduction/01-Lec01-Introduction-讲义.md"
+      ],
+      "processed_at": "2026-09-04"
+    },
+    "Lec/Lec01-Introduction/03-central-theme-examples.pdf": {
+      "mtime": 1788240024,
+      "size": 81135,
+      "outputs": [
+        "课程信息.md",
+        "Lec/Lec01-Introduction/01-Lec01-Introduction-讲义.md"
+      ],
+      "processed_at": "2026-09-04"
+    },
+    "Lec/Lec01-Introduction/04-slides-art.pdf": {
+      "mtime": 1786434246,
+      "size": 932070,
+      "outputs": [
+        "课程信息.md",
+        "Lec/Lec01-Introduction/01-Lec01-Introduction-讲义.md"
+      ],
+      "processed_at": "2026-09-04"
+    },
+    "Lec/Lec01-Introduction/05-slides-assignments.pdf": {
+      "mtime": 1786434246,
+      "size": 1062787,
+      "outputs": [
+        "课程信息.md",
+        "Lec/Lec01-Introduction/01-Lec01-Introduction-讲义.md"
+      ],
+      "processed_at": "2026-09-04"
+    },
+    "Lec/Lec01-Introduction/06-slides-education.pdf": {
+      "mtime": 1786434246,
+      "size": 898651,
+      "outputs": [
+        "课程信息.md",
+        "Lec/Lec01-Introduction/01-Lec01-Introduction-讲义.md"
+      ],
+      "processed_at": "2026-09-04"
+    },
+    "Lec/Lec01-Introduction/07-slides-history.pdf": {
+      "mtime": 1786434246,
+      "size": 1670979,
+      "outputs": [
+        "课程信息.md",
+        "Lec/Lec01-Introduction/01-Lec01-Introduction-讲义.md"
+      ],
+      "processed_at": "2026-09-04"
+    },
+    "Lec/Lec01-Introduction/08-slides-literature-movies.pdf": {
+      "mtime": 1786434246,
+      "size": 856121,
+      "outputs": [
+        "课程信息.md",
+        "Lec/Lec01-Introduction/01-Lec01-Introduction-讲义.md"
+      ],
+      "processed_at": "2026-09-04"
+    },
+    "Lec/Lec01-Introduction/09-slides-mayan-numbers.pdf": {
+      "mtime": 1786434246,
+      "size": 851242,
+      "outputs": [
+        "课程信息.md",
+        "Lec/Lec01-Introduction/01-Lec01-Introduction-讲义.md"
+      ],
+      "processed_at": "2026-09-04"
+    },
+    "Lec/Lec01-Introduction/10-slides-numbers.pdf": {
+      "mtime": 1786434246,
+      "size": 819179,
+      "outputs": [
+        "课程信息.md",
+        "Lec/Lec01-Introduction/01-Lec01-Introduction-讲义.md"
+      ],
+      "processed_at": "2026-09-04"
+    },
+    "Lec/Lec01-Introduction/11-slides-obsession-numbers.pdf": {
+      "mtime": 1786434246,
+      "size": 1000280,
+      "outputs": [
+        "课程信息.md",
+        "Lec/Lec01-Introduction/01-Lec01-Introduction-讲义.md"
+      ],
+      "processed_at": "2026-09-04"
+    },
+    "Lec/Lec01-Introduction/12-slides-society.pdf": {
+      "mtime": 1786434246,
+      "size": 774144,
+      "outputs": [
+        "课程信息.md",
+        "Lec/Lec01-Introduction/01-Lec01-Introduction-讲义.md"
+      ],
+      "processed_at": "2026-09-04"
+    },
+    "Lec/Lec01-Introduction/13-slides-theorems-proofs.pdf": {
+      "mtime": 1786434246,
+      "size": 1555585,
+      "outputs": [
+        "课程信息.md",
+        "Lec/Lec01-Introduction/01-Lec01-Introduction-讲义.md"
+      ],
+      "processed_at": "2026-09-04"
+    },
+    "Lec/Lec01-Introduction/14-slides-truth.pdf": {
+      "mtime": 1786434246,
+      "size": 956637,
+      "outputs": [
+        "课程信息.md",
+        "Lec/Lec01-Introduction/01-Lec01-Introduction-讲义.md"
+      ],
+      "processed_at": "2026-09-04"
+    },
+    "Lec/Lec01-Introduction/15-slides-funny.pdf": {
+      "mtime": 1786434246,
+      "size": 962485,
+      "outputs": [
+        "课程信息.md",
+        "Lec/Lec01-Introduction/01-Lec01-Introduction-讲义.md"
+      ],
+      "processed_at": "2026-09-04"
+    },
+    "Lec/Lec01-Introduction/16-reading-abstraction-mathematical-experience.pdf": {
+      "mtime": 1788240377,
+      "size": 508594,
+      "outputs": [
+        "课程信息.md",
+        "Lec/Lec01-Introduction/01-Lec01-Introduction-讲义.md"
+      ],
+      "processed_at": "2026-09-04"
+    },
+    "Lec/Lec01-Introduction/17-reading-conversations-on-mathematics.pdf": {
+      "mtime": 1788240375,
+      "size": 624775,
+      "outputs": [
+        "课程信息.md",
+        "Lec/Lec01-Introduction/01-Lec01-Introduction-讲义.md"
+      ],
+      "processed_at": "2026-09-04"
+    },
+    "Lec/Lec01-Introduction/18-reading-court-mathematics-and-genius.pdf": {
+      "mtime": 1788240369,
+      "size": 301870,
+      "outputs": [
+        "课程信息.md",
+        "Lec/Lec01-Introduction/01-Lec01-Introduction-讲义.md"
+      ],
+      "processed_at": "2026-09-04"
+    },
+    "Lec/Lec01-Introduction/19-reading-king-summing-up.pdf": {
+      "mtime": 1788240472,
+      "size": 4056492,
+      "outputs": [
+        "课程信息.md",
+        "Lec/Lec01-Introduction/01-Lec01-Introduction-讲义.md"
+      ],
+      "processed_at": "2026-09-04"
+    },
+    "Lec/Lec01-Introduction/20-reading-mathematical-experience-p6-12.pdf": {
+      "mtime": 1788240436,
+      "size": 1271618,
+      "outputs": [
+        "课程信息.md",
+        "Lec/Lec01-Introduction/01-Lec01-Introduction-讲义.md"
+      ],
+      "processed_at": "2026-09-04"
+    },
+    "Lec/Lec02-Numbers/01-slides-part1-what-are-numbers.pdf": {
+      "mtime": 1786434248,
+      "size": 1714141,
+      "outputs": [
+        "Lec/Lec02-Numbers/02-Lec02-Numbers-讲义.md"
+      ],
+      "processed_at": "2026-09-04"
+    },
+    "Lec/Lec02-Numbers/02-slides-part2-written-mathematics.pdf": {
+      "mtime": 1786434248,
+      "size": 1246927,
+      "outputs": [
+        "Lec/Lec02-Numbers/02-Lec02-Numbers-讲义.md"
+      ],
+      "processed_at": "2026-09-04"
+    },
+    "Lec/Lec02-Numbers/03-slides-part3-positional-number-systems-zero.pdf": {
+      "mtime": 1786434248,
+      "size": 1379969,
+      "outputs": [
+        "Lec/Lec02-Numbers/02-Lec02-Numbers-讲义.md"
+      ],
+      "processed_at": "2026-09-04"
+    },
+    "Lec/Lec02-Numbers/04-slides-part4-other-kinds-numbers.pdf": {
+      "mtime": 1786434248,
+      "size": 1919462,
+      "outputs": [
+        "Lec/Lec02-Numbers/02-Lec02-Numbers-讲义.md"
+      ],
+      "processed_at": "2026-09-04"
+    },
+    "Lec/Lec02-Numbers/05-slides-part5-operations-on-numbers.pdf": {
+      "mtime": 1786434248,
+      "size": 1270751,
+      "outputs": [
+        "Lec/Lec02-Numbers/02-Lec02-Numbers-讲义.md"
+      ],
+      "processed_at": "2026-09-04"
+    },
+    "Lec/Lec02-Numbers/06-slides-live-discussion.pdf": {
+      "mtime": 1788240084,
+      "size": 662554,
+      "outputs": [
+        "Lec/Lec02-Numbers/02-Lec02-Numbers-讲义.md"
+      ],
+      "processed_at": "2026-09-04"
+    },
+    "Lec/Lec02-Numbers/07-slides-live-discussion-from-pack.pdf": {
+      "mtime": 1786434248,
+      "size": 791601,
+      "outputs": [
+        "Lec/Lec02-Numbers/02-Lec02-Numbers-讲义.md"
+      ],
+      "processed_at": "2026-09-04"
+    },
+    "Lec/Lec04-New-Math/01-slides-new-math-part1-infinity.pdf": {
+      "mtime": 1786434250,
+      "size": 1169212,
+      "outputs": [
+        "Lec/Lec04-New-Math/03-Lec04-New-Math-讲义.md"
+      ],
+      "processed_at": "2026-09-04"
+    },
+    "Lec/Lec04-New-Math/02-slides-new-math-part2-number-theory.pdf": {
+      "mtime": 1786434250,
+      "size": 1094137,
+      "outputs": [
+        "Lec/Lec04-New-Math/03-Lec04-New-Math-讲义.md"
+      ],
+      "processed_at": "2026-09-04"
+    },
+    "Lec/Lec04-New-Math/03-slides-new-math-part3-geometry-topology.pdf": {
+      "mtime": 1786434250,
+      "size": 1610776,
+      "outputs": [
+        "Lec/Lec04-New-Math/03-Lec04-New-Math-讲义.md"
+      ],
+      "processed_at": "2026-09-04"
+    },
+    "Lec/Lec04-New-Math/04-slides-new-math-part4-game-theory.pdf": {
+      "mtime": 1786434250,
+      "size": 1152397,
+      "outputs": [
+        "Lec/Lec04-New-Math/03-Lec04-New-Math-讲义.md"
+      ],
+      "processed_at": "2026-09-04"
+    },
+    "Lec/Lec04-New-Math/05-slides-funny.pdf": {
+      "mtime": 1786434250,
+      "size": 2249302,
+      "outputs": [
+        "Lec/Lec04-New-Math/03-Lec04-New-Math-讲义.md"
+      ],
+      "processed_at": "2026-09-04"
+    },
+    "Lec/Lec05-Mathematics-and-Education/01-slides-mathematics-and-education.pdf": {
+      "mtime": 1788240984,
+      "size": 15836676,
+      "outputs": [
+        "Lec/Lec05-Mathematics-and-Education/04-Lec05-Mathematics-and-Education-讲义.md"
+      ],
+      "processed_at": "2026-09-04"
+    },
+    "Lec/Lec05-Mathematics-and-Education/02-reading-is-algebra-necessary-nyt.pdf": {
+      "mtime": 1788240426,
+      "size": 2629375,
+      "outputs": [
+        "Lec/Lec05-Mathematics-and-Education/04-Lec05-Mathematics-and-Education-讲义.md"
+      ],
+      "processed_at": "2026-09-04"
+    },
+    "Lec/Lec05-Mathematics-and-Education/03-reading-math-anxiety-stemwire.pdf": {
+      "mtime": 1788240434,
+      "size": 441314,
+      "outputs": [
+        "Lec/Lec05-Mathematics-and-Education/04-Lec05-Mathematics-and-Education-讲义.md"
+      ],
+      "processed_at": "2026-09-04"
+    },
+    "Lec/Lec05-Mathematics-and-Education/04-reading-what-is-mathematics-for.pdf": {
+      "mtime": 1788240543,
+      "size": 673262,
+      "outputs": [
+        "Lec/Lec05-Mathematics-and-Education/04-Lec05-Mathematics-and-Education-讲义.md"
+      ],
+      "processed_at": "2026-09-04"
+    },
+    "Lec/Lec06-Student-Version/01-slides-student-version.pdf": {
+      "mtime": 1788241548,
+      "size": 25761151,
+      "outputs": [
+        "Lec/Lec06-Student-Version/05-Lec06-Student-Version-讲义.md"
+      ],
+      "processed_at": "2026-09-04"
+    },
+    "Lec/Lec07-Non-Euclidean-Geometry/01-slides-non-euclidean-geometry.pdf": {
+      "mtime": 1788241933,
+      "size": 47960306,
+      "outputs": [
+        "Lec/Lec07-Non-Euclidean-Geometry/06-Lec07-Non-Euclidean-Geometry-讲义.md"
+      ],
+      "processed_at": "2026-09-04"
+    },
+    "Lec/Lec07-Truth/01-slides-truth.pdf": {
+      "mtime": 1788240609,
+      "size": 2275953,
+      "outputs": [
+        "Lec/Lec07-Truth/07-Lec07-Truth-讲义.md"
+      ],
+      "processed_at": "2026-09-04"
+    },
+    "Lec/Lec08-Theorems-and-Proofs/01-slides-famous-theorems.pdf": {
+      "mtime": 1788240704,
+      "size": 2307473,
+      "outputs": [
+        "Lec/Lec08-Theorems-and-Proofs/08-Lec08-Theorems-and-Proofs-讲义.md"
+      ],
+      "processed_at": "2026-09-04"
+    },
+    "Lec/Lec08-Theorems-and-Proofs/02-slides-proofs.pdf": {
+      "mtime": 1788240634,
+      "size": 1369793,
+      "outputs": [
+        "Lec/Lec08-Theorems-and-Proofs/08-Lec08-Theorems-and-Proofs-讲义.md"
+      ],
+      "processed_at": "2026-09-04"
+    },
+    "Lec/Lec08-Theorems-and-Proofs/03-slides-theorems.pdf": {
+      "mtime": 1788240597,
+      "size": 1718994,
+      "outputs": [
+        "Lec/Lec08-Theorems-and-Proofs/08-Lec08-Theorems-and-Proofs-讲义.md"
+      ],
+      "processed_at": "2026-09-04"
+    },
+    "Lec/Lec08-Theorems-and-Proofs/04-reading-proof-mathematical-experience.pdf": {
+      "mtime": 1788240872,
+      "size": 462144,
+      "outputs": [
+        "Lec/Lec08-Theorems-and-Proofs/08-Lec08-Theorems-and-Proofs-讲义.md"
+      ],
+      "processed_at": "2026-09-04"
+    },
+    "Lec/Lec08-Theorems-and-Proofs/05-reading-proof-as-a-practice-of-mathematical-pursuit-in.pdf": {
+      "mtime": 1788240668,
+      "size": 205735,
+      "outputs": [
+        "Lec/Lec08-Theorems-and-Proofs/08-Lec08-Theorems-and-Proofs-讲义.md"
+      ],
+      "processed_at": "2026-09-04"
+    },
+    "Lec/Lec09/01-quick-recap-of-what-we-have-learnt.pdf": {
+      "mtime": 1788241525,
+      "size": 20517087,
+      "outputs": [
+        "Lec/Lec09/09-Lec09-讲义.md"
+      ],
+      "processed_at": "2026-09-04"
+    },
+    "Lec/Lec10-Movies-and-Literature/01-slides-movies-literature-2023.pdf": {
+      "mtime": 1788240942,
+      "size": 5390890,
+      "outputs": [
+        "Lec/Lec10-Movies-and-Literature/10-Lec10-Movies-and-Literature-讲义.md"
+      ],
+      "processed_at": "2026-09-04"
+    },
+    "Lec/Lec11-Mathematics-and-Society/01-slides-mathematics-and-society.pdf": {
+      "mtime": 1788241105,
+      "size": 5307753,
+      "outputs": [
+        "Lec/Lec11-Mathematics-and-Society/11-Lec11-Mathematics-and-Society-讲义.md"
+      ],
+      "processed_at": "2026-09-04"
+    },
+    "Lec/Lec11-Mathematics-and-Society/02-reading-mathematics-as-propaganda.pdf": {
+      "mtime": 1788240967,
+      "size": 476799,
+      "outputs": [
+        "Lec/Lec11-Mathematics-and-Society/11-Lec11-Mathematics-and-Society-讲义.md"
+      ],
+      "processed_at": "2026-09-04"
+    },
+    "Lec/Lec11-Mathematics-and-Society/03-reading-math-will-rock-your-world.pdf": {
+      "mtime": 1788240479,
+      "size": 4444494,
+      "outputs": [
+        "Lec/Lec11-Mathematics-and-Society/11-Lec11-Mathematics-and-Society-讲义.md"
+      ],
+      "processed_at": "2026-09-04"
+    },
+    "essay/prompt/01-assignment1-group-project-plan.pdf": {
+      "mtime": 1788240017,
+      "size": 206596,
+      "outputs": [
+        "课程信息.md"
+      ],
+      "processed_at": "2026-09-04"
+    },
+    "essay/prompt/02-assignment2-mathematical-articles.pdf": {
+      "mtime": 1788240061,
+      "size": 1376839,
+      "outputs": [
+        "课程信息.md"
+      ],
+      "processed_at": "2026-09-04"
+    },
+    "docs/CCST5037.webarchive": {
+      "mtime": 1788243748,
+      "size": 9885337,
+      "outputs": [
+        "课程信息.md"
+      ],
+      "processed_at": "2026-09-09",
+      "skip_reason": "course_info_webarchive"
+    }
+  }
+}

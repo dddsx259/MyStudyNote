@@ -1,0 +1,404 @@
+<html><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>C3230B-Teaching Plan</title>
+    <style type="text/css">
+      #doc-body {
+        font-family: "Century Gothic";
+      }
+
+      h2 {
+      	background-color: wheat;
+      	display: inline-block;
+      }
+
+      section {
+      	margin-bottom: 1em;
+      }
+
+      .holiday {
+        font-weight: bold;
+        background-color: #e2e2e2;
+        color: red;
+      }
+
+      .break {
+        background-color: #e2e2e2;
+      }
+
+      .Thead-cell {
+        border-color: papayawhip;
+        border-width: thin;
+        border-style: solid;
+        background-color: #fdedc0;
+        font-weight: bold;
+      }
+
+      .cell-all {
+        border-color: papayawhip;
+        border-width: medium;
+        border-style: solid;
+      }
+
+      .Session-row {
+        font-weight: bold;
+        font-size: larger;
+        background-color: wheat;
+      	margin-top: 0;
+      	margin-bottom: 0.5em;
+      	display: inline-block;
+      }
+
+      .special {
+        color: red;
+      }
+
+      .assign {
+        color: green;
+      }
+
+      .wassign {
+        color: slateblue;
+      }
+
+      .extra {
+        text-decoration: underline;
+        color: #3333ff;
+      }
+
+      .due {
+        font-weight: bold;
+        font-style: oblique;
+        color: #ff6600;
+      }
+
+
+
+      @media only screen and (max-width: 480px) {
+      	.Thead-cell {
+      	  display: none;
+      	}
+      	tr {
+      	  display: flex;
+      	  flex-direction: column;
+      	  border: medium solid wheat;
+      	}
+      	td {
+      	  display: block;
+      	}
+        .cell-all {
+          border-color: papayawhip;
+          border-width: thin;
+          border-style: solid;
+        }
+        .co1::before {
+          font-weight: bold;
+          content: "Week: ";
+        }
+        .co2::before {
+          font-weight: bold;
+          content: "Monday: ";
+        }
+        .co3::before {
+          font-weight: bold;
+          content: "Friday: ";
+        }
+        .co4::before {
+          font-weight: bold;
+          content: "Activities: ";
+        }
+      }
+</style> </head>
+  <body id="doc-body" data-new-gr-c-s-check-loaded="14.1320.0" data-gr-ext-installed="">
+    <h2>Assessment and Teaching Plan</h2>
+    <section>
+      <p class="Session-row">Assessments</p>
+      <div> <b>Examination:</b> 50% (3-hour open-book examination)<br>
+        <b>Continuous Assessments:</b> 50%<br>
+        * [4%] Four take-home lab exercises, each weights extra 1%<br>
+        * [18%] Three problem-set assignments<br>
+        * [28%] Two programming assignments<br>
+        * No mid-term quiz <br>
+      </div>
+    </section>
+    <div>
+      <p class="Session-row">Teaching Plan and Schedule</p>
+      <table border="0">
+        <thead>
+          <tr class="Thead-cell">
+            <th class="Thead-cell">Week </th>
+            <th class="Thead-cell">Monday (CPD-3.04) </th>
+            <th class="Thead-cell">Friday (CPD-3.04) </th>
+            <th class="Thead-cell">Activities</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td class="cell-all co1">Sep 4</td>
+            <!-- <td class="cell-all co2"><em>No class</em></td> -->
+            <td class="break cell-all"><br></td>
+            <td class="cell-all co3">
+              <ul>
+                <li>Course Overview</li>
+                <li>Introduction to OS</li>
+              </ul>
+            </td>
+            <td class="cell-all co4">
+              <ul>
+                <li class="assign">Release mini-labs </li>
+              </ul></td>
+          </tr>
+          <tr>
+            <td class="cell-all co1">Sep 7 - 11</td>
+            <td class="cell-all co2">
+              <ul>
+                <li>Introduction to OS</li>
+                <li>Process abstraction</li>
+              </ul>
+            </td>
+            <td class="cell-all co3">
+              <ul>
+                <li>Process abstraction</li>
+              </ul>
+            </td>
+            <td class="cell-all co4">
+              <br>
+            </td>
+          </tr>
+          <tr>
+            <td class="cell-all co1">Sep 14 - 18</td>
+            <td class="cell-all co2">
+              <ul>
+                <li>Virtualizing CPU</li>
+              </ul>
+            </td>
+            <td class="cell-all co3">
+              <ul>
+                <li class="extra">Tutorial 1 - Warm up!</li>
+              </ul>
+            </td>
+            <td class="cell-all co4"><ul>
+                <li class="wassign">Release Problem-Set Assignment 1</li>
+              </ul></td>
+          </tr>
+          <tr>
+            <td class="cell-all co1">Sep 21 - 25</td>
+            <td class="cell-all co2">
+              <ul>
+                <li>Process scheduling</li>
+              </ul>
+            </td>
+            <td class="cell-all co3">
+              <ul>
+                <li class="extra">Tutorial 2 - Process</li>
+                <li class="assign">Programming Assignment 1 briefing</li>
+              </ul>
+            </td>
+            <td class="cell-all co4">
+              <ul>
+                <li class="assign">Release Programming Assignment 1 </li>
+              </ul>
+            </td>
+          </tr>
+          <tr>
+            <td class="cell-all co1">Sep 28 - Oct 2</td>
+            <td class="cell-all co2">
+              <ul>
+                <li>Thread abstraction</li>
+                <li>Concurrency</li>
+              </ul>
+            </td>
+            <td class="cell-all co3">
+              <ul>
+                <li>Locks</li>
+                <li>Condition Variables</li>
+              </ul>
+            </td>
+            <td class="cell-all co4">
+              <ul>
+                <li class="due">Problem-Set Assignment 1 Due </li>
+              </ul>
+            </td>
+          </tr>
+          <tr>
+            <td class="cell-all co1">Oct 5 - 9</td>
+            <td class="cell-all co2">
+              <ul>
+                <li>Semaphores</li>
+                <li>Deadlocks</li>
+              </ul>
+            </td>
+            <td class="cell-all co3">
+              <ul>
+                <li class="extra">Tutorial 3 - Pthread</li>
+              </ul>
+            </td>
+            <td class="cell-all co4">
+              <ul>
+                <li class="wassign">Release Problem-Set Assignment 2 </li>
+              </ul>
+            </td>
+          </tr>
+          <tr>
+            <td class="break cell-all">Reading Week (Oct 12 - 16)</td>
+            <td class="break cell-all"><br></td>
+            <td class="break cell-all"><br></td>
+            <td class="break cell-all">
+              <ul>
+                <li class="due">Programming Assignment 1 Due </li>
+              </ul>
+            </td>
+          </tr>
+          <tr>
+            <td class="cell-all co1">Oct 19 - 23</td>
+            <td class="cell-all co2 holiday">Holiday</td>
+            <td class="cell-all co3">
+              <ul>
+                <li>Address space abstraction </li>
+              </ul>
+            </td>
+            <td class="cell-all co4">
+              <ul>
+                <li class="due">Problem-Set Assignment 2 Due</li>
+                <li class="assign">Release Programming Assignment 2&nbsp; </li>
+              </ul>
+            </td>
+          </tr>
+          <tr>
+            <td class="cell-all co1">Oct 26 - 30</td>
+            <td class="cell-all co2">
+              <ul>
+                <li class="extra">Tutorial 4 - Semaphores</li>
+                <li class="assign">Programming Assignment 2 Briefing</li>
+              </ul>
+            </td>
+            <td class="cell-all co3">
+              <ul>
+                <li>Address translation </li>
+              </ul>
+            </td>
+            <td class="cell-all co4">
+              <br>
+            </td>
+          </tr>
+          <tr>
+            <td class="cell-all co1">Nov 2 - 6</td>
+            <td class="cell-all co2">
+              <ul>
+                <li>Segmentation</li>
+              </ul>
+            </td>
+            <td class="cell-all co3">
+              <ul>
+                <li>Paging</li>
+                <li>TLB</li>
+              </ul>
+            </td>
+            <td class="cell-all co4">
+              <br>
+            </td>
+          </tr>
+          <tr>
+            <td class="cell-all co1">Nov 9 - 13</td>
+            <td class="cell-all co2">
+              <ul>
+                <li>Paging smaller tables</li>
+              </ul>
+            </td>
+            <td class="cell-all co3">
+              <ul>
+                <li>Beyond physical memory</li>
+              </ul>
+            </td>
+            <td class="cell-all co4"><ul>
+                <li class="due">Programming Assignment 2 Due</li>
+                <li class="wassign">Release Problem-set Assignment 3</li>
+              </ul></td>
+          </tr>
+          <tr>
+            <td class="cell-all co1">Nov 16 - 20</td>
+            <td class="cell-all co2">
+              <ul>
+                <li>File and directories</li>
+              </ul>
+            </td>
+            <td class="cell-all co3">
+              <ul>
+                <li>File and directories</li>
+              </ul>
+            </td>
+            <td class="cell-all co4">
+              <br>
+            </td>
+          </tr>
+          <tr>
+            <td class="cell-all co1">Nov 23 - 27</td>
+            <td class="cell-all co2">
+              <ul>
+                <li>File system implementation</li>
+              </ul>
+            </td>
+            <td class="cell-all co3">
+              <ul>
+                <li>Advanced topics</li>
+              </ul>
+            </td>
+            <td class="cell-all co4">
+              <ul>
+                <li class="due">Problem-Set Assignment 3 Due</li>
+              </ul>
+            </td>
+          </tr>
+          <tr>
+            <td class="cell-all co1">Nov 30</td>
+            <td class="cell-all co2">
+              <ul>
+                <li>Course summary</li>
+              </ul>
+            </td>
+            <!-- <td class="cell-all co3"><br></td> -->
+            <td class="break cell-all"><br></td>
+            <td class="cell-all co4">
+              <ul>
+                <li class="due">mini-labs Due</li>
+              </ul>
+            </td>
+          </tr>
+          <tr>
+            <td class="break cell-all">Dec 1 - 5</td>
+            <td class="break cell-all" colspan="2">Revision period</td>
+            <td class="break cell-all"> <br>
+            </td>
+          </tr>
+          <tr>
+            <td class="break cell-all">Dec 7 - 23</td>
+            <td class="break cell-all special" colspan="2">Examination period</td>
+            <td class="break cell-all"> <br>
+            </td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
+  
+
+</body><grammarly-desktop-integration data-grammarly-shadow-root="true" style="visibility: visible !important;"><template shadowrootmode="open"><style>
+      div.grammarly-desktop-integration {
+        position: absolute;
+        width: 1px;
+        height: 1px;
+        padding: 0;
+        margin: -1px;
+        overflow: hidden;
+        clip: rect(0, 0, 0, 0);
+        white-space: nowrap;
+        border: 0;
+        -moz-user-select: none;
+        -webkit-user-select: none;
+        -ms-user-select:none;
+        user-select:none;
+      }
+
+      div.grammarly-desktop-integration:before {
+        content: attr(data-content);
+      }
+    </style><div aria-label="grammarly-integration" role="group" tabindex="-1" class="grammarly-desktop-integration" data-content="{&quot;mode&quot;:&quot;full&quot;,&quot;isActive&quot;:true,&quot;isUserDisabled&quot;:false}"></div></template></grammarly-desktop-integration></html>

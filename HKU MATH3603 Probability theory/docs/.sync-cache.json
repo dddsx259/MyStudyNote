@@ -1,0 +1,44 @@
+{
+  "version": 1,
+  "last_scan": "2026-09-09T07:13:58.270673+00:00",
+  "sources": {
+    "Lec/01-probability-theory-lecture-notes.pdf": {
+      "mtime": 1788234590,
+      "size": 640870,
+      "outputs": [
+        "课程信息.md",
+        "Lec/01-probability-theory-lecture-notes-目录索引.md",
+        "Lec/02-probability-theory-lecture-notes-Ch01-讲义.md",
+        "Lec/03-probability-theory-lecture-notes-Ch02-讲义.md",
+        "Lec/04-probability-theory-lecture-notes-Ch03-讲义.md",
+        "Lec/05-probability-theory-lecture-notes-Ch04-讲义.md",
+        "Lec/06-probability-theory-lecture-notes-Ch05-讲义.md"
+      ],
+      "processed_at": "2026-09-04",
+      "large_doc": true,
+      "sections_done": [
+        "Ch01",
+        "Ch02",
+        "Ch03",
+        "Ch04",
+        "Ch05"
+      ]
+    },
+    "Lec/handout/01-in-class-notes-1-sample-space-event-probability.pdf": {
+      "mtime": 1788606839,
+      "size": 5165431,
+      "outputs": [],
+      "processed_at": "2026-09-07",
+      "skip_reason": "handwritten_handout"
+    },
+    "docs/MATH3603.webarchive": {
+      "mtime": 1788243689,
+      "size": 9071119,
+      "outputs": [
+        "课程信息.md"
+      ],
+      "processed_at": "2026-09-09",
+      "skip_reason": "course_info_webarchive"
+    }
+  }
+}

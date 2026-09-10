@@ -1,0 +1,92 @@
+{
+  "version": 1,
+  "last_scan": "2026-09-09T07:13:58.270673+00:00",
+  "sources": {
+    "Lec/01-course-overview.pdf": {
+      "mtime": 1788774134,
+      "size": 644186,
+      "outputs": [
+        "课程信息.md",
+        "Lec/01-course-overview-讲义.md"
+      ],
+      "processed_at": "2026-09-07"
+    },
+    "Lec/02-c-programming.pdf": {
+      "mtime": 1788488893,
+      "size": 367190,
+      "outputs": [
+        "Lec/02-c-programming-讲义.md"
+      ],
+      "processed_at": "2026-09-07"
+    },
+    "Lec/03-introduction.pdf": {
+      "mtime": 1788774132,
+      "size": 1246819,
+      "outputs": [
+        "Lec/03-introduction-讲义.md"
+      ],
+      "processed_at": "2026-09-07"
+    },
+    "Lec/04-process-abstraction.pdf": {
+      "mtime": 1788774131,
+      "size": 1077635,
+      "outputs": [
+        "Lec/04-process-abstraction-讲义.md"
+      ],
+      "processed_at": "2026-09-07"
+    },
+    "Lec/03-reading-ostep-ch02-introduction.pdf": {
+      "mtime": 1788937864,
+      "size": 160075,
+      "outputs": [
+        "Lec/03-reading-ostep-ch02-introduction-讲义.md"
+      ],
+      "processed_at": "2026-09-09"
+    },
+    "docs/HKU COMP3230.html": {
+      "mtime": 1788488881,
+      "size": 321198,
+      "outputs": [
+        "课程信息.md"
+      ],
+      "processed_at": "2026-09-09",
+      "skip_reason": "course_info_html"
+    },
+    "docs/C3230B-Teaching Plan.html": {
+      "mtime": 1788774113,
+      "size": 12190,
+      "outputs": [
+        "课程信息.md"
+      ],
+      "processed_at": "2026-09-09",
+      "skip_reason": "course_info_html"
+    },
+    "docs/Required Readings.html": {
+      "mtime": 1788774117,
+      "size": 12203,
+      "outputs": [
+        "课程信息.md"
+      ],
+      "processed_at": "2026-09-09",
+      "skip_reason": "course_info_html"
+    },
+    "docs/Course_info.html": {
+      "mtime": 1788774103,
+      "size": 14035,
+      "outputs": [
+        "课程信息.md"
+      ],
+      "processed_at": "2026-09-09",
+      "skip_reason": "course_info_html"
+    },
+    "docs/Useful Web References.html": {
+      "mtime": 1788774121,
+      "size": 11637,
+      "outputs": [
+        "课程信息.md"
+      ],
+      "processed_at": "2026-09-09",
+      "skip_reason": "course_info_html"
+    }
+  }
+}
