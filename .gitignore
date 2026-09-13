@@ -51,9 +51,20 @@ wandb/
 *.7z
 # lab/assignment 的 zip 若需入库可对具体路径加 ! 例外
 *.zip
+__MACOSX/
 
 # ----- 可选大部头教材 (Boyd / Bartle / Ross 等, 独立编号于 Lec/textbook/) -----
 **/Lec/textbook/
+
+# ----- 手写扫描 handout (常数 MB 扫描件; 讲义不基于此生成) -----
+**/Lec/handout/
+
+# ----- 学生交稿扫描 / 个人提交包 (保留同目录题目 PDF 与 md; 交稿 PDF 常 1MB+) -----
+**/*-submission.pdf
+**/*_submission.pdf
+**/assignment/**/submission/
+**/lab/**/submission/
+# 若需把某次 .c 终稿入库: git add -f path/to/file.c
 
 # ----- 超大扫描/图片型课件 (单文件常 >10MB; 讲义 md 已覆盖知识点) -----
 HKU CCST5037 Mathematics A Cultural Heritage/Lec/Lec05-Mathematics-and-Education/*.pdf
@@ -72,8 +83,18 @@ Finished/Machine Learning & Deep Learning/d2l-zh/paddle/
 Finished/HKU COMP3366 Quantum algorithms and computer architecture/cheatsheet 3.pdf
 Finished/HKU MATH2211 Multivariable calculus/HKU MATH2211 note.pdf
 
-# ----- 手写扫描 handout (常数 MB 扫描件; 不入库 AI 讲义) -----
-**/Lec/handout/
+# ----- C / lab 编译产物 (保留 .c / Makefile / README / lec*_code_example 源码) -----
+*.o
+*.obj
+*.exe
+a.out
+**/lab*/**/lab1-heap
+**/lab*/**/lab2-signal
+**/lab*/**/lab2-singal
+**/lab*/**/lab3-process
+**/lab*/**/lab4-pthread
+**/pid.txt
+**/t1-pid.txt
 
 # ----- Python / Jupyter -----
 __pycache__/
@@ -84,12 +105,14 @@ __pycache__/
 .env
 .env.*
 
-# ----- 日志与缓存 -----
+# ----- 日志与缓存 (含 course-learning sync cache) -----
 *.log
 .cache/
 .pytest_cache/
 .mypy_cache/
 .ruff_cache/
+**/.sync-cache.json
+# 若已 tracked: git rm --cached -- '**/docs/.sync-cache.json' 后才停止出现在 status
 
 # ----- OS / 编辑器 -----
 .DS_Store

@@ -1,4 +1,7 @@
 # cheatsheet
+
+> 约定 (course-learning): 定义/定理/命题等应写清 **假设** 与 **结论** (或 **定义**). 本文件为 Finished 课旧稿格式, 未整册改写; 复习时若遇口号式条目, 回讲义补全假设. 新课 cheatsheet 以 MATH3900 等为准.
+
 ## PART1: definition
 ### 1. Triangular matrix:   
 

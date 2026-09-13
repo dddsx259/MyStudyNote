@@ -1,6 +1,6 @@
 # HKU Courses Todo
 
-> 最后更新: 2026-09-10 (COMP3230 Mini-Labs 入库)
+> 最后更新: 2026-09-13 (COMP3230 Lec05; MATH3900 Tut1)
 > 仅列当前已知且可做的任务; 新材料入库时同步增补. **讲义写入后按章节拆 Read**. 大任务拆 ≤1h; 已完成块置顶. 不写「题面未到 / 待后续」占位.
 
 ## CCST5037 Mathematics A Cultural Heritage
@@ -45,24 +45,24 @@
 
 ## COMP3230 Principles of Operating Systems
 
-- [x] **MiniLab0** Warm up! Welcome to Linux (0 pt; `COMP3230-2026-mini-labs`)
+- [x] **MiniLab0** Warm up! Welcome to Linux (0 pt; `lab/00-lab-warmup-…`)
   - [x] **ML0-setup** Task1: HKUVPN + SSH workbench2 + 拉材料
   - [x] **ML0-cmds** Task2: 练习基本 Linux 命令
   - [x] **ML0-admin** Task3: 从 log 识别可疑 IP
-- [x] **MiniLab1** C Basics & Address Space (1 pt)
-  - [x] **ML1-stack** 编译运行 `lab1-stack.c`, 观察返回局部数组的问题
-  - [x] **ML1-heap** 完成 `lab1-heap.c` 三处 TODO (`malloc` / 填 `i*i` / `free`)
-  - [x] **ML1-submit** 提交 `lab1-heap_3036292116.c` (Moodle)
-- [x] **MiniLab2** Signal (1 pt; `lab2-signal.c`)
-  - [x] **ML2-read** 阅读 `Mini_Lab_2__Signal.pdf`
+- [x] **MiniLab1** C Basics & Address Space (1 pt; `lab/01-…`)
+  - [x] **ML1-stack** 编译运行 `01-lab1-stack.c`, 观察返回局部数组的问题
+  - [x] **ML1-heap** 完成 `01-lab1-heap.c` 三处 TODO (`malloc` / 填 `i*i` / `free`)
+  - [x] **ML1-submit** 提交 `lab1-heap_<student_id>.c` (Moodle)
+- [x] **MiniLab2** Signal (1 pt; `lab/02-…`)
+  - [x] **ML2-read** 阅读 Lab2 题面 / 题目理解
   - [x] **ML2-code** 完成 signal handler / `SIGUSR1` 相关 TODO
   - [x] **ML2-submit** 按 PDF 要求命名并提交
-- [x] **MiniLab3** Process (1 pt; `lab3-process.c`)
-  - [x] **ML3-read** 阅读 `Mini_Lab_3__Process.pdf`
+- [x] **MiniLab3** Process (1 pt; `lab/03-…`)
+  - [x] **ML3-read** 阅读 Lab3 题面 / 题目理解
   - [x] **ML3-code** 完成 `fork` / `exec` / `wait` TODO
   - [x] **ML3-submit** 按 PDF 要求命名并提交
-- [x] **MiniLab4** Pthread Race Condition (1 pt; `lab4-pthread.c`)
-  - [x] **ML4-read** 阅读 `Mini_Lab_4__Pthread_Race_Condition.pdf`
+- [x] **MiniLab4** Pthread Race Condition (1 pt; `lab/04-…`)
+  - [x] **ML4-read** 阅读 Lab4 题面 / 题目理解
   - [x] **ML4-code** 完成创建 / join / 同步保护 TODO
   - [x] **ML4-submit** 按 PDF 要求命名并提交
 - [x] **Read:Overview** 阅读 Course Overview 讲义 (对齐 21 页 PDF)
@@ -95,6 +95,13 @@
   - [ ] **Read:Process-pcb** PCB / 进程表 / ready·blocked 列表 / ps·pstree
   - [ ] **Read:Process-ops** fork·exec·CreateProcess / 终止·zombie / suspend
   - [ ] **Read:Process-sig** Signals: sync·async / catch·ignore·mask
+- [ ] **Read:VirtualizeCPU** 阅读 Virtualizing the CPU 讲义 (`Lec/05-virtualize-cpu`)
+  - [ ] **Read:VCPU-syscall** System call: API / trap 实现 / 与 mode switch
+  - [ ] **Read:VCPU-ctx** Context switch / mode switch 对比 / 开销
+  - [ ] **Read:VCPU-intr** Interrupt / exception / timer 夺回 CPU
+  - [ ] **Read:VCPU-summary** Summary / 易错点回顾
+- [ ] **Read:OSTEP-Ch06** 阅读 OSTEP Ch.6 Limited Direct Execution (required reading)
+  - [ ] **Read:OSTEP-6** LDE / trap / timer / 与课堂 Virtualize CPU 对照
 
 
 
@@ -128,6 +135,18 @@
   - [x] **Read:1.1** Sample Spaces, Events, and Probability
   - [x] **Read:1.2** Conditional Probability
   - [x] **Read:1.3** Independence
+- [x] **HW1** 完成 Homework 1 (due 2026-09-23; `assignment/01-homework-01`)
+  - [x] **HW1-Q1** 归纳证明容斥原理
+  - [x] **HW1-Q2** 条件概率链式法则
+  - [x] **HW1-Q3** Boole 不等式 (互斥化 $F_i$)
+  - [x] **HW1-Q4** 两厂次品: 全概率 + Bayes
+  - [x] **HW1-Q5** 独立 ⇒ 与补集 / 交 / 并独立
+  - [x] **HW1-Submit** 检查并提交
+- [x] **Tut1** 完成/对照 Tutorial 1 (`tut/01-tutorial-01`; 有官方 sol)
+  - [x] **Tut1-Q1** 集合分配律
+  - [x] **Tut1-Q2** 互斥事件先发生概率
+  - [x] **Tut1-Q3** 可数 Boole 不等式
+  - [x] **Tut1-Q4** 帽子错排
 - [ ] **Read:Ch02** 阅读 Random Variables, Distributions, and Limit Theorems
   - [ ] **Read:2.1** Random Variables and Distribution Functions
   - [ ] **Read:2.2** Important Discrete Distributions
@@ -177,12 +196,18 @@
   - [x] **Read:Intro-basics** 优化基础部分
   - [x] **Read:Intro-ai** AI 实例部分
   - [x] **Read:Intro-grad** 梯度 / Taylor 部分
-- [ ] **Read:Unconstrained** 阅读 `Lec/02-unconstrained-slides.pdf` / handout (可按下述块分次)
-  - [ ] **Read:UC-opt** 最优性条件 / PSD / 二阶条件
-  - [ ] **Read:UC-gd** 梯度下降, Lipschitz / L-smooth, 凸性与收敛
-  - [ ] **Read:UC-strong** 强凸 / 条件数
-  - [ ] **Read:UC-newton** Newton 法与局部/全局行为
-  - [ ] **Read:UC-linesearch** 精确线搜索 / Armijo / backtracking
+- [x] **Read:Unconstrained** 阅读 `Lec/02-unconstrained-slides.pdf` / handout (可按下述块分次)
+  - [x] **Read:UC-opt** 最优性条件 / PSD / 二阶条件
+  - [x] **Read:UC-gd** 梯度下降, Lipschitz / L-smooth, 凸性与收敛
+  - [x] **Read:UC-strong** 强凸 / 条件数
+  - [x] **Read:UC-newton** Newton 法与局部/全局行为
+  - [x] **Read:UC-linesearch** 精确线搜索 / Armijo / backtracking
+- [x] **Tut1** 完成/对照 Tutorial 1 (`tut/01-tutorial-01`; 有官方 sol)
+  - [x] **Tut1-convex** 凸性证明相关题
+  - [x] **Tut1-TF** T/F 判断题
+  - [x] **Tut1-MSE** MSE / 线性回归梯度
+  - [x] **Tut1-stationary** 驻点分类 (极小 / 极大 / 鞍)
+  - [x] **Tut1-Lsmooth** L-smooth 与 GD 步长
 - [ ] **Read:Boyd** (可选) 按需阅读 Boyd 相关章; **不要求**通读全书
 - [ ] **Test1** 备考并参加 Midterm Test 1 (暂定 2026-10-06; 已有 Intro / Unconstrained 可复习)
   - [ ] **Test1-Review** 按已授主题分块复习

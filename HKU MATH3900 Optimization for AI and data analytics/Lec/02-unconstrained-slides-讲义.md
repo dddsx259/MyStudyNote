@@ -272,7 +272,42 @@ $$
 
 $C^2$ 时: $f$ 在开凸集上凸 $\Leftrightarrow$ $\forall x$, $\nabla^2 f(x)\succeq 0$.
 
-**证明思路**: 一阶刻画 $\Leftrightarrow$ $\nabla f$ 单调. 对 $\nabla f$ 再沿线段用 FTC, 单调性 $\Leftrightarrow$ 海森 PSD (细节同下降引理型积分论证).
+**预备 — 梯度单调**: 由一阶刻画, 凸 $\Rightarrow$
+$$
+\bigl(\nabla f(v)-\nabla f(u)\bigr)^T(v-u)\ge 0\quad(\forall u,v).
+$$
+**证明**: 写两次切平面下界并交换 $u,v$:
+$$
+f(v)\ge f(u)+\nabla f(u)^T(v-u),\qquad
+f(u)\ge f(v)+\nabla f(v)^T(u-v).
+$$
+相加即得上式.
+
+**证明 ($\Rightarrow$)**: 凸 $\Rightarrow$ $\nabla^2 f\succeq 0$.  
+任取 $x$ 与方向 $d$. 对充分小 $t\neq 0$, 取 $u=x$, $v=x+td$. 由梯度单调:
+$$
+d^T\Bigl(\frac{\nabla f(x+td)-\nabla f(x)}{t}\Bigr)\ge 0.
+$$
+令 $t\to 0$. 因 $f\in C^2$, 左边 $\to d^T\nabla^2 f(x)\,d$. 故对一切 $d$ 有 $d^T\nabla^2 f(x)\,d\ge 0$, 即 $\nabla^2 f(x)\succeq 0$.
+
+**证明 ($\Leftarrow$)**: $\nabla^2 f\succeq 0$ $\Rightarrow$ 凸.  
+固定 $u,v$, 令 $g(t)=f(u+t(v-u))$, $t\in[0,1]$. 则
+$$
+g'(t)=\nabla f(u+t(v-u))^T(v-u),\qquad
+g''(t)=(v-u)^T\nabla^2 f(u+t(v-u))(v-u).
+$$
+海森 PSD $\Rightarrow$ $g''(t)\ge 0$ $\Rightarrow$ $g'$ 递增, 故 $g'(t)\ge g'(0)=\nabla f(u)^T(v-u)$. 积分得
+$$
+f(v)-f(u)=g(1)-g(0)=\int_0^1 g'(t)\,dt\ge\nabla f(u)^T(v-u),
+$$
+即一阶刻画, 故 $f$ 凸.
+
+**等价写法 (积分余项)**:
+$$
+f(v)=f(u)+\nabla f(u)^T(v-u)
++\int_0^1(1-t)(v-u)^T\nabla^2 f\bigl(u+t(v-u)\bigr)(v-u)\,dt.
+$$
+若 $\nabla^2 f\succeq 0$, 积分项 $\ge 0$, 立刻得切平面下界 $\Rightarrow$ 凸.
 
 二次型 $f(x)=\tfrac12 x^TQx-b^Tx$ 凸 $\Leftrightarrow$ $Q\succeq 0$.
 
@@ -343,33 +378,82 @@ $$
 $$
 m_k^{(2)}(p)=f(x_k)+\nabla f(x_k)^Tp+\tfrac12 p^T\nabla^2 f(x_k)p
 $$
-匹配曲率. 令 $\nabla_p m_k^{(2)}=0$:
+匹配曲率. 记 $H_k:=\nabla^2 f(x_k)$ (第 $k$ 步海森; 在对 $p$ 求导时视为常矩阵). 令 $\nabla_p m_k^{(2)}=0$:
 $$
-\nabla^2 f(x_k)\,p_k=-\nabla f(x_k),\quad x_{k+1}=x_k+p_k.
+H_k\,p_k=-\nabla f(x_k),\quad x_{k+1}=x_k+p_k.
 $$
 
-**证明**: $\nabla_p m=\nabla f(x_k)+\nabla^2 f(x_k)p$. 令其为 $0$ 即得线性系. 若 $H_k\succ 0$, 二次型严格凸, 该临界点为唯一全局极小.
+**证明 (牛顿步公式)**: 对 $p$ 求导时 $f(x_k)$、$\nabla f(x_k)$、$H_k$ 皆为常数:
+$$
+\nabla_p\bigl[f(x_k)\bigr]=0,\quad
+\nabla_p\bigl[\nabla f(x_k)^Tp\bigr]=\nabla f(x_k),\quad
+\nabla_p\bigl[\tfrac12 p^TH_kp\bigr]=H_kp
+$$
+(最后一步用 $H_k$ 对称: $\nabla(\tfrac12 p^THp)=\tfrac12(H+H^T)p=Hp$). 故
+$$
+\nabla_p m_k^{(2)}(p)=\nabla f(x_k)+H_kp.
+$$
+令其为 $0$ 即得 $H_kp_k=-\nabla f(x_k)$.  
 
-**二次目标** $f=\tfrac12 x^TQx-b^Tx$ ($Q\succ 0$): 精确牛顿一步到达 $x^\star=Q^{-1}b$.
+若 $H_k\succ 0$, 则 $m_k^{(2)}$ 为严格凸二次函数, 上述临界点是其**唯一全局极小**.  
+(注: 模型截断在二阶, 已丢掉真函数的三阶余项 $R_3$; 求导时不会出现 $\nabla^3 f$, 因为 $H_k$ 不依赖 $p$.)
 
-**证明**: $\nabla f=Qx-b$, $\nabla^2 f=Q$. 牛顿步 $Qp=-(Qx_0-b)$ $\Rightarrow$ $x_0+p=Q^{-1}b=x^\star$.
+**二次目标** $f(x)=\tfrac12 x^TQx-b^Tx$ ($Q\succ 0$): 精确牛顿一步到达 $x^\star=Q^{-1}b$.
+
+**证明**: $\nabla f(x)=Qx-b$, $\nabla^2 f(x)=Q$ (常数). 从任意 $x_0$ 取牛顿步:
+$$
+Qp_0=-(Qx_0-b)\quad\Rightarrow\quad p_0=-x_0+Q^{-1}b.
+$$
+故 $x_1=x_0+p_0=Q^{-1}b=x^\star$. (真函数本身就是二次, 模型无截断误差.)
 
 ### 局部二次收敛
 
-矩阵 2-范数: $\|A\|=\max_{\|z\|=1}\|Az\|$; 对称时 $\|A\|=\max_i|\lambda_i(A)|$. (定义/标准事实.)  
+矩阵 2-范数: $\|A\|=\max_{\|z\|=1}\|Az\|$; $A$ 对称时 $\|A\|=\max_i|\lambda_i(A)|$. (定义/标准事实.)  
 海森 **$\rho$-Lipschitz**: $\|\nabla^2 f(u)-\nabla^2 f(v)\|\le\rho\|u-v\|$.
 
-若 $\nabla f(x^\star)=0$, $\nabla^2 f(x^\star)\succ 0$, 海森局部 $\rho$-Lipschitz, 且 $x_0$ 足够靠近, 则
+若 $\nabla f(x^\star)=0$, $\nabla^2 f(x^\star)\succ 0$, 海森在 $x^\star$ 附近 $\rho$-Lipschitz, 且 $x_0$ 足够靠近, 则存在常数 $C$ 使
 $$
 \|x_{k+1}-x^\star\|\le C\|x_k-x^\star\|^2
 $$
 (**二次收敛 (quadratic convergence)**).
 
-**证明思路**: 写
+**证明** (逐步展开):
+
+**Step 1 (误差恒等式)**. 满步牛顿 $x_{k+1}=x_k-H_k^{-1}\nabla f(x_k)$, 故
 $$
-x_{k+1}-x^\star=x_k-x^\star-\nabla^2 f(x_k)^{-1}\nabla f(x_k).
+x_{k+1}-x^\star
+=x_k-x^\star-H_k^{-1}\nabla f(x_k)
+=H_k^{-1}\Bigl(H_k(x_k-x^\star)-\nabla f(x_k)\Bigr).
 $$
-用积分余项 $\nabla f(x_k)=\int_0^1\nabla^2 f(x^\star+t(x_k-x^\star))(x_k-x^\star)\,dt$, 与 $\nabla^2 f(x_k)$ 作差; Lipschitz 海森给出误差 $O(\|x_k-x^\star\|^2)$. 靠近时 $\nabla^2 f(x_k)$ 一致可逆. 代价: 每步海森 + 线性求解; 保证是**局部**的.
+
+**Step 2 (梯度的积分表示)**. 因 $\nabla f(x^\star)=0$, 沿线段用 FTC:
+$$
+\nabla f(x_k)
+=\nabla f(x_k)-\nabla f(x^\star)
+=\int_0^1\nabla^2 f\bigl(x^\star+t(x_k-x^\star)\bigr)(x_k-x^\star)\,dt.
+$$
+记 $e_k:=x_k-x^\star$, $H(t):=\nabla^2 f(x^\star+te_k)$. 则
+$$
+H_k e_k-\nabla f(x_k)
+=\int_0^1\bigl(H_k-H(t)\bigr)e_k\,dt.
+$$
+
+**Step 3 (Lipschitz 控制)**. $\|H_k-H(t)\|=\|\nabla^2 f(x_k)-\nabla^2 f(x^\star+te_k)\|\le\rho\|e_k-te_k\|=\rho(1-t)\|e_k\|$, 故
+$$
+\bigl\|H_k e_k-\nabla f(x_k)\bigr\|
+\le\int_0^1\rho(1-t)\|e_k\|^2\,dt=\frac\rho2\|e_k\|^2.
+$$
+
+**Step 4 (海森可逆上界)**. $\nabla^2 f(x^\star)\succ 0$ $\Rightarrow$ 在足够小邻域内 $\lambda_{\min}(H_k)\ge\mu'>0$, 从而 $\|H_k^{-1}\|\le 1/\mu'$. 于是
+$$
+\|x_{k+1}-x^\star\|
+=\bigl\|H_k^{-1}(H_ke_k-\nabla f(x_k))\bigr\|
+\le\frac1{\mu'}\cdot\frac\rho2\|e_k\|^2
+=\frac{\rho}{2\mu'}\|x_k-x^\star\|^2.
+$$
+取 $C=\rho/(2\mu')$ 即得二次收敛.  
+
+**备注**: 保证是**局部**的 (需先进入该邻域); 每步要算海森并解线性系. 远处满步可能失败 → 用线搜索全球化 (§8).
 
 ---
 
@@ -387,8 +471,20 @@ $$
 $\alpha_k^{\mathrm{exact}}\in\arg\min_{\alpha\ge 0}f(x_k+\alpha p_k)$.  
 二次型 + GD 方向有闭式 $\alpha=g^Tg/(g^TQg)$.
 
-**证明**: $f(x)=\tfrac12 x^TQx$, $p=-g$, $\phi(\alpha)=f(x-\alpha g)=\tfrac12(x-\alpha g)^TQ(x-\alpha g)$.  
-$\phi'(\alpha)=0$ $\Rightarrow$ $-g^TQ(x-\alpha g)=0$. 若在驻点附近或对 $g=\nabla f(x)=Qx$, 则 $g^TQg\alpha=g^Tg$.
+**证明**: 设 $f(x)=\tfrac12 x^TQx$ ($Q\succ 0$), 在 $x$ 处 $g=\nabla f(x)=Qx$, 取 $p=-g$. 令
+$$
+\phi(\alpha)=f(x-\alpha g)=\tfrac12(x-\alpha g)^TQ(x-\alpha g).
+$$
+展开:
+$$
+\phi(\alpha)=\tfrac12 x^TQx-\alpha g^TQx+\tfrac{\alpha^2}{2}g^TQg
+=f(x)-\alpha\|g\|^2+\tfrac{\alpha^2}{2}g^TQg
+$$
+(因 $g=Qx$). 求导:
+$$
+\phi'(\alpha)=-\|g\|^2+\alpha\,g^TQg.
+$$
+令 $\phi'(\alpha)=0$ 得 $\alpha^\star=\|g\|^2/(g^TQg)=g^Tg/(g^TQg)$. 又 $\phi''=g^TQg>0$ (若 $g\neq 0$), 故为极小.
 
 ### Armijo 条件 (充分下降)
 
@@ -396,35 +492,108 @@ $c_A\in(0,1)$; 可接受步长满足
 $$
 f(x_k+\alpha p_k)\le f(x_k)+c_A\alpha\,\nabla f(x_k)^Tp_k.
 $$
-(接受准则定义, 无需证明.)
+(接受准则定义, 无需证明. 右边是「线性模型下降」的 $c_A$ 折.)
 
 ### 回溯线搜索 (backtracking line search)
 
-从试探 $\bar\alpha$ 起, 不满足 Armijo 则 $\alpha\leftarrow\eta\alpha$ ($\eta\in(0,1)$).
+从试探 $\bar\alpha>0$ 起, 不满足 Armijo 则 $\alpha\leftarrow\eta\alpha$ ($\eta\in(0,1)$), 直到满足为止.
 
-**证明思路 (有限终止)**: 若 $p_k$ 下降方向, $\nabla f^Tp_k<0$, 则
+**证明 (有限终止)**: 设 $p_k$ 为下降方向, 即 $\nabla f(x_k)^Tp_k<0$. 由可微性,
 $$
-\lim_{\alpha\to 0^+}\frac{f(x_k+\alpha p_k)-f(x_k)}{\alpha}=\nabla f^Tp_k<c_A\nabla f^Tp_k
+\lim_{\alpha\to 0^+}\frac{f(x_k+\alpha p_k)-f(x_k)}{\alpha}=\nabla f(x_k)^Tp_k.
 $$
-(因 $c_A<1$). 故充分小的 $\alpha$ 满足 Armijo; 几何缩小必在有限步进入该范围.
+因 $c_A\in(0,1)$ 且 $\nabla f^Tp_k<0$, 有 $c_A\nabla f^Tp_k>\nabla f^Tp_k$ (两边同乘负数反号). 故存在 $\alpha_0>0$, 使一切 $\alpha\in(0,\alpha_0]$ 满足
+$$
+\frac{f(x_k+\alpha p_k)-f(x_k)}{\alpha}\le c_A\nabla f(x_k)^Tp_k,
+$$
+即 Armijo. 回溯每次乘 $\eta<1$, 至多有限步后落入 $(0,\alpha_0]$, 算法终止.
 
 ### 带回溯的全局收敛
 
-若 $f$ 有下界且 $L$-光滑, 且方向满足
+若 $f$ 有下界且 $L$-光滑, 方向满足一致条件
 $$
-\nabla f(x_k)^Tp_k\le-\sigma\|\nabla f(x_k)\|^2,\quad \|p_k\|\le\beta\|\nabla f(x_k)\|,
+\nabla f(x_k)^Tp_k\le-\sigma\|\nabla f(x_k)\|^2,\qquad
+\|p_k\|\le\beta\|\nabla f(x_k)\|
 $$
-则
+($\sigma,\beta>0$), 则存在与 $k$ 无关的步长下界
 $$
-\min_{0\le j<k}\|\nabla f(x_j)\|^2\le\frac{f(x_0)-f^\star}{c_A\sigma\alpha\,k},\quad \|\nabla f(x_k)\|\to 0
+\alpha:=\min\Bigl\{\bar\alpha,\;\frac{2\eta(1-c_A)\sigma}{L\beta^2}\Bigr\},
 $$
-(其中 $\alpha=\min\{\bar\alpha,\,2\eta(1-c_A)\sigma/(L\beta^2)\}$).
+使得回溯接受的 $\alpha_k\ge\alpha$, 并且
+$$
+\min_{0\le j<k}\|\nabla f(x_j)\|^2\le\frac{f(x_0)-f^\star}{c_A\sigma\alpha\,k},\qquad
+\|\nabla f(x_k)\|\to 0.
+$$
 
-**证明思路**: $L$-光滑 $\Rightarrow$ 存在与 $k$ 无关的步长下界 $\alpha$, 使 Armijo 成立且每步函数下降 $\ge c_A\sigma\alpha\|\nabla f\|^2$. 求和望远镜同 §4, 得 $\min\|\nabla f\|^2=O(1/k)$ 及 $\|\nabla f\|\to 0$.
+**证明** (逐步展开):
 
-**牛顿 + 回溯**: 若 $f\in C^2$ 且 $\mu$-强凸、$L$-光滑, 则从任意 $x_0$ 有 $x_k\to x^\star$. 若 $\bar\alpha=1$, $c_A<1/2$, 海森局部 Lipschitz, 则最终接受满步并恢复二次收敛.
+**Step 1 (充分小步长必过 Armijo)**. 由下降引理, 对任意 $\alpha>0$,
+$$
+f(x_k+\alpha p_k)
+\le f(x_k)+\alpha\nabla f^Tp_k+\frac{L\alpha^2}{2}\|p_k\|^2.
+$$
+若要推出 Armijo $f(x_k+\alpha p_k)\le f(x_k)+c_A\alpha\nabla f^Tp_k$, 只需
+$$
+\alpha\nabla f^Tp_k+\frac{L\alpha^2}{2}\|p_k\|^2\le c_A\alpha\nabla f^Tp_k,
+$$
+即 (两边减 $c_A\alpha\nabla f^Tp_k$, 注意 $\nabla f^Tp_k<0$)
+$$
+(1-c_A)\alpha\nabla f^Tp_k+\frac{L\alpha^2}{2}\|p_k\|^2\le 0.
+$$
+用方向条件: $\nabla f^Tp_k\le-\sigma\|g_k\|^2$, $\|p_k\|\le\beta\|g_k\|$ ($g_k=\nabla f(x_k)$),
+$$
+-(1-c_A)\alpha\sigma\|g_k\|^2+\frac{L\alpha^2}{2}\beta^2\|g_k\|^2\le 0.
+$$
+当 $g_k\neq 0$ 时除以 $\|g_k\|^2>0$, 得只要
+$$
+0<\alpha\le\frac{2(1-c_A)\sigma}{L\beta^2}
+$$
+则下降引理上界已蕴含 Armijo.  
 
-**证明思路**: 强凸 $\Rightarrow$ Newton 方向满足一致下降条件 ($\sigma,\beta$ 与 $\mu,L$ 相关). 上一段给出 $\|\nabla f\|\to 0$ 且 $x_k$ 进入极小邻域; 邻域内满步 Armijo 自动满足, 回到局部二次率.
+**Step 2 (回溯接受步长有下界)**. 回溯从 $\bar\alpha$ 几何缩小. 一旦某候选 $\alpha$ 落入 $\bigl(0,\frac{2(1-c_A)\sigma}{L\beta^2}\bigr]$, Armijo 成立. 因每次乘 $\eta$, 最终接受的 $\alpha_k$ 满足
+$$
+\alpha_k\ge\min\Bigl\{\bar\alpha,\;\eta\cdot\frac{2(1-c_A)\sigma}{L\beta^2}\Bigr\}=\alpha
+$$
+(标准 backtracking 下界论证: 若 $\bar\alpha$ 已合格则 $\alpha_k=\bar\alpha$; 否则最后一个不合格步长 $>\frac{2(1-c_A)\sigma}{L\beta^2}$, 再乘 $\eta$ 后仍 $\ge\eta\cdot\frac{2(1-c_A)\sigma}{L\beta^2}$).
+
+**Step 3 (每步函数下降)**. Armijo + 方向条件:
+$$
+f(x_k)-f(x_{k+1})
+\ge -c_A\alpha_k\nabla f^Tp_k
+\ge c_A\alpha_k\sigma\|g_k\|^2
+\ge c_A\alpha\sigma\|g_k\|^2.
+$$
+
+**Step 4 (望远镜)**. 对 $j=0,\ldots,k-1$ 求和:
+$$
+\sum_{j=0}^{k-1}\|g_j\|^2
+\le\frac{f(x_0)-f(x_k)}{c_A\alpha\sigma}
+\le\frac{f(x_0)-f^\star}{c_A\alpha\sigma}.
+$$
+左边 $\ge k\min_{j<k}\|g_j\|^2$, 即得 $\min\|\nabla f\|^2=O(1/k)$. 又部分和有界 $\Rightarrow\|g_k\|^2\to 0$ 的某一子列, 再结合标准论证 (或直接由 $\sum\|g_j\|^2<\infty$) 得 $\|\nabla f(x_k)\|\to 0$.
+
+### 牛顿 + 回溯
+
+若 $f\in C^2$ 且 $\mu$-强凸、$L$-光滑, 则从任意 $x_0$, 牛顿方向 + 回溯有 $x_k\to x^\star$.  
+若 $\bar\alpha=1$, $c_A<1/2$, 且海森局部 Lipschitz, 则最终接受满步 $\alpha_k=1$ 并恢复二次收敛.
+
+**证明** (逐步展开):
+
+**Step 1 (牛顿方向满足一致下降条件)**. $\mu$-强凸 + $L$-光滑 $\Rightarrow$ $\mu I\preceq H_k\preceq LI$, 故 $\|H_k^{-1}\|\le 1/\mu$. 牛顿方向 $p_k=-H_k^{-1}g_k$ 满足
+$$
+\nabla f^Tp_k=-g_k^TH_k^{-1}g_k\le-\frac1L\|g_k\|^2
+$$
+(因 $H_k^{-1}\succeq\tfrac1L I$), 以及
+$$
+\|p_k\|\le\|H_k^{-1}\|\,\|g_k\|\le\frac1\mu\|g_k\|.
+$$
+故可取 $\sigma=1/L$, $\beta=1/\mu$.
+
+**Step 2 (全局到驻点)**. 上一段带回溯的全局收敛适用 $\Rightarrow\|\nabla f(x_k)\|\to 0$. 强凸时驻点唯一且为全局极小 $x^\star$, 且 $\|\nabla f(x)\|\ge\mu\|x-x^\star\|$ 一类不等式给出 $x_k\to x^\star$.
+
+**Step 3 (靠近后满步可接受)**. 在 $x^\star$ 附近, 由局部二次收敛分析: 满步牛顿的函数下降与模型预测可比. 当 $c_A<1/2$ 且 $x_k$ 足够近时, 可验证 $\alpha=1$ 满足 Armijo (标准结果: 二次模型在邻域内足够准确, 真实下降至少是线性预测的一半以上). 于是回溯直接接受 $\bar\alpha=1$.
+
+**Step 4 (恢复二次率)**. 一旦始终取满步, §7 的局部二次收敛定理适用.
 
 ---
 

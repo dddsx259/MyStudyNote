@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "last_scan": "2026-09-09T07:13:58.270673+00:00",
+  "last_scan": "2026-09-13T06:28:40.148598+00:00",
   "sources": {
     "Lec/01-probability-theory-lecture-notes.pdf": {
       "mtime": 1788234590,
@@ -39,6 +39,37 @@
       ],
       "processed_at": "2026-09-09",
       "skip_reason": "course_info_webarchive"
+    },
+    "tut/01-tutorial-01.pdf": {
+      "mtime": 1789013178,
+      "size": 85603,
+      "outputs": [
+        "tut/01-tutorial-01-总结.md"
+      ],
+      "processed_at": "2026-09-10"
+    },
+    "tut/01-tutorial-01-sol.pdf": {
+      "mtime": 1789013179,
+      "size": 139401,
+      "outputs": [],
+      "processed_at": "2026-09-10",
+      "skip_reason": "official_solution"
+    },
+    "assignment/01-homework-01.pdf": {
+      "mtime": 1789013172,
+      "size": 79242,
+      "outputs": [
+        "assignment/01-homework-01-题目理解.md",
+        "assignment/01-homework-01-解答.md"
+      ],
+      "processed_at": "2026-09-10"
+    },
+    "assignment/01-homework-01-submission.pdf": {
+      "mtime": 1789039319.1992853,
+      "size": 1597105,
+      "outputs": [],
+      "processed_at": "2026-09-13",
+      "skip_reason": "student_submission"
     }
   }
 }

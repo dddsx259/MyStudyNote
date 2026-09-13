@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "last_scan": "2026-09-09T07:13:58.270673+00:00",
+  "last_scan": "2026-09-13T06:28:40.148598+00:00",
   "sources": {
     "Lec/01-course-overview.pdf": {
       "mtime": 1788774134,
@@ -87,6 +87,90 @@
       ],
       "processed_at": "2026-09-09",
       "skip_reason": "course_info_html"
+    },
+    "lab/Mini-lab/00-lab-warmup-welcome-to-linux.pdf": {
+      "mtime": 1788506614,
+      "size": 1055192,
+      "outputs": [
+        "lab/Mini-lab/00-lab-warmup-welcome-to-linux-题目理解.md"
+      ],
+      "processed_at": "2026-09-10"
+    },
+    "lab/Mini-lab/01-lab-c-basics-address-space.pdf": {
+      "mtime": 1788506628,
+      "size": 163442,
+      "outputs": [
+        "lab/Mini-lab/01-lab-c-basics-address-space-题目理解.md"
+      ],
+      "processed_at": "2026-09-10"
+    },
+    "lab/Mini-lab/02-lab-signal.pdf": {
+      "mtime": 1788506650,
+      "size": 160883,
+      "outputs": [
+        "lab/Mini-lab/02-lab-signal-题目理解.md"
+      ],
+      "processed_at": "2026-09-10"
+    },
+    "lab/Mini-lab/03-lab-process.pdf": {
+      "mtime": 1788506662,
+      "size": 158016,
+      "outputs": [
+        "lab/Mini-lab/03-lab-process-题目理解.md"
+      ],
+      "processed_at": "2026-09-10"
+    },
+    "lab/Mini-lab/04-lab-pthread-race-condition.pdf": {
+      "mtime": 1788506672,
+      "size": 156947,
+      "outputs": [
+        "lab/Mini-lab/04-lab-pthread-race-condition-题目理解.md"
+      ],
+      "processed_at": "2026-09-10"
+    },
+    "lab/Mini-lab/01-lab1-stack.c": {
+      "mtime": 1788507864,
+      "size": 833,
+      "outputs": [],
+      "processed_at": "2026-09-10",
+      "skip_reason": "lab_starter_code"
+    },
+    "lab/Mini-lab/01-lab1-heap.c": {
+      "mtime": 1789028910.7744043,
+      "size": 1194,
+      "outputs": [],
+      "processed_at": "2026-09-10",
+      "skip_reason": "lab_starter_code"
+    },
+    "lab/Mini-lab/02-lab2-signal.c": {
+      "mtime": 1789028910.7746723,
+      "size": 676,
+      "outputs": [],
+      "processed_at": "2026-09-10",
+      "skip_reason": "lab_starter_code"
+    },
+    "lab/Mini-lab/03-lab3-process.c": {
+      "mtime": 1789028910.7750928,
+      "size": 1084,
+      "outputs": [],
+      "processed_at": "2026-09-10",
+      "skip_reason": "lab_starter_code"
+    },
+    "lab/Mini-lab/04-lab4-pthread.c": {
+      "mtime": 1789028910.7753737,
+      "size": 1218,
+      "outputs": [],
+      "processed_at": "2026-09-10",
+      "skip_reason": "lab_starter_code"
+    },
+    "Lec/05-virtualize-cpu.pdf": {
+      "mtime": 1789280288.8629973,
+      "size": 878384,
+      "outputs": [
+        "Lec/05-virtualize-cpu-讲义.md"
+      ],
+      "processed_at": "2026-09-13",
+      "renamed_from": "03-VirtualizeCPU.pdf"
     }
   }
 }

@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "last_scan": "2026-09-09T07:13:58.270673+00:00",
+  "last_scan": "2026-09-13T06:28:40.148598+00:00",
   "sources": {
     "Lec/handout/01-introduction-handout.pdf": {
       "mtime": 1788234566,
@@ -66,6 +66,22 @@
       ],
       "processed_at": "2026-09-09",
       "skip_reason": "course_info_webarchive"
+    },
+    "tut/01-tutorial-01.pdf": {
+      "mtime": 1789280714.5619812,
+      "size": 124389,
+      "outputs": [
+        "tut/01-tutorial-01-总结.md"
+      ],
+      "processed_at": "2026-09-13"
+    },
+    "tut/01-tutorial-01-sol.pdf": {
+      "mtime": 1789280714.5511696,
+      "size": 147594,
+      "outputs": [],
+      "processed_at": "2026-09-13",
+      "note": "official sol",
+      "skip_reason": "official_solution"
     }
   }
 }
