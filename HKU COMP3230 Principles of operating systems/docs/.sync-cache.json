@@ -1,47 +1,52 @@
 {
   "version": 1,
-  "last_scan": "2026-09-13T06:28:40.148598+00:00",
+  "last_scan": "2026-10-10T03:51:17Z",
   "sources": {
-    "Lec/01-course-overview.pdf": {
+    "Lec/Lec01 course overview.pdf": {
       "mtime": 1788774134,
       "size": 644186,
       "outputs": [
         "课程信息.md",
-        "Lec/01-course-overview-讲义.md"
+        "Lec/Lec01 course overview 讲义.md"
       ],
-      "processed_at": "2026-09-07"
+      "processed_at": "2026-09-07",
+      "renamed_from": "Lec/01-course-overview.pdf"
     },
-    "Lec/02-c-programming.pdf": {
+    "Lec/Lec02 c programming.pdf": {
       "mtime": 1788488893,
       "size": 367190,
       "outputs": [
-        "Lec/02-c-programming-讲义.md"
+        "Lec/Lec02 c programming 讲义.md"
       ],
-      "processed_at": "2026-09-07"
+      "processed_at": "2026-09-07",
+      "renamed_from": "Lec/02-c-programming.pdf"
     },
-    "Lec/03-introduction.pdf": {
+    "Lec/Lec03 introduction.pdf": {
       "mtime": 1788774132,
       "size": 1246819,
       "outputs": [
-        "Lec/03-introduction-讲义.md"
+        "Lec/Lec03 introduction 讲义.md"
       ],
-      "processed_at": "2026-09-07"
+      "processed_at": "2026-09-07",
+      "renamed_from": "Lec/03-introduction.pdf"
     },
-    "Lec/04-process-abstraction.pdf": {
+    "Lec/Lec04 process abstraction.pdf": {
       "mtime": 1788774131,
       "size": 1077635,
       "outputs": [
-        "Lec/04-process-abstraction-讲义.md"
+        "Lec/Lec04 process abstraction 讲义.md"
       ],
-      "processed_at": "2026-09-07"
+      "processed_at": "2026-09-07",
+      "renamed_from": "Lec/04-process-abstraction.pdf"
     },
-    "Lec/03-reading-ostep-ch02-introduction.pdf": {
+    "Lec/OSTEP 2 introduction.pdf": {
       "mtime": 1788937864,
       "size": 160075,
       "outputs": [
-        "Lec/03-reading-ostep-ch02-introduction-讲义.md"
+        "Lec/OSTEP 2 introduction 讲义.md"
       ],
-      "processed_at": "2026-09-09"
+      "processed_at": "2026-09-09",
+      "renamed_from": "Lec/03-reading-ostep-ch02-introduction.pdf"
     },
     "docs/HKU COMP3230.html": {
       "mtime": 1788488881,
@@ -88,89 +93,1163 @@
       "processed_at": "2026-09-09",
       "skip_reason": "course_info_html"
     },
-    "lab/Mini-lab/00-lab-warmup-welcome-to-linux.pdf": {
+    "lab/Mini-lab/Lab00 warmup welcome to linux.pdf": {
       "mtime": 1788506614,
       "size": 1055192,
       "outputs": [
-        "lab/Mini-lab/00-lab-warmup-welcome-to-linux-题目理解.md"
+        "lab/Mini-lab/Lab00 warmup welcome to linux 题目理解.md"
       ],
-      "processed_at": "2026-09-10"
+      "processed_at": "2026-09-10",
+      "renamed_from": "lab/Mini-lab/00-lab-warmup-welcome-to-linux.pdf"
     },
-    "lab/Mini-lab/01-lab-c-basics-address-space.pdf": {
+    "lab/Mini-lab/Lab01 c basics address space.pdf": {
       "mtime": 1788506628,
       "size": 163442,
       "outputs": [
-        "lab/Mini-lab/01-lab-c-basics-address-space-题目理解.md"
+        "lab/Mini-lab/Lab01 c basics address space 题目理解.md"
       ],
-      "processed_at": "2026-09-10"
+      "processed_at": "2026-09-10",
+      "renamed_from": "lab/Mini-lab/01-lab-c-basics-address-space.pdf"
     },
-    "lab/Mini-lab/02-lab-signal.pdf": {
+    "lab/Mini-lab/Lab02 signal.pdf": {
       "mtime": 1788506650,
       "size": 160883,
       "outputs": [
-        "lab/Mini-lab/02-lab-signal-题目理解.md"
+        "lab/Mini-lab/Lab02 signal 题目理解.md"
       ],
-      "processed_at": "2026-09-10"
+      "processed_at": "2026-09-10",
+      "renamed_from": "lab/Mini-lab/02-lab-signal.pdf"
     },
-    "lab/Mini-lab/03-lab-process.pdf": {
+    "lab/Mini-lab/Lab03 process.pdf": {
       "mtime": 1788506662,
       "size": 158016,
       "outputs": [
-        "lab/Mini-lab/03-lab-process-题目理解.md"
+        "lab/Mini-lab/Lab03 process 题目理解.md"
       ],
-      "processed_at": "2026-09-10"
+      "processed_at": "2026-09-10",
+      "renamed_from": "lab/Mini-lab/03-lab-process.pdf"
     },
-    "lab/Mini-lab/04-lab-pthread-race-condition.pdf": {
+    "lab/Mini-lab/Lab04 pthread race condition.pdf": {
       "mtime": 1788506672,
       "size": 156947,
       "outputs": [
-        "lab/Mini-lab/04-lab-pthread-race-condition-题目理解.md"
+        "lab/Mini-lab/Lab04 pthread race condition 题目理解.md"
       ],
-      "processed_at": "2026-09-10"
+      "processed_at": "2026-09-10",
+      "renamed_from": "lab/Mini-lab/04-lab-pthread-race-condition.pdf"
     },
-    "lab/Mini-lab/01-lab1-stack.c": {
+    "lab/Mini-lab/Lab01 stack.c": {
       "mtime": 1788507864,
       "size": 833,
       "outputs": [],
       "processed_at": "2026-09-10",
-      "skip_reason": "lab_starter_code"
+      "skip_reason": "lab_starter_code",
+      "renamed_from": "lab/Mini-lab/01-lab1-stack.c"
     },
-    "lab/Mini-lab/01-lab1-heap.c": {
-      "mtime": 1789028910.7744043,
+    "lab/Mini-lab/Lab01 heap.c": {
+      "mtime": 1789028910,
       "size": 1194,
       "outputs": [],
       "processed_at": "2026-09-10",
-      "skip_reason": "lab_starter_code"
+      "skip_reason": "lab_starter_code",
+      "renamed_from": "lab/Mini-lab/01-lab1-heap.c"
     },
-    "lab/Mini-lab/02-lab2-signal.c": {
-      "mtime": 1789028910.7746723,
+    "lab/Mini-lab/Lab02 signal.c": {
+      "mtime": 1789028910,
       "size": 676,
       "outputs": [],
       "processed_at": "2026-09-10",
-      "skip_reason": "lab_starter_code"
+      "skip_reason": "lab_starter_code",
+      "renamed_from": "lab/Mini-lab/02-lab2-signal.c"
     },
-    "lab/Mini-lab/03-lab3-process.c": {
-      "mtime": 1789028910.7750928,
+    "lab/Mini-lab/Lab03 process.c": {
+      "mtime": 1789028910,
       "size": 1084,
       "outputs": [],
       "processed_at": "2026-09-10",
-      "skip_reason": "lab_starter_code"
+      "skip_reason": "lab_starter_code",
+      "renamed_from": "lab/Mini-lab/03-lab3-process.c"
     },
-    "lab/Mini-lab/04-lab4-pthread.c": {
-      "mtime": 1789028910.7753737,
+    "lab/Mini-lab/Lab04 pthread.c": {
+      "mtime": 1789028910,
       "size": 1218,
       "outputs": [],
       "processed_at": "2026-09-10",
-      "skip_reason": "lab_starter_code"
+      "skip_reason": "lab_starter_code",
+      "renamed_from": "lab/Mini-lab/04-lab4-pthread.c"
     },
-    "Lec/05-virtualize-cpu.pdf": {
-      "mtime": 1789280288.8629973,
+    "Lec/Lec05 virtualize cpu.pdf": {
+      "mtime": 1789280288,
       "size": 878384,
       "outputs": [
-        "Lec/05-virtualize-cpu-讲义.md"
+        "Lec/Lec05 virtualize cpu 讲义.md"
       ],
       "processed_at": "2026-09-13",
-      "renamed_from": "03-VirtualizeCPU.pdf"
+      "renamed_from": "Lec/05-virtualize-cpu.pdf"
+    },
+    "Lec/OSTEP 4 process.pdf": {
+      "mtime": 1789977460,
+      "size": 106900,
+      "outputs": [
+        "Lec/OSTEP 4 process 讲义.md"
+      ],
+      "processed_at": "2026-09-21",
+      "copied_from": "Lec/textbook/ostep/cpu-intro.pdf",
+      "type": "ostep_reading",
+      "renamed_from": "Lec/04-reading-ostep-ch04-process.pdf"
+    },
+    "Lec/OSTEP 5 process api.pdf": {
+      "mtime": 1789977460,
+      "size": 122017,
+      "outputs": [
+        "Lec/OSTEP 5 process api 讲义.md"
+      ],
+      "processed_at": "2026-09-21",
+      "copied_from": "Lec/textbook/ostep/cpu-api.pdf",
+      "type": "ostep_reading",
+      "renamed_from": "Lec/04-reading-ostep-ch05-process-api.pdf"
+    },
+    "Lec/OSTEP 6 limited direct execution.pdf": {
+      "mtime": 1789977460,
+      "size": 134592,
+      "outputs": [
+        "Lec/OSTEP 6 limited direct execution 讲义.md"
+      ],
+      "processed_at": "2026-09-21",
+      "copied_from": "Lec/textbook/ostep/cpu-mechanisms.pdf",
+      "type": "ostep_reading",
+      "renamed_from": "Lec/OSTEP 6 limited direct execution-limited-direct-execution.pdf"
+    },
+    "test&quiz/Final01 2023-12-13.pdf": {
+      "mtime": 1789966675,
+      "size": 2917096,
+      "outputs": [
+        "test&quiz/Final01 2023-12-13 解析.md",
+        "docs/给AI-final考点与生成约定.md"
+      ],
+      "processed_at": "2026-09-21",
+      "renamed_from": "test&quiz/01-final-2023-12-13.pdf",
+      "type": "past_paper"
+    },
+    "Lec/textbook/ostep/": {
+      "mtime": 1789967241,
+      "size": 2240,
+      "file_count": 68,
+      "outputs": [],
+      "processed_at": "2026-09-21",
+      "skip_reason": "ostep_prefetch",
+      "note": "Free chapter PDFs. Generate 讲义 only when matching slides exist. Dir size is inode listing size; see file_count."
+    },
+    "Lec/Lec06 scheduling.pdf": {
+      "mtime": 1790489995,
+      "size": 1223778,
+      "outputs": [
+        "Lec/Lec06 scheduling 讲义.md",
+        "题集/题集05 scheduling.md",
+        "cheatsheet.md"
+      ],
+      "processed_at": "2026-09-27",
+      "renamed_from": "Lec/06-scheduling.pdf"
+    },
+    "Lec/OSTEP 7 scheduling.pdf": {
+      "mtime": 1790490422,
+      "size": 118326,
+      "outputs": [
+        "Lec/OSTEP 7 scheduling 讲义.md"
+      ],
+      "processed_at": "2026-09-27",
+      "copied_from": "Lec/textbook/ostep/cpu-sched.pdf",
+      "type": "ostep_reading",
+      "renamed_from": "Lec/06-reading-ostep-ch07-scheduling.pdf"
+    },
+    "Lec/OSTEP 8 mlfq.pdf": {
+      "mtime": 1790490422,
+      "size": 115638,
+      "outputs": [
+        "Lec/OSTEP 8 mlfq 讲义.md"
+      ],
+      "processed_at": "2026-09-27",
+      "copied_from": "Lec/textbook/ostep/cpu-sched-mlfq.pdf",
+      "type": "ostep_reading",
+      "renamed_from": "Lec/06-reading-ostep-ch08-mlfq.pdf"
+    },
+    "Lec/OSTEP 9 lottery.pdf": {
+      "mtime": 1790490422,
+      "size": 138852,
+      "outputs": [
+        "Lec/OSTEP 9 lottery 讲义.md"
+      ],
+      "processed_at": "2026-09-27",
+      "copied_from": "Lec/textbook/ostep/cpu-sched-lottery.pdf",
+      "type": "ostep_reading",
+      "renamed_from": "Lec/06-reading-ostep-ch09-lottery.pdf"
+    },
+    "Lec/Lec07 thread concept.pdf": {
+      "mtime": 1790489995,
+      "size": 702583,
+      "outputs": [
+        "Lec/Lec07 thread concept 讲义.md",
+        "题集/题集06 thread concept.md",
+        "cheatsheet.md"
+      ],
+      "processed_at": "2026-09-27",
+      "renamed_from": "Lec/07-thread-concept.pdf"
+    },
+    "Lec/OSTEP 26 threads intro.pdf": {
+      "mtime": 1790490422,
+      "size": 125231,
+      "outputs": [
+        "Lec/OSTEP 26 threads intro 讲义.md"
+      ],
+      "processed_at": "2026-09-27",
+      "copied_from": "Lec/textbook/ostep/threads-intro.pdf",
+      "type": "ostep_reading",
+      "renamed_from": "Lec/07-reading-ostep-ch26-threads-intro.pdf"
+    },
+    "Lec/OSTEP 27 threads api.pdf": {
+      "mtime": 1790490422,
+      "size": 100720,
+      "outputs": [
+        "Lec/OSTEP 27 threads api 讲义.md"
+      ],
+      "processed_at": "2026-09-27",
+      "copied_from": "Lec/textbook/ostep/threads-api.pdf",
+      "type": "ostep_reading",
+      "renamed_from": "Lec/07-reading-ostep-ch27-threads-api.pdf"
+    },
+    "assignment/PS01 problem set 1.pdf": {
+      "mtime": 1790489995,
+      "size": 265049,
+      "outputs": [
+        "assignment/PS01 problem set 1 题目理解.md",
+        "assignment/PS01 problem set 1 解答.md"
+      ],
+      "processed_at": "2026-10-08",
+      "renamed_from": "assignment/01-problem-set-1.pdf"
+    },
+    "assignment/PA01 programming assignment 1.pdf": {
+      "mtime": 1790489995,
+      "size": 355723,
+      "outputs": [
+        "assignment/PA01 programming assignment 1 题目理解.md",
+        "assignment/PA01 programming assignment 1 解答.md"
+      ],
+      "processed_at": "2026-10-08",
+      "renamed_from": "assignment/01-programming-assignment-1.pdf"
+    },
+    "tut/Tut01 warmup.pdf": {
+      "mtime": 1790489995,
+      "size": 708306,
+      "outputs": [
+        "tut/Tut01 warmup 总结.md"
+      ],
+      "processed_at": "2026-09-27",
+      "renamed_from": "tut/01-tutorial-01-warmup.pdf"
+    },
+    "tut/Tut02 processes.pdf": {
+      "mtime": 1790489995,
+      "size": 1091775,
+      "outputs": [
+        "tut/Tut02 processes 总结.md"
+      ],
+      "processed_at": "2026-09-27",
+      "renamed_from": "tut/02-tutorial-02-processes.pdf"
+    },
+    "Lec/textbook/ostep/cpu-api.pdf": {
+      "mtime": 1789967210,
+      "size": 122017,
+      "outputs": [],
+      "processed_at": "2026-09-28",
+      "skip_reason": "optional_textbook",
+      "large_doc": false,
+      "note": "OSTEP chapter PDF; generate only when paired slides arrive or user names chapter"
+    },
+    "Lec/textbook/ostep/cpu-dialogue.pdf": {
+      "mtime": 1789967208,
+      "size": 33322,
+      "outputs": [],
+      "processed_at": "2026-09-28",
+      "skip_reason": "optional_textbook",
+      "large_doc": false,
+      "note": "OSTEP chapter PDF; generate only when paired slides arrive or user names chapter"
+    },
+    "Lec/textbook/ostep/cpu-intro.pdf": {
+      "mtime": 1789967208,
+      "size": 106900,
+      "outputs": [],
+      "processed_at": "2026-09-28",
+      "skip_reason": "optional_textbook",
+      "large_doc": false,
+      "note": "OSTEP chapter PDF; generate only when paired slides arrive or user names chapter"
+    },
+    "Lec/textbook/ostep/cpu-mechanisms.pdf": {
+      "mtime": 1789967212,
+      "size": 134592,
+      "outputs": [],
+      "processed_at": "2026-09-28",
+      "skip_reason": "optional_textbook",
+      "large_doc": false,
+      "note": "OSTEP chapter PDF; generate only when paired slides arrive or user names chapter"
+    },
+    "Lec/textbook/ostep/cpu-sched-lottery.pdf": {
+      "mtime": 1789967208,
+      "size": 138852,
+      "outputs": [],
+      "processed_at": "2026-09-28",
+      "skip_reason": "optional_textbook",
+      "large_doc": false,
+      "note": "OSTEP chapter PDF; generate only when paired slides arrive or user names chapter"
+    },
+    "Lec/textbook/ostep/cpu-sched-mlfq.pdf": {
+      "mtime": 1789967214,
+      "size": 115638,
+      "outputs": [],
+      "processed_at": "2026-09-28",
+      "skip_reason": "optional_textbook",
+      "large_doc": false,
+      "note": "OSTEP chapter PDF; generate only when paired slides arrive or user names chapter"
+    },
+    "Lec/textbook/ostep/cpu-sched-multi.pdf": {
+      "mtime": 1789967210,
+      "size": 118032,
+      "outputs": [],
+      "processed_at": "2026-09-28",
+      "skip_reason": "optional_textbook",
+      "large_doc": false,
+      "note": "OSTEP chapter PDF; generate only when paired slides arrive or user names chapter"
+    },
+    "Lec/textbook/ostep/cpu-sched.pdf": {
+      "mtime": 1789967211,
+      "size": 118326,
+      "outputs": [],
+      "processed_at": "2026-09-28",
+      "skip_reason": "optional_textbook",
+      "large_doc": false,
+      "note": "OSTEP chapter PDF; generate only when paired slides arrive or user names chapter"
+    },
+    "Lec/textbook/ostep/dedication.pdf": {
+      "mtime": 1789967209,
+      "size": 23356,
+      "outputs": [],
+      "processed_at": "2026-09-28",
+      "skip_reason": "optional_textbook",
+      "large_doc": false,
+      "note": "OSTEP chapter PDF; generate only when paired slides arrive or user names chapter"
+    },
+    "Lec/textbook/ostep/dialogue-concurrency.pdf": {
+      "mtime": 1789967210,
+      "size": 32657,
+      "outputs": [],
+      "processed_at": "2026-09-28",
+      "skip_reason": "optional_textbook",
+      "large_doc": false,
+      "note": "OSTEP chapter PDF; generate only when paired slides arrive or user names chapter"
+    },
+    "Lec/textbook/ostep/dialogue-distribution.pdf": {
+      "mtime": 1789967211,
+      "size": 24634,
+      "outputs": [],
+      "processed_at": "2026-09-28",
+      "skip_reason": "optional_textbook",
+      "large_doc": false,
+      "note": "OSTEP chapter PDF; generate only when paired slides arrive or user names chapter"
+    },
+    "Lec/textbook/ostep/dialogue-labs.pdf": {
+      "mtime": 1789967211,
+      "size": 29352,
+      "outputs": [],
+      "processed_at": "2026-09-28",
+      "skip_reason": "optional_textbook",
+      "large_doc": false,
+      "note": "OSTEP chapter PDF; generate only when paired slides arrive or user names chapter"
+    },
+    "Lec/textbook/ostep/dialogue-monitors.pdf": {
+      "mtime": 1789967212,
+      "size": 21151,
+      "outputs": [],
+      "processed_at": "2026-09-28",
+      "skip_reason": "optional_textbook",
+      "large_doc": false,
+      "note": "OSTEP chapter PDF; generate only when paired slides arrive or user names chapter"
+    },
+    "Lec/textbook/ostep/dialogue-persistence.pdf": {
+      "mtime": 1789967212,
+      "size": 27610,
+      "outputs": [],
+      "processed_at": "2026-09-28",
+      "skip_reason": "optional_textbook",
+      "large_doc": false,
+      "note": "OSTEP chapter PDF; generate only when paired slides arrive or user names chapter"
+    },
+    "Lec/textbook/ostep/dialogue-security.pdf": {
+      "mtime": 1789967213,
+      "size": 30567,
+      "outputs": [],
+      "processed_at": "2026-09-28",
+      "skip_reason": "optional_textbook",
+      "large_doc": false,
+      "note": "OSTEP chapter PDF; generate only when paired slides arrive or user names chapter"
+    },
+    "Lec/textbook/ostep/dialogue-threeeasy.pdf": {
+      "mtime": 1789967213,
+      "size": 40349,
+      "outputs": [],
+      "processed_at": "2026-09-28",
+      "skip_reason": "optional_textbook",
+      "large_doc": false,
+      "note": "OSTEP chapter PDF; generate only when paired slides arrive or user names chapter"
+    },
+    "Lec/textbook/ostep/dialogue-virtualization.pdf": {
+      "mtime": 1789967213,
+      "size": 29687,
+      "outputs": [],
+      "processed_at": "2026-09-28",
+      "skip_reason": "optional_textbook",
+      "large_doc": false,
+      "note": "OSTEP chapter PDF; generate only when paired slides arrive or user names chapter"
+    },
+    "Lec/textbook/ostep/dialogue-vm.pdf": {
+      "mtime": 1789967213,
+      "size": 31767,
+      "outputs": [],
+      "processed_at": "2026-09-28",
+      "skip_reason": "optional_textbook",
+      "large_doc": false,
+      "note": "OSTEP chapter PDF; generate only when paired slides arrive or user names chapter"
+    },
+    "Lec/textbook/ostep/dialogue-vmm.pdf": {
+      "mtime": 1789967213,
+      "size": 21097,
+      "outputs": [],
+      "processed_at": "2026-09-28",
+      "skip_reason": "optional_textbook",
+      "large_doc": false,
+      "note": "OSTEP chapter PDF; generate only when paired slides arrive or user names chapter"
+    },
+    "Lec/textbook/ostep/dist-afs.pdf": {
+      "mtime": 1789967221,
+      "size": 131483,
+      "outputs": [],
+      "processed_at": "2026-09-28",
+      "skip_reason": "optional_textbook",
+      "large_doc": false,
+      "note": "OSTEP chapter PDF; generate only when paired slides arrive or user names chapter"
+    },
+    "Lec/textbook/ostep/dist-dialogue.pdf": {
+      "mtime": 1789967214,
+      "size": 23467,
+      "outputs": [],
+      "processed_at": "2026-09-28",
+      "skip_reason": "optional_textbook",
+      "large_doc": false,
+      "note": "OSTEP chapter PDF; generate only when paired slides arrive or user names chapter"
+    },
+    "Lec/textbook/ostep/dist-intro.pdf": {
+      "mtime": 1789967220,
+      "size": 139215,
+      "outputs": [],
+      "processed_at": "2026-09-28",
+      "skip_reason": "optional_textbook",
+      "large_doc": false,
+      "note": "OSTEP chapter PDF; generate only when paired slides arrive or user names chapter"
+    },
+    "Lec/textbook/ostep/dist-nfs.pdf": {
+      "mtime": 1789967215,
+      "size": 145901,
+      "outputs": [],
+      "processed_at": "2026-09-28",
+      "skip_reason": "optional_textbook",
+      "large_doc": false,
+      "note": "OSTEP chapter PDF; generate only when paired slides arrive or user names chapter"
+    },
+    "Lec/textbook/ostep/file-devices.pdf": {
+      "mtime": 1789967216,
+      "size": 119742,
+      "outputs": [],
+      "processed_at": "2026-09-28",
+      "skip_reason": "optional_textbook",
+      "large_doc": false,
+      "note": "OSTEP chapter PDF; generate only when paired slides arrive or user names chapter"
+    },
+    "Lec/textbook/ostep/file-dialogue.pdf": {
+      "mtime": 1789967215,
+      "size": 26908,
+      "outputs": [],
+      "processed_at": "2026-09-28",
+      "skip_reason": "optional_textbook",
+      "large_doc": false,
+      "note": "OSTEP chapter PDF; generate only when paired slides arrive or user names chapter"
+    },
+    "Lec/textbook/ostep/file-disks.pdf": {
+      "mtime": 1789967216,
+      "size": 154732,
+      "outputs": [],
+      "processed_at": "2026-09-28",
+      "skip_reason": "optional_textbook",
+      "large_doc": false,
+      "note": "OSTEP chapter PDF; generate only when paired slides arrive or user names chapter"
+    },
+    "Lec/textbook/ostep/file-ffs.pdf": {
+      "mtime": 1789967218,
+      "size": 126553,
+      "outputs": [],
+      "processed_at": "2026-09-28",
+      "skip_reason": "optional_textbook",
+      "large_doc": false,
+      "note": "OSTEP chapter PDF; generate only when paired slides arrive or user names chapter"
+    },
+    "Lec/textbook/ostep/file-implementation.pdf": {
+      "mtime": 1789967218,
+      "size": 160738,
+      "outputs": [],
+      "processed_at": "2026-09-28",
+      "skip_reason": "optional_textbook",
+      "large_doc": false,
+      "note": "OSTEP chapter PDF; generate only when paired slides arrive or user names chapter"
+    },
+    "Lec/textbook/ostep/file-integrity.pdf": {
+      "mtime": 1789967218,
+      "size": 129210,
+      "outputs": [],
+      "processed_at": "2026-09-28",
+      "skip_reason": "optional_textbook",
+      "large_doc": false,
+      "note": "OSTEP chapter PDF; generate only when paired slides arrive or user names chapter"
+    },
+    "Lec/textbook/ostep/file-intro.pdf": {
+      "mtime": 1789967220,
+      "size": 212094,
+      "outputs": [],
+      "processed_at": "2026-09-28",
+      "skip_reason": "optional_textbook",
+      "large_doc": false,
+      "note": "OSTEP chapter PDF; generate only when paired slides arrive or user names chapter"
+    },
+    "Lec/textbook/ostep/file-journaling.pdf": {
+      "mtime": 1789967226,
+      "size": 178600,
+      "outputs": [],
+      "processed_at": "2026-09-28",
+      "skip_reason": "optional_textbook",
+      "large_doc": false,
+      "note": "OSTEP chapter PDF; generate only when paired slides arrive or user names chapter"
+    },
+    "Lec/textbook/ostep/file-lfs.pdf": {
+      "mtime": 1789967220,
+      "size": 156049,
+      "outputs": [],
+      "processed_at": "2026-09-28",
+      "skip_reason": "optional_textbook",
+      "large_doc": false,
+      "note": "OSTEP chapter PDF; generate only when paired slides arrive or user names chapter"
+    },
+    "Lec/textbook/ostep/file-raid.pdf": {
+      "mtime": 1789967220,
+      "size": 170255,
+      "outputs": [],
+      "processed_at": "2026-09-28",
+      "skip_reason": "optional_textbook",
+      "large_doc": false,
+      "note": "OSTEP chapter PDF; generate only when paired slides arrive or user names chapter"
+    },
+    "Lec/textbook/ostep/file-ssd.pdf": {
+      "mtime": 1789967224,
+      "size": 200630,
+      "outputs": [],
+      "processed_at": "2026-09-28",
+      "skip_reason": "optional_textbook",
+      "large_doc": false,
+      "note": "OSTEP chapter PDF; generate only when paired slides arrive or user names chapter"
+    },
+    "Lec/textbook/ostep/intro.pdf": {
+      "mtime": 1789967224,
+      "size": 160075,
+      "outputs": [],
+      "processed_at": "2026-09-28",
+      "skip_reason": "optional_textbook",
+      "large_doc": false,
+      "note": "OSTEP chapter PDF; generate only when paired slides arrive or user names chapter"
+    },
+    "Lec/textbook/ostep/lab-projects-systems.pdf": {
+      "mtime": 1789967222,
+      "size": 34602,
+      "outputs": [],
+      "processed_at": "2026-09-28",
+      "skip_reason": "optional_textbook",
+      "large_doc": false,
+      "note": "OSTEP chapter PDF; generate only when paired slides arrive or user names chapter"
+    },
+    "Lec/textbook/ostep/lab-projects-xv6.pdf": {
+      "mtime": 1789967221,
+      "size": 31468,
+      "outputs": [],
+      "processed_at": "2026-09-28",
+      "skip_reason": "optional_textbook",
+      "large_doc": false,
+      "note": "OSTEP chapter PDF; generate only when paired slides arrive or user names chapter"
+    },
+    "Lec/textbook/ostep/lab-tutorial.pdf": {
+      "mtime": 1789967224,
+      "size": 100805,
+      "outputs": [],
+      "processed_at": "2026-09-28",
+      "skip_reason": "optional_textbook",
+      "large_doc": false,
+      "note": "OSTEP chapter PDF; generate only when paired slides arrive or user names chapter"
+    },
+    "Lec/textbook/ostep/preface.pdf": {
+      "mtime": 1789967232,
+      "size": 120032,
+      "outputs": [],
+      "processed_at": "2026-09-28",
+      "skip_reason": "optional_textbook",
+      "large_doc": false,
+      "note": "OSTEP chapter PDF; generate only when paired slides arrive or user names chapter"
+    },
+    "Lec/textbook/ostep/security-access.pdf": {
+      "mtime": 1789967225,
+      "size": 165431,
+      "outputs": [],
+      "processed_at": "2026-09-28",
+      "skip_reason": "optional_textbook",
+      "large_doc": false,
+      "note": "OSTEP chapter PDF; generate only when paired slides arrive or user names chapter"
+    },
+    "Lec/textbook/ostep/security-authentication.pdf": {
+      "mtime": 1789967229,
+      "size": 166074,
+      "outputs": [],
+      "processed_at": "2026-09-28",
+      "skip_reason": "optional_textbook",
+      "large_doc": false,
+      "note": "OSTEP chapter PDF; generate only when paired slides arrive or user names chapter"
+    },
+    "Lec/textbook/ostep/security-crypto.pdf": {
+      "mtime": 1789967233,
+      "size": 184464,
+      "outputs": [],
+      "processed_at": "2026-09-28",
+      "skip_reason": "optional_textbook",
+      "large_doc": false,
+      "note": "OSTEP chapter PDF; generate only when paired slides arrive or user names chapter"
+    },
+    "Lec/textbook/ostep/security-distributed.pdf": {
+      "mtime": 1789967226,
+      "size": 159928,
+      "outputs": [],
+      "processed_at": "2026-09-28",
+      "skip_reason": "optional_textbook",
+      "large_doc": false,
+      "note": "OSTEP chapter PDF; generate only when paired slides arrive or user names chapter"
+    },
+    "Lec/textbook/ostep/security-intro.pdf": {
+      "mtime": 1789967228,
+      "size": 100102,
+      "outputs": [],
+      "processed_at": "2026-09-28",
+      "skip_reason": "optional_textbook",
+      "large_doc": false,
+      "note": "OSTEP chapter PDF; generate only when paired slides arrive or user names chapter"
+    },
+    "Lec/textbook/ostep/threads-api.pdf": {
+      "mtime": 1789967230,
+      "size": 100720,
+      "outputs": [],
+      "processed_at": "2026-09-28",
+      "skip_reason": "optional_textbook",
+      "large_doc": false,
+      "note": "OSTEP chapter PDF; generate only when paired slides arrive or user names chapter"
+    },
+    "Lec/textbook/ostep/threads-bugs.pdf": {
+      "mtime": 1789967230,
+      "size": 130552,
+      "outputs": [],
+      "processed_at": "2026-09-28",
+      "skip_reason": "optional_textbook",
+      "large_doc": false,
+      "note": "OSTEP chapter PDF; generate only when paired slides arrive or user names chapter"
+    },
+    "Lec/textbook/ostep/threads-cv.pdf": {
+      "mtime": 1789967231,
+      "size": 128770,
+      "outputs": [],
+      "processed_at": "2026-09-28",
+      "skip_reason": "optional_textbook",
+      "large_doc": false,
+      "note": "OSTEP chapter PDF; generate only when paired slides arrive or user names chapter"
+    },
+    "Lec/textbook/ostep/threads-dialogue.pdf": {
+      "mtime": 1789967237,
+      "size": 32085,
+      "outputs": [],
+      "processed_at": "2026-09-28",
+      "skip_reason": "optional_textbook",
+      "large_doc": false,
+      "note": "OSTEP chapter PDF; generate only when paired slides arrive or user names chapter"
+    },
+    "Lec/textbook/ostep/threads-events.pdf": {
+      "mtime": 1789967231,
+      "size": 106082,
+      "outputs": [],
+      "processed_at": "2026-09-28",
+      "skip_reason": "optional_textbook",
+      "large_doc": false,
+      "note": "OSTEP chapter PDF; generate only when paired slides arrive or user names chapter"
+    },
+    "Lec/textbook/ostep/threads-intro.pdf": {
+      "mtime": 1789967233,
+      "size": 125231,
+      "outputs": [],
+      "processed_at": "2026-09-28",
+      "skip_reason": "optional_textbook",
+      "large_doc": false,
+      "note": "OSTEP chapter PDF; generate only when paired slides arrive or user names chapter"
+    },
+    "Lec/textbook/ostep/threads-locks-usage.pdf": {
+      "mtime": 1789967233,
+      "size": 121557,
+      "outputs": [],
+      "processed_at": "2026-09-28",
+      "skip_reason": "optional_textbook",
+      "large_doc": false,
+      "note": "OSTEP chapter PDF; generate only when paired slides arrive or user names chapter"
+    },
+    "Lec/textbook/ostep/threads-locks.pdf": {
+      "mtime": 1789967238,
+      "size": 171902,
+      "outputs": [],
+      "processed_at": "2026-09-28",
+      "skip_reason": "optional_textbook",
+      "large_doc": false,
+      "note": "OSTEP chapter PDF; generate only when paired slides arrive or user names chapter"
+    },
+    "Lec/textbook/ostep/threads-monitors.pdf": {
+      "mtime": 1789967234,
+      "size": 99401,
+      "outputs": [],
+      "processed_at": "2026-09-28",
+      "skip_reason": "optional_textbook",
+      "large_doc": false,
+      "note": "OSTEP chapter PDF; generate only when paired slides arrive or user names chapter"
+    },
+    "Lec/textbook/ostep/threads-sema.pdf": {
+      "mtime": 1789967240,
+      "size": 150277,
+      "outputs": [],
+      "processed_at": "2026-09-28",
+      "skip_reason": "optional_textbook",
+      "large_doc": false,
+      "note": "OSTEP chapter PDF; generate only when paired slides arrive or user names chapter"
+    },
+    "Lec/textbook/ostep/toc.pdf": {
+      "mtime": 1789967234,
+      "size": 82682,
+      "outputs": [],
+      "processed_at": "2026-09-28",
+      "skip_reason": "optional_textbook",
+      "large_doc": false,
+      "note": "OSTEP chapter PDF; generate only when paired slides arrive or user names chapter"
+    },
+    "Lec/textbook/ostep/vm-api.pdf": {
+      "mtime": 1789967235,
+      "size": 97113,
+      "outputs": [],
+      "processed_at": "2026-09-28",
+      "skip_reason": "optional_textbook",
+      "large_doc": false,
+      "note": "OSTEP chapter PDF; generate only when paired slides arrive or user names chapter"
+    },
+    "Lec/textbook/ostep/vm-beyondphys-policy.pdf": {
+      "mtime": 1789967240,
+      "size": 199152,
+      "outputs": [],
+      "processed_at": "2026-09-28",
+      "skip_reason": "optional_textbook",
+      "large_doc": false,
+      "note": "OSTEP chapter PDF; generate only when paired slides arrive or user names chapter"
+    },
+    "Lec/textbook/ostep/vm-beyondphys.pdf": {
+      "mtime": 1789967236,
+      "size": 107756,
+      "outputs": [],
+      "processed_at": "2026-09-28",
+      "skip_reason": "optional_textbook",
+      "large_doc": false,
+      "note": "OSTEP chapter PDF; generate only when paired slides arrive or user names chapter"
+    },
+    "Lec/textbook/ostep/vm-complete.pdf": {
+      "mtime": 1789967238,
+      "size": 172402,
+      "outputs": [],
+      "processed_at": "2026-09-28",
+      "skip_reason": "optional_textbook",
+      "large_doc": false,
+      "note": "OSTEP chapter PDF; generate only when paired slides arrive or user names chapter"
+    },
+    "Lec/textbook/ostep/vm-dialogue.pdf": {
+      "mtime": 1789967239,
+      "size": 34012,
+      "outputs": [],
+      "processed_at": "2026-09-28",
+      "skip_reason": "optional_textbook",
+      "large_doc": false,
+      "note": "OSTEP chapter PDF; generate only when paired slides arrive or user names chapter"
+    },
+    "Lec/textbook/ostep/vm-freespace.pdf": {
+      "mtime": 1789967238,
+      "size": 135110,
+      "outputs": [],
+      "processed_at": "2026-09-28",
+      "skip_reason": "optional_textbook",
+      "large_doc": false,
+      "note": "OSTEP chapter PDF; generate only when paired slides arrive or user names chapter"
+    },
+    "Lec/textbook/ostep/vm-intro.pdf": {
+      "mtime": 1789967239,
+      "size": 95320,
+      "outputs": [],
+      "processed_at": "2026-09-28",
+      "skip_reason": "optional_textbook",
+      "large_doc": false,
+      "note": "OSTEP chapter PDF; generate only when paired slides arrive or user names chapter"
+    },
+    "Lec/textbook/ostep/vm-mechanism.pdf": {
+      "mtime": 1789967240,
+      "size": 130259,
+      "outputs": [],
+      "processed_at": "2026-09-28",
+      "skip_reason": "optional_textbook",
+      "large_doc": false,
+      "note": "OSTEP chapter PDF; generate only when paired slides arrive or user names chapter"
+    },
+    "Lec/textbook/ostep/vm-paging.pdf": {
+      "mtime": 1789967240,
+      "size": 117219,
+      "outputs": [],
+      "processed_at": "2026-09-28",
+      "skip_reason": "optional_textbook",
+      "large_doc": false,
+      "note": "OSTEP chapter PDF; generate only when paired slides arrive or user names chapter"
+    },
+    "Lec/textbook/ostep/vm-segmentation.pdf": {
+      "mtime": 1789967241,
+      "size": 106854,
+      "outputs": [],
+      "processed_at": "2026-09-28",
+      "skip_reason": "optional_textbook",
+      "large_doc": false,
+      "note": "OSTEP chapter PDF; generate only when paired slides arrive or user names chapter"
+    },
+    "Lec/textbook/ostep/vm-smalltables.pdf": {
+      "mtime": 1789967241,
+      "size": 139762,
+      "outputs": [],
+      "processed_at": "2026-09-28",
+      "skip_reason": "optional_textbook",
+      "large_doc": false,
+      "note": "OSTEP chapter PDF; generate only when paired slides arrive or user names chapter"
+    },
+    "Lec/textbook/ostep/vm-tlbs.pdf": {
+      "mtime": 1789967252,
+      "size": 150670,
+      "outputs": [],
+      "processed_at": "2026-09-28",
+      "skip_reason": "optional_textbook",
+      "large_doc": false,
+      "note": "OSTEP chapter PDF; generate only when paired slides arrive or user names chapter"
+    },
+    "Lec/textbook/ostep/vmm-intro.pdf": {
+      "mtime": 1789967241,
+      "size": 119202,
+      "outputs": [],
+      "processed_at": "2026-09-28",
+      "skip_reason": "optional_textbook",
+      "large_doc": false,
+      "note": "OSTEP chapter PDF; generate only when paired slides arrive or user names chapter"
+    },
+    "Lec/Lec08 synchronization.pdf": {
+      "mtime": 1791184679,
+      "size": 915577,
+      "outputs": [
+        "Lec/Lec08 synchronization 讲义.md",
+        "题集/题集07 synchronization.md",
+        "cheatsheet.md"
+      ],
+      "processed_at": "2026-10-05",
+      "renamed_from": "06-Synchronization.pdf"
+    },
+    "Lec/Lec09 deadlock.pdf": {
+      "mtime": 1791184680,
+      "size": 814579,
+      "outputs": [
+        "Lec/Lec09 deadlock 讲义.md",
+        "题集/题集08 deadlock.md",
+        "cheatsheet.md"
+      ],
+      "processed_at": "2026-10-05",
+      "renamed_from": "07-Deadlock.pdf"
+    },
+    "Lec/lec2 code example/": {
+      "mtime": 1789280288,
+      "size": 288,
+      "outputs": [],
+      "processed_at": "2026-10-06",
+      "skip_reason": "lecture_code_example",
+      "renamed_from": "lec2_code_example",
+      "note": "目录 st_mtime/st_size 与上次扫描不一致; 仍是课件代码示例, 不生成讲义"
+    },
+    "Lec/lec3 code example/": {
+      "mtime": 1789280288,
+      "size": 352,
+      "outputs": [],
+      "processed_at": "2026-10-06",
+      "skip_reason": "lecture_code_example",
+      "renamed_from": "lec3_code_example",
+      "note": "目录 st_mtime/st_size 与上次扫描不一致; 仍是课件代码示例, 不生成讲义"
+    },
+    "Lec/lec4 code example/": {
+      "mtime": 1789280288,
+      "size": 128,
+      "outputs": [],
+      "processed_at": "2026-10-06",
+      "skip_reason": "lecture_code_example",
+      "renamed_from": "lec4_code_example",
+      "note": "目录 st_mtime/st_size 与上次扫描不一致; 仍是课件代码示例, 不生成讲义"
+    },
+    "Lec/OSTEP 28 locks.pdf": {
+      "mtime": 1791187636,
+      "size": 171902,
+      "outputs": [
+        "Lec/OSTEP 28 locks 讲义.md",
+        "cheatsheet.md"
+      ],
+      "processed_at": "2026-10-05",
+      "copied_from": "Lec/textbook/ostep/threads-locks.pdf",
+      "type": "ostep_reading"
+    },
+    "Lec/OSTEP 30 condition variables.pdf": {
+      "mtime": 1791187636,
+      "size": 128770,
+      "outputs": [
+        "Lec/OSTEP 30 condition variables 讲义.md",
+        "cheatsheet.md"
+      ],
+      "processed_at": "2026-10-05",
+      "copied_from": "Lec/textbook/ostep/threads-cv.pdf",
+      "type": "ostep_reading"
+    },
+    "Lec/OSTEP 31 semaphores.pdf": {
+      "mtime": 1791187636,
+      "size": 150277,
+      "outputs": [
+        "Lec/OSTEP 31 semaphores 讲义.md",
+        "cheatsheet.md"
+      ],
+      "processed_at": "2026-10-05",
+      "copied_from": "Lec/textbook/ostep/threads-sema.pdf",
+      "type": "ostep_reading"
+    },
+    "Lec/OSTEP 32 common concurrency problems.pdf": {
+      "mtime": 1791187636,
+      "size": 130552,
+      "outputs": [
+        "Lec/OSTEP 32 common concurrency problems 讲义.md",
+        "cheatsheet.md"
+      ],
+      "processed_at": "2026-10-05",
+      "copied_from": "Lec/textbook/ostep/threads-bugs.pdf",
+      "type": "ostep_reading"
+    },
+    "Lec/lec2 code example/cpu.c": {
+      "mtime": 1789280288,
+      "size": 2159,
+      "outputs": [],
+      "processed_at": "2026-10-07",
+      "skip_reason": "code_example"
+    },
+    "Lec/lec2 code example/io.c": {
+      "mtime": 1789280288,
+      "size": 1397,
+      "outputs": [],
+      "processed_at": "2026-10-07",
+      "skip_reason": "code_example"
+    },
+    "Lec/lec2 code example/mem.c": {
+      "mtime": 1789280288,
+      "size": 2702,
+      "outputs": [],
+      "processed_at": "2026-10-07",
+      "skip_reason": "code_example"
+    },
+    "Lec/lec2 code example/threads.c": {
+      "mtime": 1789280288,
+      "size": 1683,
+      "outputs": [],
+      "processed_at": "2026-10-07",
+      "skip_reason": "code_example"
+    },
+    "Lec/lec2 code example/threads_mutex.c": {
+      "mtime": 1789280288,
+      "size": 1817,
+      "outputs": [],
+      "processed_at": "2026-10-07",
+      "skip_reason": "code_example"
+    },
+    "Lec/lec3 code example/null_dereference.c": {
+      "mtime": 1789280288,
+      "size": 160,
+      "outputs": [],
+      "processed_at": "2026-10-07",
+      "skip_reason": "code_example"
+    },
+    "Lec/lec3 code example/process_create_1.c": {
+      "mtime": 1789280288,
+      "size": 402,
+      "outputs": [],
+      "processed_at": "2026-10-07",
+      "skip_reason": "code_example"
+    },
+    "Lec/lec3 code example/process_create_2.c": {
+      "mtime": 1789280288,
+      "size": 410,
+      "outputs": [],
+      "processed_at": "2026-10-07",
+      "skip_reason": "code_example"
+    },
+    "Lec/lec3 code example/process_create_3.c": {
+      "mtime": 1789280288,
+      "size": 481,
+      "outputs": [],
+      "processed_at": "2026-10-07",
+      "skip_reason": "code_example"
+    },
+    "Lec/lec3 code example/process_terminate_1.c": {
+      "mtime": 1789280288,
+      "size": 378,
+      "outputs": [],
+      "processed_at": "2026-10-07",
+      "skip_reason": "code_example"
+    },
+    "Lec/lec3 code example/process_terminate_2.c": {
+      "mtime": 1789280288,
+      "size": 268,
+      "outputs": [],
+      "processed_at": "2026-10-07",
+      "skip_reason": "code_example"
+    },
+    "Lec/lec3 code example/signal_handler_1.c": {
+      "mtime": 1789280288,
+      "size": 384,
+      "outputs": [],
+      "processed_at": "2026-10-07",
+      "skip_reason": "code_example"
+    },
+    "Lec/lec3 code example/signal_handler_2.c": {
+      "mtime": 1789280288,
+      "size": 637,
+      "outputs": [],
+      "processed_at": "2026-10-07",
+      "skip_reason": "code_example"
+    },
+    "Lec/lec4 code example/check_syscall.c": {
+      "mtime": 1789280288,
+      "size": 137,
+      "outputs": [],
+      "processed_at": "2026-10-07",
+      "skip_reason": "code_example"
+    },
+    "lab/Mini-lab/submission/lab1-heap_3036292116.c": {
+      "mtime": 1789030294,
+      "size": 1194,
+      "outputs": [],
+      "processed_at": "2026-10-07",
+      "skip_reason": "student_submission"
+    },
+    "lab/Mini-lab/submission/lab2-signal_3036292116.c": {
+      "mtime": 1789030294,
+      "size": 676,
+      "outputs": [],
+      "processed_at": "2026-10-07",
+      "skip_reason": "student_submission"
+    },
+    "lab/Mini-lab/submission/lab3-process_3036292116.c": {
+      "mtime": 1789030294,
+      "size": 1084,
+      "outputs": [],
+      "processed_at": "2026-10-07",
+      "skip_reason": "student_submission"
+    },
+    "lab/Mini-lab/submission/lab4-pthread_3036292116.c": {
+      "mtime": 1789030294,
+      "size": 1218,
+      "outputs": [],
+      "processed_at": "2026-10-07",
+      "skip_reason": "student_submission"
+    },
+    "assignment/Utility/hello.c": {
+      "mtime": 1790489995,
+      "size": 80,
+      "outputs": [],
+      "processed_at": "2026-10-07",
+      "skip_reason": "pa_utility"
+    },
+    "assignment/Utility/cmdarg.c": {
+      "mtime": 1790489995,
+      "size": 280,
+      "outputs": [],
+      "processed_at": "2026-10-07",
+      "skip_reason": "pa_utility"
+    },
+    "assignment/Utility/loop.c": {
+      "mtime": 1790489995,
+      "size": 647,
+      "outputs": [],
+      "processed_at": "2026-10-07",
+      "skip_reason": "pa_utility"
+    },
+    "assignment/Utility/lab4-sema.c": {
+      "mtime": 1790489995,
+      "size": 1465,
+      "outputs": [],
+      "processed_at": "2026-10-07",
+      "skip_reason": "pa_utility"
+    },
+    "assignment/Utility/loopever.c": {
+      "mtime": 1790489995,
+      "size": 453,
+      "outputs": [],
+      "processed_at": "2026-10-07",
+      "skip_reason": "pa_utility"
+    },
+    "assignment/Utility/segfault.c": {
+      "mtime": 1790489995,
+      "size": 446,
+      "outputs": [],
+      "processed_at": "2026-10-07",
+      "skip_reason": "pa_utility"
+    },
+    "assignment/Utility/add-loop.c": {
+      "mtime": 1790489995,
+      "size": 125,
+      "outputs": [],
+      "processed_at": "2026-10-07",
+      "skip_reason": "pa_utility"
+    },
+    "assignment/Utility/relay.c": {
+      "mtime": 1790489995,
+      "size": 392,
+      "outputs": [],
+      "processed_at": "2026-10-07",
+      "skip_reason": "pa_utility"
+    },
+    "tut/Tut03 pthread.pdf": {
+      "mtime": 1791603858.2229438,
+      "size": 432886,
+      "outputs": [
+        "tut/Tut03 pthread 总结.md"
+      ],
+      "processed_at": "2026-10-10",
+      "renamed_from": "tut3.pdf"
     }
   }
 }

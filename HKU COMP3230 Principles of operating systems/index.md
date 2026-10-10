@@ -1,26 +1,58 @@
 # COMP3230 — AI 文档索引
 
-> 自动维护 · 最后更新: 2026-09-13
+> 自动维护 · 最后更新: 2026-10-10
 
 ## 快捷
 
 - [课程信息](课程信息.md)
 - [Cheatsheet](cheatsheet.md)
 - [Readme](readme.md)
+- [题集索引](题集/index.md)
 
-## 讲义
+## AI 文档
 
-- [01-course-overview-讲义](Lec/01-course-overview-讲义.md)
-- [02-c-programming-讲义](Lec/02-c-programming-讲义.md)
-- [03-introduction-讲义](Lec/03-introduction-讲义.md)
-- [03-reading-ostep-ch02-introduction-讲义](Lec/03-reading-ostep-ch02-introduction-讲义.md)
-- [04-process-abstraction-讲义](Lec/04-process-abstraction-讲义.md)
-- [05-virtualize-cpu-讲义](Lec/05-virtualize-cpu-讲义.md)
-
-## 题目理解
-
-- [00-lab-warmup-welcome-to-linux-题目理解](lab/Mini-lab/00-lab-warmup-welcome-to-linux-题目理解.md)
-- [01-lab-c-basics-address-space-题目理解](lab/Mini-lab/01-lab-c-basics-address-space-题目理解.md)
-- [02-lab-signal-题目理解](lab/Mini-lab/02-lab-signal-题目理解.md)
-- [03-lab-process-题目理解](lab/Mini-lab/03-lab-process-题目理解.md)
-- [04-lab-pthread-race-condition-题目理解](lab/Mini-lab/04-lab-pthread-race-condition-题目理解.md)
+- [Lec01 course overview 讲义](Lec/Lec01 course overview 讲义.md)
+- [Lec02 c programming 讲义](Lec/Lec02 c programming 讲义.md)
+- [Lec03 introduction 讲义](Lec/Lec03 introduction 讲义.md)
+- [Lec04 process abstraction 讲义](Lec/Lec04 process abstraction 讲义.md)
+- [Lec05 virtualize cpu 讲义](Lec/Lec05 virtualize cpu 讲义.md)
+- [Lec06 scheduling 讲义](Lec/Lec06 scheduling 讲义.md)
+- [Lec07 thread concept 讲义](Lec/Lec07 thread concept 讲义.md)
+- [Lec08 synchronization 讲义](Lec/Lec08 synchronization 讲义.md)
+- [Lec09 deadlock 讲义](Lec/Lec09 deadlock 讲义.md)
+- [OSTEP 2 introduction 讲义](Lec/OSTEP 2 introduction 讲义.md)
+- [OSTEP 26 threads intro 讲义](Lec/OSTEP 26 threads intro 讲义.md)
+- [OSTEP 27 threads api 讲义](Lec/OSTEP 27 threads api 讲义.md)
+- [OSTEP 28 locks 讲义](Lec/OSTEP 28 locks 讲义.md)
+- [OSTEP 30 condition variables 讲义](Lec/OSTEP 30 condition variables 讲义.md)
+- [OSTEP 31 semaphores 讲义](Lec/OSTEP 31 semaphores 讲义.md)
+- [OSTEP 32 common concurrency problems 讲义](Lec/OSTEP 32 common concurrency problems 讲义.md)
+- [OSTEP 4 process 讲义](Lec/OSTEP 4 process 讲义.md)
+- [OSTEP 5 process api 讲义](Lec/OSTEP 5 process api 讲义.md)
+- [OSTEP 6 limited direct execution 讲义](Lec/OSTEP 6 limited direct execution 讲义.md)
+- [OSTEP 7 scheduling 讲义](Lec/OSTEP 7 scheduling 讲义.md)
+- [OSTEP 8 mlfq 讲义](Lec/OSTEP 8 mlfq 讲义.md)
+- [OSTEP 9 lottery 讲义](Lec/OSTEP 9 lottery 讲义.md)
+- [PA01 programming assignment 1 题目理解](assignment/PA01 programming assignment 1 题目理解.md)
+- [PA01 programming assignment 1 解答](assignment/PA01 programming assignment 1 解答.md)
+- [PS01 problem set 1 题目理解](assignment/PS01 problem set 1 题目理解.md)
+- [PS01 problem set 1 解答](assignment/PS01 problem set 1 解答.md)
+- [给AI-final考点与生成约定](docs/给AI-final考点与生成约定.md)
+- [Lab00 warmup welcome to linux 题目理解](lab/Mini-lab/Lab00 warmup welcome to linux 题目理解.md)
+- [Lab01 c basics address space 题目理解](lab/Mini-lab/Lab01 c basics address space 题目理解.md)
+- [Lab02 signal 题目理解](lab/Mini-lab/Lab02 signal 题目理解.md)
+- [Lab03 process 题目理解](lab/Mini-lab/Lab03 process 题目理解.md)
+- [Lab04 pthread race condition 题目理解](lab/Mini-lab/Lab04 pthread race condition 题目理解.md)
+- [README](Lec/lec2 code example/README.md)
+- [Final01 2023-12-13 解析](test&quiz/Final01 2023-12-13 解析.md)
+- [Tut01 warmup 总结](tut/Tut01 warmup 总结.md)
+- [Tut02 processes 总结](tut/Tut02 processes 总结.md)
+- [Tut03 pthread 总结](tut/Tut03 pthread 总结.md)
+- [题集01 c programming](题集/题集01 c programming.md)
+- [题集02 intro os](题集/题集02 intro os.md)
+- [题集03 process abstraction](题集/题集03 process abstraction.md)
+- [题集04 virtualize cpu](题集/题集04 virtualize cpu.md)
+- [题集05 scheduling](题集/题集05 scheduling.md)
+- [题集06 thread concept](题集/题集06 thread concept.md)
+- [题集07 synchronization](题集/题集07 synchronization.md)
+- [题集08 deadlock](题集/题集08 deadlock.md)

@@ -1,61 +1,65 @@
 {
   "version": 1,
-  "last_scan": "2026-09-13T06:28:40.148598+00:00",
+  "last_scan": "2026-10-08T05:55:36Z",
   "sources": {
-    "Lec/handout/01-introduction-handout.pdf": {
+    "Lec/handout/Handout01 introduction handout.pdf": {
       "mtime": 1788234566,
       "size": 866314,
       "outputs": [],
       "processed_at": "2026-09-07",
-      "note": "handout folder; 讲义尚未按此文件重生成"
+      "note": "2026-10-03 scan: 用户选择保留 slides 讲义, 不按 handout 重写",
+      "renamed_from": "Lec/handout/01-introduction-handout.pdf",
+      "skip_reason": "handout_canonical_slides_lecture_notes"
     },
-    "Lec/01-introduction-slides.pdf": {
+    "Lec/Lec01 introduction slides.pdf": {
       "mtime": 1788234521,
       "size": 380473,
       "outputs": [
         "课程信息.md",
-        "Lec/01-introduction-slides-讲义.md"
+        "Lec/Lec01 introduction slides 讲义.md"
       ],
-      "processed_at": "2026-09-07"
+      "processed_at": "2026-09-07",
+      "renamed_from": "Lec/01-introduction-slides.pdf"
     },
-    "Lec/01-introduction-slides-long.pdf": {
+    "Lec/Lec01 introduction slides long.pdf": {
       "mtime": 1788488791,
       "size": 1461711,
       "outputs": [],
       "processed_at": "2026-09-07",
       "skip_reason": "duplicate",
-      "duplicate_of": "Lec/01-introduction-slides.pdf",
-      "renamed_from": "Lec/02-introduction-slides-long.pdf"
+      "duplicate_of": "Lec/Lec01 introduction slides.pdf",
+      "renamed_from": "Lec/01-introduction-slides-long.pdf"
     },
-    "Lec/textbook/01-boyd-vandenberghe-convex-optimization.pdf": {
+    "Lec/textbook/Textbook01 boyd vandenberghe convex optimization.pdf": {
       "mtime": 1788248538,
       "size": 6881335,
       "outputs": [],
       "processed_at": "2026-09-07",
       "skip_reason": "optional_textbook",
       "large_doc": true,
-      "renamed_from": "Lec/04-boyd-vandenberghe-convex-optimization.pdf"
+      "renamed_from": "Lec/textbook/01-boyd-vandenberghe-convex-optimization.pdf"
     },
-    "Lec/handout/02-unconstrained-handout.pdf": {
+    "Lec/handout/Handout02 unconstrained handout.pdf": {
       "mtime": 1788488779,
       "size": 766002,
       "outputs": [],
       "processed_at": "2026-09-07",
-      "renamed_from": "Lec/02-unconstrained-slides.pdf",
-      "note": "user_corrected_type: was mislabeled slides; 讲义尚未按此 handout 重生成"
+      "renamed_from": "Lec/handout/02-unconstrained-handout.pdf",
+      "note": "2026-10-03 scan: 用户选择保留 slides 讲义, 不按 handout 重写",
+      "skip_reason": "handout_canonical_slides_lecture_notes"
     },
-    "Lec/02-unconstrained-slides.pdf": {
+    "Lec/Lec02 unconstrained slides.pdf": {
       "mtime": 1788488773,
       "size": 451304,
       "outputs": [
-        "Lec/02-unconstrained-slides-讲义.md"
+        "Lec/Lec02 unconstrained slides 讲义.md"
       ],
       "processed_at": "2026-09-07",
       "large_doc": true,
       "sections_done": [
         "all"
       ],
-      "renamed_from": "Lec/handout/02-unconstrained-handout.pdf",
+      "renamed_from": "Lec/02-unconstrained-slides.pdf",
       "note": "user_corrected_type: was mislabeled handout; 讲义基于此 PDF"
     },
     "docs/MATH3900.webarchive": {
@@ -67,21 +71,114 @@
       "processed_at": "2026-09-09",
       "skip_reason": "course_info_webarchive"
     },
-    "tut/01-tutorial-01.pdf": {
-      "mtime": 1789280714.5619812,
+    "tut/Tut01.pdf": {
+      "mtime": 1789280714,
       "size": 124389,
       "outputs": [
-        "tut/01-tutorial-01-总结.md"
+        "tut/Tut01 总结.md"
       ],
-      "processed_at": "2026-09-13"
+      "processed_at": "2026-09-13",
+      "renamed_from": "tut/01-tutorial-01.pdf"
     },
-    "tut/01-tutorial-01-sol.pdf": {
-      "mtime": 1789280714.5511696,
+    "tut/Tut01 sol.pdf": {
+      "mtime": 1789280714,
       "size": 147594,
       "outputs": [],
       "processed_at": "2026-09-13",
       "note": "official sol",
-      "skip_reason": "official_solution"
+      "skip_reason": "official_solution",
+      "renamed_from": "tut/01-tutorial-01-sol.pdf"
+    },
+    "assignment/Assignment01.pdf": {
+      "mtime": 1789530843,
+      "size": 158864,
+      "outputs": [
+        "assignment/Assignment01 题目理解.md",
+        "assignment/Assignment01 解答.md"
+      ],
+      "processed_at": "2026-09-16",
+      "renamed_from": "assignment/01-assignment-01.pdf"
+    },
+    "assignment/Assignment01-Dai Yuxuan-3036292116.pdf": {
+      "mtime": 1789706577,
+      "size": 3542502,
+      "outputs": [],
+      "skip_reason": "submitted_work",
+      "renamed_from": "assignment/assignment 1-Dai Yuxuan-3036292116.pdf"
+    },
+    "tut/Tut02.pdf": {
+      "mtime": 1789716716,
+      "size": 131855,
+      "processed_at": "2026-09-18T20:21:16",
+      "outputs": [
+        "tut/Tut02 总结.md"
+      ],
+      "renamed_from": "tut/02-tutorial-02.pdf"
+    },
+    "tut/Tut02 sol.pdf": {
+      "mtime": 1789716717,
+      "size": 151612,
+      "processed_at": "2026-09-18T20:21:16",
+      "outputs": [
+        "tut/Tut02 总结.md"
+      ],
+      "skip_reason": "paired_with_questions",
+      "renamed_from": "tut/02-tutorial-02-sol.pdf"
+    },
+    "tut/Tut03.pdf": {
+      "mtime": 1790490323,
+      "size": 126511,
+      "processed_at": "2026-09-27",
+      "outputs": [
+        "tut/Tut03 总结.md"
+      ],
+      "renamed_from": "tut/03-tutorial-03.pdf"
+    },
+    "tut/Tut03 sol.pdf": {
+      "mtime": 1790490323,
+      "size": 392149,
+      "processed_at": "2026-09-27",
+      "outputs": [
+        "tut/Tut03 总结.md"
+      ],
+      "skip_reason": "paired_sol",
+      "renamed_from": "tut/03-tutorial-03-sol.pdf"
+    },
+    "assignment/Assignment02.pdf": {
+      "mtime": 1790679229,
+      "size": 144946,
+      "outputs": [
+        "assignment/Assignment02 题目理解.md",
+        "assignment/Assignment02 解答.md"
+      ],
+      "processed_at": "2026-09-29",
+      "renamed_from": "assignment_2.pdf"
+    },
+    "tut/Tut04.pdf": {
+      "mtime": 1790928260,
+      "size": 155091,
+      "processed_at": "2026-10-02",
+      "outputs": [
+        "tut/Tut04 总结.md"
+      ],
+      "renamed_from": "tutorial4_question.pdf"
+    },
+    "tut/Tut04 sol.pdf": {
+      "mtime": 1790928260,
+      "size": 172872,
+      "processed_at": "2026-10-02",
+      "outputs": [],
+      "skip_reason": "official_solution",
+      "renamed_from": "tutorial4_solution.pdf"
+    },
+    "exam-review/Test01 cheat sheet scan.pdf": {
+      "mtime": 1791203376,
+      "size": 1678941,
+      "outputs": [],
+      "processed_at": "2026-10-06",
+      "skip_reason": "handwritten_handout",
+      "renamed_from": "Cheatsheet(2).pdf",
+      "note": "iOS Quartz SFUI PDF; uPrint RIP 不友好; 学生 Test1 扫描稿, 不生成讲义"
     }
   }
 }

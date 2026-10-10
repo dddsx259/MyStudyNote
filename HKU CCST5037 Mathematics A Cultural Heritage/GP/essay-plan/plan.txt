@@ -1,0 +1,19 @@
+Is Infinity Only for God?
+Cantor’s Mathematics and Catholic Theology
+CCST5037 Assignment 1 Group Project Plan
+Group members and tutorial
+Ryan Zhao (UID 3036297398); Dai Yuxuan, Tim (UID 3036292116).
+Tutorial: [tutor, group, day and time].
+Topic and motivation
+We chose this topic because Cantor’s distinction between mathematical and divine infinity could ease religious concerns while leaving further disagreements unresolved. Why could readers accept a concept but reject what its author inferred from it?
+Main work and central theme
+Our main work is Dauben’s biography, especially chapter 6. We argue that the theologians assessed particular claims through their views of divine perfection: Franzelin defended freedom in creation; Gutberlet defended divine knowledge. We will develop Dauben’s account of recognition by distinguishing acceptance of a concept from acceptance of its consequences.
+
+
+Proposed content and course connections
+We will explain Cantor’s distinction accessibly, using Aquinas as historical background. Close readings of the January 1886 correspondence and Gutberlet’s argument about God knowing every digit of pi will test our interpretation. Their comparison will show why recognising infinite objects of knowledge need not entail an infinite creation. This addresses CLO 2 through mathematics as a human cultural activity and CLO 3 through its interaction with theology. Our conclusions will concern these documented exchanges.
+Basic references
+Dauben, J. W. (1979). Georg Cantor: His Mathematics and Philosophy of the Infinite. Harvard University Press, ch. 6. Main work.
+Cantor, G. (1932). Gesammelte Abhandlungen mathematischen und philosophischen Inhalts (E. Zermelo, Ed.). Springer: Grundlagen §8; correspondence, pp. 385–386, 399–400. Primary sources.
+Gutberlet, C. (1886). Das Problem des Unendlichen. Zeitschrift für Philosophie und philosophische Kritik, 88, 179–223. Primary source.
+Aquinas, T. Summa Theologiae, I, q. 7. Primary source.

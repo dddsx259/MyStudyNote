@@ -1,6 +1,8 @@
 # cheatsheet
 
 > 约定 (course-learning): 定义/定理/命题等应写清 **假设** 与 **结论** (或 **定义**). 本文件为 Finished 课旧稿格式, 未整册改写; 复习时若遇口号式条目, 回讲义补全假设. 新课 cheatsheet 以 MATH3900 等为准.
+> 命名: 优先教材/讲义标题; 须附英文全称; 自行整理名须标 `(自拟)`.
+> 勾选: 每条顶层词条前的 `- [ ]` 用于标记是否已手写整理入 HandCS, 或已决定省略; `[x]` = 已处理.
 
 ## PART1: definition
 ### 1. Triangular matrix:   
@@ -56,13 +58,13 @@ And S is called the **generation set** of $span\{s\}$;
 ### 12. Elementary matrix
 An **elementary matrix** is a matrix obtained from the identity matrix by performing a **single ERO**.
 Specifically:
-- **Type I Elementary Matrix**:
+- [ ] **Type I Elementary Matrix**:
     - Corresponds to **swapping** two different rows.
     - e.g. swapping the first row with the second row in a 3x3 identity matrix.
-- **Type II Elementary Matrix**:
+- [ ] **Type II Elementary Matrix**:
     - Corresponds to **multiplying** a row by a non-zero scalar.
     - e.g. multiplying the second row of the identity matrix by a non-zero constant k.
-- **Type III Elementary Matrix**:
+- [ ] **Type III Elementary Matrix**:
     - Corresponds to **adding** a multiple of one row to another row.
     - e.g. in the identity matrix, adding k times the second row to the first row (where k is any constant).
 

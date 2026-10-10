@@ -1,18 +1,18 @@
 {
   "version": 1,
-  "last_scan": "2026-09-13T06:28:40.148598+00:00",
+  "last_scan": "2026-10-08T05:55:36Z",
   "sources": {
-    "Lec/01-probability-theory-lecture-notes.pdf": {
+    "Lec/Lec01 probability theory lecture notes.pdf": {
       "mtime": 1788234590,
       "size": 640870,
       "outputs": [
         "课程信息.md",
-        "Lec/01-probability-theory-lecture-notes-目录索引.md",
-        "Lec/02-probability-theory-lecture-notes-Ch01-讲义.md",
-        "Lec/03-probability-theory-lecture-notes-Ch02-讲义.md",
-        "Lec/04-probability-theory-lecture-notes-Ch03-讲义.md",
-        "Lec/05-probability-theory-lecture-notes-Ch04-讲义.md",
-        "Lec/06-probability-theory-lecture-notes-Ch05-讲义.md"
+        "Lec/Lec01 probability theory lecture notes 目录索引.md",
+        "Lec/Lec01 probability theory lecture notes Ch01 讲义.md",
+        "Lec/Lec02 probability theory lecture notes Ch02 讲义.md",
+        "Lec/Lec03 probability theory lecture notes Ch03 讲义.md",
+        "Lec/Lec04 probability theory lecture notes Ch04 讲义.md",
+        "Lec/Lec05 probability theory lecture notes Ch05 讲义.md"
       ],
       "processed_at": "2026-09-04",
       "large_doc": true,
@@ -22,14 +22,16 @@
         "Ch03",
         "Ch04",
         "Ch05"
-      ]
+      ],
+      "renamed_from": "Lec/01-probability-theory-lecture-notes.pdf"
     },
-    "Lec/handout/01-in-class-notes-1-sample-space-event-probability.pdf": {
+    "Lec/handout/Handout01 in class notes 1 sample space event probability.pdf": {
       "mtime": 1788606839,
       "size": 5165431,
       "outputs": [],
       "processed_at": "2026-09-07",
-      "skip_reason": "handwritten_handout"
+      "skip_reason": "handwritten_handout",
+      "renamed_from": "Lec/handout/01-in-class-notes-1-sample-space-event-probability.pdf"
     },
     "docs/MATH3603.webarchive": {
       "mtime": 1788243689,
@@ -40,36 +42,388 @@
       "processed_at": "2026-09-09",
       "skip_reason": "course_info_webarchive"
     },
-    "tut/01-tutorial-01.pdf": {
+    "tut/Tut01.pdf": {
       "mtime": 1789013178,
       "size": 85603,
       "outputs": [
-        "tut/01-tutorial-01-总结.md"
+        "tut/Tut01 总结.md"
       ],
-      "processed_at": "2026-09-10"
+      "processed_at": "2026-09-10",
+      "renamed_from": "tut/01-tutorial-01.pdf"
     },
-    "tut/01-tutorial-01-sol.pdf": {
+    "tut/Tut01 sol.pdf": {
       "mtime": 1789013179,
       "size": 139401,
       "outputs": [],
       "processed_at": "2026-09-10",
-      "skip_reason": "official_solution"
+      "skip_reason": "official_solution",
+      "renamed_from": "tut/01-tutorial-01-sol.pdf"
     },
-    "assignment/01-homework-01.pdf": {
+    "assignment/Homework01.pdf": {
       "mtime": 1789013172,
       "size": 79242,
       "outputs": [
-        "assignment/01-homework-01-题目理解.md",
-        "assignment/01-homework-01-解答.md"
+        "assignment/Homework01 题目理解.md",
+        "assignment/Homework01 解答.md"
       ],
-      "processed_at": "2026-09-10"
+      "processed_at": "2026-09-10",
+      "renamed_from": "assignment/01-homework-01.pdf"
     },
-    "assignment/01-homework-01-submission.pdf": {
-      "mtime": 1789039319.1992853,
+    "assignment/Homework01-Dai Yuxuan-3036292116.pdf": {
+      "mtime": 1789039319,
       "size": 1597105,
       "outputs": [],
       "processed_at": "2026-09-13",
-      "skip_reason": "student_submission"
+      "skip_reason": "student_submission",
+      "renamed_from": "assignment/homework 1-Dai Yuxuan-3036292116.pdf"
+    },
+    "tut/Tut02.pdf": {
+      "mtime": 1789716662,
+      "size": 32069,
+      "processed_at": "2026-09-18T20:21:16",
+      "outputs": [
+        "tut/Tut02 总结.md"
+      ],
+      "renamed_from": "tut/02-tutorial-02.pdf"
+    },
+    "tut/Tut02 sol.pdf": {
+      "mtime": 1790490265,
+      "size": 75141,
+      "processed_at": "2026-09-28",
+      "outputs": [
+        "tut/Tut02 总结.md"
+      ],
+      "skip_reason": "paired_with_questions",
+      "renamed_from": "tut/02-tutorial-02-sol.pdf"
+    },
+    "assignment/Homework02.pdf": {
+      "mtime": 1790490265,
+      "size": 80486,
+      "processed_at": "2026-09-27",
+      "outputs": [
+        "assignment/Homework02 题目理解.md",
+        "assignment/Homework02 解答.md"
+      ],
+      "renamed_from": "assignment/02-homework-02.pdf"
+    },
+    "assignment/Homework01 official solution.pdf": {
+      "mtime": 1790490265,
+      "size": 34423,
+      "processed_at": "2026-09-27",
+      "outputs": [],
+      "skip_reason": "official_solution",
+      "note": "linked from assignment/Homework01 解答.md",
+      "renamed_from": "assignment/02-homework-01-official-solution.pdf"
+    },
+    "tut/Tut03.pdf": {
+      "mtime": 1790490265,
+      "size": 110223,
+      "processed_at": "2026-09-27",
+      "outputs": [
+        "tut/Tut03 总结.md"
+      ],
+      "renamed_from": "tut/03-tutorial-03.pdf"
+    },
+    "tut/Tut03 sol.pdf": {
+      "mtime": 1790490265,
+      "size": 148530,
+      "processed_at": "2026-09-27",
+      "outputs": [
+        "tut/Tut03 总结.md"
+      ],
+      "skip_reason": "paired_sol",
+      "renamed_from": "tut/03-tutorial-03-sol.pdf"
+    },
+    "tut/Tut04.pdf": {
+      "mtime": 1790490265,
+      "size": 77027,
+      "processed_at": "2026-09-27",
+      "outputs": [
+        "tut/Tut04 总结.md"
+      ],
+      "renamed_from": "tut/04-tutorial-04.pdf"
+    },
+    "assignment/Homework02-Dai Yuxuan-3036292116.pdf": {
+      "mtime": 1790663887,
+      "size": 1122939,
+      "outputs": [],
+      "processed_at": "2026-09-29",
+      "skip_reason": "student_submission",
+      "renamed_from": "Homework02(1).pdf"
+    },
+    "docs/archives/previous/test&quiz/Test01.pdf": {
+      "mtime": 1774315114,
+      "size": 92233,
+      "outputs": [
+        "test&quiz/Quiz01 备考 往年Test01.md"
+      ],
+      "processed_at": "2026-09-30",
+      "archive": "previous"
+    },
+    "docs/archives/previous/test&quiz/Test02.heic": {
+      "mtime": 1776304447,
+      "size": 856763,
+      "outputs": [],
+      "processed_at": "2026-09-30",
+      "archive": "previous",
+      "skip_reason": "previous_exam_photo"
+    },
+    "docs/archives/previous/Lec/in-class-notes/Handout01 in class notes.pdf": {
+      "mtime": 1768806826,
+      "size": 24003954,
+      "outputs": [],
+      "processed_at": "2026-09-30",
+      "skip_reason": "handwritten_handout",
+      "archive": "previous"
+    },
+    "docs/archives/previous/Lec/in-class-notes/Handout02 in class notes.pdf": {
+      "mtime": 1770253654,
+      "size": 63789637,
+      "outputs": [],
+      "processed_at": "2026-09-30",
+      "skip_reason": "handwritten_handout",
+      "archive": "previous"
+    },
+    "docs/archives/previous/Lec/in-class-notes/Handout03 in class notes.pdf": {
+      "mtime": 1768806826,
+      "size": 32239581,
+      "outputs": [],
+      "processed_at": "2026-09-30",
+      "skip_reason": "handwritten_handout",
+      "archive": "previous"
+    },
+    "docs/archives/previous/Lec/in-class-notes/Handout04 in class notes.pdf": {
+      "mtime": 1768806826,
+      "size": 67529509,
+      "outputs": [],
+      "processed_at": "2026-09-30",
+      "skip_reason": "handwritten_handout",
+      "archive": "previous"
+    },
+    "docs/archives/previous/Lec/in-class-notes/Handout05 in class notes.pdf": {
+      "mtime": 1768806826,
+      "size": 52599025,
+      "outputs": [],
+      "processed_at": "2026-09-30",
+      "skip_reason": "handwritten_handout",
+      "archive": "previous"
+    },
+    "docs/archives/previous/assignment/Homework01 solution.pdf": {
+      "mtime": 1786099142,
+      "size": 34423,
+      "outputs": [],
+      "processed_at": "2026-09-30",
+      "skip_reason": "previous_year_archive",
+      "note": "往年资料; 仅备考参考, 不生成讲义/总结"
+    },
+    "docs/archives/previous/assignment/Homework02 solution.pdf": {
+      "mtime": 1786099144,
+      "size": 115803,
+      "outputs": [],
+      "processed_at": "2026-09-30",
+      "skip_reason": "previous_year_archive",
+      "note": "往年资料; 仅备考参考, 不生成讲义/总结"
+    },
+    "docs/archives/previous/assignment/Homework03 solution.pdf": {
+      "mtime": 1786099146,
+      "size": 149972,
+      "outputs": [],
+      "processed_at": "2026-09-30",
+      "skip_reason": "previous_year_archive",
+      "note": "往年资料; 仅备考参考, 不生成讲义/总结"
+    },
+    "docs/archives/previous/assignment/Homework04 solution.pdf": {
+      "mtime": 1786099147,
+      "size": 126939,
+      "outputs": [],
+      "processed_at": "2026-09-30",
+      "skip_reason": "previous_year_archive",
+      "note": "往年资料; 仅备考参考, 不生成讲义/总结"
+    },
+    "docs/archives/previous/assignment/Homework05 solution.pdf": {
+      "mtime": 1786099148,
+      "size": 80875,
+      "outputs": [],
+      "processed_at": "2026-09-30",
+      "skip_reason": "previous_year_archive",
+      "note": "往年资料; 仅备考参考, 不生成讲义/总结"
+    },
+    "docs/archives/previous/tut/Tut01 solution.pdf": {
+      "mtime": 1786099157,
+      "size": 139401,
+      "outputs": [],
+      "processed_at": "2026-09-30",
+      "skip_reason": "previous_year_archive",
+      "note": "往年资料; 仅备考参考, 不生成讲义/总结"
+    },
+    "docs/archives/previous/tut/Tut02 solution.pdf": {
+      "mtime": 1786099158,
+      "size": 75141,
+      "outputs": [],
+      "processed_at": "2026-09-30",
+      "skip_reason": "previous_year_archive",
+      "note": "往年资料; 仅备考参考, 不生成讲义/总结"
+    },
+    "docs/archives/previous/tut/Tut03 solution.pdf": {
+      "mtime": 1786099161,
+      "size": 148530,
+      "outputs": [],
+      "processed_at": "2026-09-30",
+      "skip_reason": "previous_year_archive",
+      "note": "往年资料; 仅备考参考, 不生成讲义/总结"
+    },
+    "docs/archives/previous/tut/Tut04 solution.pdf": {
+      "mtime": 1786099162,
+      "size": 155649,
+      "outputs": [],
+      "processed_at": "2026-09-30",
+      "skip_reason": "previous_year_archive",
+      "note": "往年资料; 仅备考参考, 不生成讲义/总结"
+    },
+    "docs/archives/previous/tut/Tut06 solution.pdf": {
+      "mtime": 1786099164,
+      "size": 127616,
+      "outputs": [],
+      "processed_at": "2026-09-30",
+      "skip_reason": "previous_year_archive",
+      "note": "往年资料; 仅备考参考, 不生成讲义/总结"
+    },
+    "docs/archives/previous/tut/Tut08 solution.pdf": {
+      "mtime": 1786099165,
+      "size": 63278,
+      "outputs": [],
+      "processed_at": "2026-09-30",
+      "skip_reason": "previous_year_archive",
+      "note": "往年资料; 仅备考参考, 不生成讲义/总结"
+    },
+    "docs/archives/previous/tut/Tut09 solution.pdf": {
+      "mtime": 1786099166,
+      "size": 130540,
+      "outputs": [],
+      "processed_at": "2026-09-30",
+      "skip_reason": "previous_year_archive",
+      "note": "往年资料; 仅备考参考, 不生成讲义/总结"
+    },
+    "docs/archives/previous/tut/Tut11 solution.pdf": {
+      "mtime": 1786099167,
+      "size": 139503,
+      "outputs": [],
+      "processed_at": "2026-09-30",
+      "skip_reason": "previous_year_archive",
+      "note": "往年资料; 仅备考参考, 不生成讲义/总结"
+    },
+    "docs/archives/previous/tut/Tut12 solution.pdf": {
+      "mtime": 1786099169,
+      "size": 116310,
+      "outputs": [],
+      "processed_at": "2026-09-30",
+      "skip_reason": "previous_year_archive",
+      "note": "往年资料; 仅备考参考, 不生成讲义/总结"
+    },
+    "docs/archives/previous/tut/Tut13 solution.pdf": {
+      "mtime": 1786099172,
+      "size": 141465,
+      "outputs": [],
+      "processed_at": "2026-09-30",
+      "skip_reason": "previous_year_archive",
+      "note": "往年资料; 仅备考参考, 不生成讲义/总结"
+    },
+    "tut/Tut05.pdf": {
+      "mtime": 1790928306,
+      "size": 69120,
+      "processed_at": "2026-10-02",
+      "outputs": [
+        "tut/Tut05 总结.md"
+      ],
+      "renamed_from": "MATH3603_Tutorial_5 (1).pdf"
+    },
+    "tut/Tut04 sol.pdf": {
+      "mtime": 1791253919,
+      "size": 144551,
+      "outputs": [
+        "tut/Tut04 总结.md"
+      ],
+      "processed_at": "2026-10-06",
+      "skip_reason": "paired_sol",
+      "renamed_from": "Tutorial 4 Solution.pdf"
+    },
+    "docs/archives/previous/test&quiz/Test01 with solution.pdf": {
+      "mtime": 1791262296,
+      "size": 179231,
+      "outputs": [
+        "exam-review/Review02 往年试卷考点分析.md"
+      ],
+      "processed_at": "2026-10-06",
+      "skip_reason": "previous_year_archive",
+      "renamed_from": "test1_with_solution.pdf",
+      "note": "另一套 Test 1 带官方 sol; 与 Test01.pdf 不是同一张卷"
+    },
+    "docs/archives/previous/test&quiz/Test02 with solution.pdf": {
+      "mtime": 1791262296,
+      "size": 147580,
+      "outputs": [
+        "exam-review/Review02 往年试卷考点分析.md"
+      ],
+      "processed_at": "2026-10-06",
+      "skip_reason": "previous_year_archive",
+      "renamed_from": "test2_with_solution.pdf",
+      "note": "Test 2 带官方 sol; Markov + 随机和, 超出 Quiz1"
+    },
+    "docs/archives/previous/assignment/Homework01.pdf": {
+      "mtime": 1791263978,
+      "size": 78991,
+      "outputs": [],
+      "processed_at": "2026-10-06",
+      "skip_reason": "previous_year_archive",
+      "note": "2026 春往年作业题面, 与同目录 Homework0k solution.pdf 配对; 不与本学期 assignment/ 混放"
+    },
+    "docs/archives/previous/assignment/Homework02.pdf": {
+      "mtime": 1791263978,
+      "size": 74130,
+      "outputs": [],
+      "processed_at": "2026-10-06",
+      "skip_reason": "previous_year_archive",
+      "note": "2026 春往年作业题面, 与同目录 Homework0k solution.pdf 配对; 不与本学期 assignment/ 混放"
+    },
+    "docs/archives/previous/assignment/Homework03.pdf": {
+      "mtime": 1791263978,
+      "size": 84205,
+      "outputs": [],
+      "processed_at": "2026-10-06",
+      "skip_reason": "previous_year_archive",
+      "note": "2026 春往年作业题面, 与同目录 Homework0k solution.pdf 配对; 不与本学期 assignment/ 混放"
+    },
+    "docs/archives/previous/assignment/Homework04.pdf": {
+      "mtime": 1791263978,
+      "size": 85993,
+      "outputs": [],
+      "processed_at": "2026-10-06",
+      "skip_reason": "previous_year_archive",
+      "note": "2026 春往年作业题面, 与同目录 Homework0k solution.pdf 配对; 不与本学期 assignment/ 混放"
+    },
+    "docs/archives/previous/assignment/Homework05.pdf": {
+      "mtime": 1791263978,
+      "size": 93075,
+      "outputs": [],
+      "processed_at": "2026-10-06",
+      "skip_reason": "previous_year_archive",
+      "note": "2026 春往年作业题面, 与同目录 Homework0k solution.pdf 配对; 不与本学期 assignment/ 混放"
+    },
+    "exam-review/定义定理摘录.md": {
+      "mtime": 1791292462,
+      "size": 9969,
+      "outputs": [
+        "exam-review/定义定理摘录.md"
+      ],
+      "processed_at": "2026-10-07",
+      "skip_reason": "user_exam_review_notes"
+    },
+    "exam-review/定义定理摘录.pdf": {
+      "mtime": 1791341433,
+      "size": 539715,
+      "outputs": [],
+      "processed_at": "2026-10-07",
+      "skip_reason": "derived_from_md"
     }
   }
 }

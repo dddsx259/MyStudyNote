@@ -2,136 +2,146 @@
 
 > 词条/公式/定理速查; 对话中学到的内容会增量追加.
 > 约定: **定义 / 定理 / 命题 / 推论** (及带保证的公式) 一律写清 **假设** 与 **结论** (或 **定义** / **含义**); 证明见对应讲义. 文化/课程概念写清 **定义** 或 **含义** 与适用语境. 本表不放长证明; 必要时仅保留一句级「反证思路」提示.
+> 命名: 优先讲义标题; 须附严谨英文全称; 讲义未命名而自行整理的名称须标 `(自拟)`.
+> 勾选: 每条顶层词条前的 `- [ ]` 用于标记是否已手写整理入 HandCS, 或已决定省略; `[x]` = 已处理.
 
 ---
 
 ## 名词
 
-+ **Course Learning Outcomes (CLO)** / **课程学习成果**:
+- [ ] **Course Learning Outcomes (CLO)** / **课程学习成果**:
     + **含义**: 本课目标框架, 常概括为: 美与用与「道」; 数学作为人类文化; 与其他文化领域互动; 文明发展中的角色
     + **语境**: 小组项目 (GP) / essay 须显式对接 CLO, 非仅堆砌数学史事实
 
-+ **Central theme** / **中心主题**:
+- [ ] **Central theme** / **中心主题**:
     + **定义**: Group essay 贯穿全文的清晰论点
     + **语境**: Assignment / GP; 区别于单纯书评或材料摘要
 
-+ **Explicit connection** / **显式关联** (Assignment 2):
+- [ ] **Explicit connection** / **显式关联** (Assignment 2):
     + **定义**: 所选文章本身须明确提到数学
     + **语境**: 仅含数字/数据, 或依赖读者自行联想, 不算满足要求
 
-+ **Way of Mathematics** / **数学之道**:
+- [ ] **Way of Mathematics** / **数学之道**:
     + **含义**: 概括 (generalization) 与抽象 (abstraction); 把问题搬到更易处理的数学世界
     + **语境**: 贯穿 Numbers / New Math 等讲次的方法论口号
 
-+ **Correspondence / one-to-one matching** / **一一对应**:
+- [ ] **Correspondence / one-to-one matching** / **一一对应**:
     + **定义**: 两集合间可互逆配对 (双射直觉); 「三」的抽象内核与具体苹果/羊无关
     + **语境**: 计数起源; 后接 Cantor 等势
 
-+ **Positional number system** / **进位制记数**:
+- [ ] **Positional number system** / **进位制记数**:
     + **定义**: 同一符号兼有绝对值与位置值 (权随位变)
     + **语境**: 对比罗马等非进位制; Laplace 赞叹十进制之精妙
 
-+ **Sexagesimal (hexagesimal)** / **六十进制**:
+- [ ] **Sexagesimal (hexagesimal)** / **六十进制**:
     + **定义**: 以 60 为基的记数系统
     + **语境**: 巴比伦记数; 今仍见于时间与角度
 
-+ **Commensurable** / **可通约**:
+- [ ] **Commensurable** / **可通约**:
     + **定义**: 两量存在公共度量, 且皆为其整数倍 (等价于比值有理)
     + **语境**: Pythagoreans 曾信「一切量可通约」; 被 $\sqrt{2}$ 冲击 (历史信念, 非定理)
 
-+ **Potential vs actual infinity** / **潜无穷 vs 实无穷**:
+- [ ] **Potential vs actual infinity** / **潜无穷 vs 实无穷**:
     + **含义**: 潜无穷 = 任意大的有限过程; 实无穷 = 把无穷集合当作「全体」对象
     + **语境**: 古希腊更接受前者; 惠施「一尺之棰」偏潜无穷表述; Cantor 把实无穷数学化
 
-+ **Cardinality** / **势 / 基数**:
+- [ ] **Cardinality** / **势 / 基数**:
     + **定义**: 两集合存在一一对应则等势 (Cantor)
     + **语境**: 伽利略「完全平方与自然数等势却似更少」; Hilbert hotel
 
-+ **Topology** / **拓扑**:
+- [ ] **Topology** / **拓扑**:
     + **含义**: 允许连续形变 (不撕不粘) 下不变的形状性质 (如洞的个数/亏格)
     + **语境**: 杯与甜甜圈同类; Königsberg 七桥 (Euler)
 
-+ **Nash equilibrium** / **纳什均衡**:
+- [ ] **Nash equilibrium** / **纳什均衡**:
     + **定义**: 策略组合中, 无人可单方面改变己方策略而严格改善自身收益
     + **语境**: 博弈论 (1950); 与极小极大/零和对照
 
-+ **Prisoner's dilemma** / **囚徒困境**:
+- [ ] **Prisoner's dilemma** / **囚徒困境**:
     + **含义**: 个体理性选择导致集体更差结果的博弈结构
     + **语境**: Lec04 博弈论; 社会/军事策略讨论
 
-+ **Quadrivium** / **四艺**:
+- [ ] **Quadrivium** / **四艺**:
     + **定义**: Arithmetic, Geometry, Astronomy, Music
     + **语境**: 柏拉图学园等古典教育内容; Lec05 教育史
 
-+ **Confucian-heritage culture (CHC) paradox** / **儒家文化圈学习悖论**:
+- [ ] **Confucian-heritage culture (CHC) paradox** / **儒家文化圈学习悖论**:
     + **含义**: 「死记硬背印象」与高成就/学生自报偏好意义策略之间的张力
     + **语境**: 社会科学观察与国际比较 (非数学定理)
 
-+ **Axiomatic–deductive vs pragmatic** / **公理演绎 vs 实用程序**:
+- [ ] **圆周率 (自拟) (circle constant $\pi$)**:
+    + **定义**: 欧氏平面上, 圆周长 $C$ 与直径 $d=2r$ 之比 $\pi=C/d=C/(2r)$. 相似放大时 $C$ 与 $d$ 同倍放大, 故比值与圆的大小无关
+    + **注**: 面积 $A=\pi r^2$ 由该定义推出, 不是定义本身. 符号 $\pi$ 为 Jones (1706) 引入, Euler 推广; 数早于符号. 来源: Lec06 讨论补充
+
+- [ ] **无理数与超越数 (自拟) (irrational number and transcendental number)**:
+    + **定义**: 无理数不是两个整数之比. 超越数不是任何整系数多项式的根. 代数数是某个整系数多项式的根
+    + **注**: $\sqrt{2}$ 无理但是代数数 ($x^2-2=0$). 尺规能作出某些无理长度, 所以「$\pi$ 无理」推不出化圆为方不可能. 来源: Lec08 讨论补充
+
+- [ ] **Axiomatic–deductive vs pragmatic** / **公理演绎 vs 实用程序**:
     + **含义**: 希腊 *Elements* 风格 (公理→定理→证明) vs 问题—解法传统 (如《九章》)
     + **语境**: Lec06 文化比较; 勿简单二分「一方有证明一方无」
 
-+ **Parallel postulate / Playfair's axiom** / **平行公设 / 普莱费尔公理**:
+- [ ] **Parallel postulate / Playfair's axiom** / **平行公设 / 普莱费尔公理**:
     + **定义** (Playfair 形式): 过直线外一点, 恰有一条与已知直线平行的直线
     + **语境**: Euclid 第五公设的等价表述之一; 其独立性通向非欧几何
 
-+ **Non-Euclidean geometry** / **非欧几何**:
+- [ ] **Non-Euclidean geometry** / **非欧几何**:
     + **含义**: 用不同平行公理替换第五公设得到的一致几何
     + **分类**: Hyperbolic (过线外一点至少两条平行线); Elliptic (无平行线)
     + **语境**: 冲击「欧氏 = 空间绝对真理」; 三角内角和不再恒为 $180^\circ$
 
-+ **Platonism (mathematical realism)** / **柏拉图主义 / 数学实在论**:
+- [ ] **Platonism (mathematical realism)** / **柏拉图主义 / 数学实在论**:
     + **含义**: 数学对象独立于心灵存在; 真理被发现而非发明
     + **语境**: Lec07「数学 = 真理?」立场光谱
 
-+ **Logicism** / **逻辑主义**:
+- [ ] **Logicism** / **逻辑主义**:
     + **含义**: 数学是逻辑的延伸
     + **语境**: Frege, Russell, Whitehead; 遭 Russell 悖论等冲击
 
-+ **Formalism** / **形式主义**:
+- [ ] **Formalism** / **形式主义**:
     + **含义**: 数学作为严格符号推演 (未定义词 + 公理 + 规则); 强调无漏洞的形式证明
     + **语境**: Hilbert 纲领; Davis & Hersh 转述「定理无内容但无漏洞」
 
-+ **Russell's paradox** / **罗素悖论**:
+- [ ] **Russell's paradox** / **罗素悖论**:
     + **设定**: 素朴集合论允许任意性质定义集合
     + **构造**: $R=\{x:x\notin x\}$
     + **矛盾**: $R\in R\Leftrightarrow R\notin R$
     + **语境**: 冲击素朴集合论; 推动公理集合论分层修补
 
-+ **Hilbert's program** / **希尔伯特纲领**:
+- [ ] **Hilbert's program** / **希尔伯特纲领**:
     + **含义**: 形式化全部数学; 证一致性与完备性; 寻求判定算法等目标
     + **语境**: 类比「机械世界观」的自信; 后被 Gödel 等结果限制
 
-+ **Incompleteness theorems** / **不完备定理** (Gödel):
+- [ ] **Incompleteness theorems** / **不完备定理** (Gödel):
     + **含义**: 在足够强的一致形式系统中, 「真」与「可证」可能分离
     + **语境**: Lec07–08; 完整 **假设/结论** 见下方「定理」
 
-+ **Straightedge-and-compass construction** / **尺规作图**:
+- [ ] **Straightedge-and-compass construction** / **尺规作图**:
     + **定义**: 仅用无刻度直尺与圆规, 经有限步完成的古典作图
     + **语境**: 三大古典问题; 可作长度落在 $\mathbb{Q}$ 的二次扩域塔中
     + **注**: 不可能性陈述见下方「定理」
 
-+ **Four colour theorem** / **四色定理**:
+- [ ] **Four colour theorem** / **四色定理**:
     + **含义**: 平面地图至多四色即可使邻国异色; 1976 计算机辅助证明引发「何谓证明」讨论
     + **语境**: 完整 **假设/结论** 见下方「定理」
 
-+ **Linear perspective** / **线性透视**:
+- [ ] **Linear perspective** / **线性透视**:
     + **含义**: 用灭点与尺度关系把三维场景投影到二维画面的写实技法
     + **语境**: Brunelleschi / Renaissance 绘画; Masaccio 《圣三位一体》等
 
-+ **Anamorphosis** / **变形透视 / 变形画**:
+- [ ] **Anamorphosis** / **变形透视 / 变形画**:
     + **含义**: 需特定视角 (或镜面) 才可读的投影图像
     + **语境**: Holbein *The Ambassadors* 中的变形头骨
 
-+ **Palindrome** / **回文**:
+- [ ] **Palindrome** / **回文**:
     + **定义**: 正反读相同的词 / 数 / 诗行结构
     + **语境**: Lec10 文学; 如 $11^2=121$
 
-+ **Public-key cryptography / RSA** / **公钥密码 / RSA**:
+- [ ] **Public-key cryptography / RSA** / **公钥密码 / RSA**:
     + **含义**: 加密密钥可公开, 解密仍难; RSA 依赖「乘大素数易, 分解难」
     + **语境**: 数论进入社会基础设施; 对照 Hardy「纯数学无用」叙事
 
-+ **Operations research** / **运筹学**:
+- [ ] **Operations research** / **运筹学**:
     + **含义**: 用数学模型辅助决策 (资源, 策略, 作战等)
     + **语境**: 课件引 Clarke: 「不战而胜的艺术」; 与博弈论呼应
 
@@ -139,32 +149,52 @@
 
 ## 公式
 
-+ **勾股关系** / **Pythagorean relation**:
+- [ ] **勾股关系** / **Pythagorean relation**:
     + **假设**: $\triangle ABC$ 为直角三角形, 直角边长 $a,b$, 斜边长 $c$
     + **公式**: $a^2+b^2=c^2$
     + **注**: 一般陈述与跨文化表述见下方「勾股定理」; 验证 $(3,4,5)$ 等特例 $\neq$ 证明
 
-+ **$\sqrt{2}$ 无理** / **irrationality of $\sqrt{2}$**:
+- [ ] **$\sqrt{2}$ 无理** / **irrationality of $\sqrt{2}$**:
     + **假设**: 在有理数域内讨论; 设 $\sqrt{2}=m/n$, 其中 $m,n\in\mathbb{Z}_{>0}$ 且 $\gcd(m,n)=1$
     + **结论**: 导出矛盾, 故 $\sqrt{2}$ 不是有理数 (对角线与边不可通约)
     + **反证思路**: $m^2=2n^2$ $\Rightarrow$ $m$ 偶 $\Rightarrow$ $n$ 偶, 与既约矛盾
 
-+ **对数** / **logarithm** (课件级):
+- [ ] **对数** / **logarithm** (课件级):
     + **假设**: $x>0$; 常用底为 $10$ (课件记法)
     + **定义/公式**: 若 $10^b=x$ 则 $\log x=b$; 且 $10^a\cdot 10^b=10^{a+b}$ (指数律)
     + **注**: 对应换底/自然对数同理, 本课以十进制直觉为主
 
-+ **素数计数** / **prime-counting** (课件级渐近):
+- [ ] **素数计数** / **prime-counting** (课件级渐近):
     + **假设**: $N\ge 2$; $\pi(N)=\#\{p\le N: p\text{ 为素数}\}$
     + **公式/保证**: $\pi(N)/N\sim 1/\ln N$ (即 $\#\{p\le N\}/N\approx 1/\ln N$)
     + **注**: 完整素数定理属解析数论; 文化课记住「密度约 $1/\ln N$」即可. 更强的零点分布与 Riemann 假设相关, 非本课证明范围
 
-+ **Fermat 方程 (陈述式)** / **Fermat equation**:
+- [ ] **Fermat 方程 (陈述式)** / **Fermat equation**:
     + **假设**: $n>2$; $x,y,z$ 为正整数
     + **结论**: $x^n+y^n=z^n$ 无解
     + **注**: 即 Fermat's Last Theorem; 详见下方「定理」
 
-+ **罗素集合** / **Russell set**:
+- [ ] **阿基米德对 $\pi$ 的界 (自拟) (Archimedes' bounds for $\pi$)**:
+    + **假设**: 欧氏平面上的圆; 用内接与外切正多边形逼近圆周, 边数加倍至 96
+    + **公式**: $\dfrac{223}{71}<\pi<\dfrac{22}{7}$
+    + **注**: $22/7$ 是上界, 不是等式. 穷竭法思路见 Lec06 讨论补充. $22/7$ 亦为祖冲之约率
+
+- [ ] **莱因德圆面积规则的隐含 $\pi$ (自拟) (Rhind circle-area rule)**:
+    + **假设**: 直径 $d$; 采用 $A=(d-d/9)^2=(8d/9)^2$, 并与 $A=\pi d^2/4$ 对照
+    + **公式**: $\pi\approx 4(8/9)^2=256/81\approx 3.1605$
+    + **注**: 同一份 Rhind 纸草书, Tut1 worksheet 未做此题. 数值程序, 不是无理性证明
+
+- [ ] **祖冲之密率 (自拟) (Zu Chongzhi's tight fraction for $\pi$)**:
+    + **假设**: 用分数逼近欧氏圆周率
+    + **公式**: 密率 $355/113$; 并有 $3.1415926<\pi<3.1415927$. $355/113=3.14159292\ldots$, 与 $\pi$ 前六位小数一致
+    + **注**: 约率为 $22/7$. 《缀术》已佚. 来源: Lec06 讨论补充
+
+- [ ] **球面圆周长 (自拟) (circumference on the unit sphere)**:
+    + **假设**: 单位球面; 测地半径 $r$ 满足 $0<r<\pi$
+    + **公式**: 周长 $C=2\pi\sin r$, 故 $C/(2r)=\pi(\sin r)/r$, 随 $r$ 变
+    + **注**: 欧氏平面上才有 $C/d=\pi$ 对一切圆成立. 证明思路见 Lec07 讨论补充
+
+- [ ] **罗素集合** / **Russell set**:
     + **假设**: 允许用任意性质定义集合 (素朴概括)
     + **公式/构造**: $R=\{x:x\notin x\}$
     + **结论**: $R\in R\Leftrightarrow R\notin R$ (矛盾)
@@ -173,22 +203,27 @@
 
 ## 定理
 
-+ **勾股定理** / **Pythagorean theorem** (Euclid I.47; 跨文化表述多样):
+- [ ] **勾股定理** / **Pythagorean theorem** (Euclid I.47; 跨文化表述多样):
     + **假设**: 平面直角三角形, 直角边 $a,b$, 斜边 $c$
     + **结论**: $a^2+b^2=c^2$
     + **注**: 赵爽割补 / Euclid 相似等皆可证; 观察数组模式不能代替一般证明
 
-+ **Fermat's Last Theorem** / **费马大定理** (Wiles 1995):
+- [ ] **Fermat's Last Theorem** / **费马大定理** (Wiles 1995):
     + **假设**: 整数 $n>2$; $x,y,z\in\mathbb{Z}_{>0}$
     + **结论**: $x^n+y^n=z^n$ 无解
     + **注**: 文化点是「把丢番图问题搬到椭圆曲线/模形式」; 边注神话 vs 严谨史需谨慎
 
-+ **Four Colour Theorem** / **四色定理** (Appel–Haken 1976):
+- [ ] **Four Colour Theorem** / **四色定理** (Appel–Haken 1976):
     + **假设**: 平面地图 (或平面图顶点染色的等价表述); 相邻区域共享边界线段 (非仅一点)
     + **结论**: 至多四种颜色可使任意相邻区域异色
     + **注**: 计算机辅助检查可约构型; 引发证明可检验性/理解性讨论. 五色有经典人手证明 (Heawood)
 
-+ **尺规三大作图不可能性** / **classical construction impossibilities** (Wantzel; Lindemann 等):
+- [ ] **$\pi$ 的无理性与超越性 (自拟) (irrationality and transcendence of $\pi$)**:
+    + **假设**: 在实数中讨论圆周率 $\pi=C/d$ (欧氏)
+    + **结论**: $\pi$ 无理 (Lambert, 1760 年代), 故不是任何整数比, 小数无限不循环; $\pi$ 超越 (Lindemann, 1882), 故 $\sqrt{\pi}$ 亦超越
+    + **注**: 无理弱于超越. 化圆为方要用超越性, 不能只用无理性. 证明见 Lec08; 文化课不复现连分数或 Lindemann 证明
+
+- [ ] **尺规三大作图不可能性** / **classical construction impossibilities** (Wantzel; Lindemann 等):
     + **假设**: 仅用直尺与圆规, 从单位长度出发经有限步作图; 可作长度落在 $\mathbb{Q}$ 的二次扩域塔中 (次数为 $2$ 的幂)
     + **结论**:
         + 任意角三等分: 一般不可能 (Wantzel 1837)
@@ -196,25 +231,34 @@
         + 化圆为方: 不可能 (Lindemann 1882: $\pi$ 超越 $\Rightarrow$ $\sqrt{\pi}$ 不可由二次扩域塔作出)
     + **注**: 不可能性可省却徒劳; $\neq$ 「数学家懒得做」
 
-+ **Gödel 不完备定理** / **incompleteness theorems** (第一不完备, 文化课表述):
+- [ ] **Gödel 不完备定理** / **incompleteness theorems** (第一不完备, 文化课表述):
     + **假设**: 形式系统足够强 (含基本算术), 一致, 且可有效公理化
     + **结论**: 存在真但在该系统中不可证的算术命题 (「真」与「可证」可分离)
     + **注**: 细节与第二不完备 (一致性不可在系统内自证) 以课件/原 PDF 为准; 选择公理与连续统假设常一并作为背景提及
 
-+ **$\sqrt{2}$ 无理性 / 不可通约** (见公式条, 命题重述):
+- [ ] **$\sqrt{2}$ 无理性 / 不可通约** (见公式条, 命题重述):
     + **假设**: 边长为 $1$ 的正方形
     + **结论**: 对角线长 $\sqrt{2}$ 与边不可通约 (即 $\sqrt{2}\notin\mathbb{Q}$)
     + **反证思路**: 同公式条
 
-+ **素数定理 (课件级)** / **prime number theorem** (陈述):
+- [ ] **素数定理 (课件级)** / **prime number theorem** (陈述):
     + **假设**: $\pi(N)$ 如上
     + **结论**: $\pi(N)\sim N/\ln N$ (等价于 $\pi(N)/N\sim 1/\ln N$)
     + **注**: 与「素数有无穷多个」(Euclid) 不同层级: 后者是存在性, 前者是密度渐近
 
-+ **素数无穷** / **infinitude of primes** (Euclid):
+- [ ] **素数无穷** / **infinitude of primes** (Euclid):
     + **假设**: 在正整数的标准算术中讨论素数
     + **结论**: 素数有无穷多个
     + **反证思路**: 若仅有限 $p_1,\ldots,p_k$, 则 $N=p_1\cdots p_k+1$ 必有素因子异于各 $p_i$
+
+- [ ] **Egyptian fraction** / **埃及分数**:
+    + **定义**: 将真分数 $a/b$ ($a<b$, 正整数) 写成两两分母不同的 **单位分数 (unit fraction)** $1/n$ 之和
+    + **语境**: Tut1 / Rhind; 常用 **贪心 (greedy)** 算法取不超过目标的最大单位分数再递归 — 合法但不一定最优雅
+    + **注**: 埃及乘法也偏 **加法性** (倍增表 + 选取幂次 2)
+
+- [ ] **Generative AI 使用约定 (Tut2)** `(自拟)`:
+    + **含义**: 允许用 GenAI 作助手 (改语法, 选题建议, 预览摘要), **禁止**整段代写 / 未核验参考文献; 责任在人
+    + **语境**: CCST5037 Tut2 + GP/Essay; 入口 https://genai.hku.hk/
 
 ---
 

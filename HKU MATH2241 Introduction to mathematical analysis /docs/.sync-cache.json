@@ -1,81 +1,78 @@
 {
   "version": 1,
-  "last_scan": "2026-09-09T07:13:58.270673+00:00",
+  "last_scan": "2026-10-08T05:55:36Z",
   "sources": {
-    "Lec/01-syllabus-math2241-2026.pdf": {
+    "Lec/Syllabus01 math2241 2026.pdf": {
       "mtime": 1788234579,
       "size": 69872,
       "outputs": [
         "课程信息.md"
       ],
-      "processed_at": "2026-09-04"
+      "processed_at": "2026-09-04",
+      "renamed_from": "Lec/01-syllabus-math2241-2026.pdf"
     },
-    "Lec/02-chapter1-real-numbers.pdf": {
+    "Lec/Lec02 chapter1 real numbers.pdf": {
       "mtime": 1788234590,
       "size": 224356,
       "outputs": [
-        "Lec/01-chapter1-real-numbers-讲义.md"
+        "Lec/Lec02 chapter1 real numbers 讲义.md"
       ],
-      "processed_at": "2026-09-04"
+      "processed_at": "2026-09-04",
+      "renamed_from": "Lec/02-chapter1-real-numbers.pdf"
     },
-    "Lec/03-slides-chapter1-sept1.pdf": {
+    "Lec/Lec03 slides chapter1 sept1.pdf": {
       "mtime": 1788311506,
       "size": 1434746,
       "outputs": [],
       "processed_at": "2026-09-04",
-      "skip_reason": "no_extractable_text"
+      "skip_reason": "no_extractable_text",
+      "renamed_from": "Lec/03-slides-chapter1-sept1.pdf"
     },
-    "Lec/04-chapter1-real-numbers-2026.pdf": {
+    "Lec/Lec04 chapter1 real numbers 2026.pdf": {
       "mtime": 1788255166,
       "size": 276691,
       "outputs": [],
       "processed_at": "2026-09-04",
       "skip_reason": "duplicate",
-      "duplicate_of": "Lec/02-chapter1-real-numbers.pdf"
+      "duplicate_of": "Lec/Lec02 chapter1 real numbers.pdf",
+      "renamed_from": "Lec/04-chapter1-real-numbers-2026.pdf"
     },
-    "assignment/01-assignment-1-dedekind-cuts.pdf": {
+    "assignment/Assignment01 dedekind cuts.pdf": {
       "mtime": 1788489034,
       "size": 146067,
       "outputs": [
-        "assignment/01-assignment-1-dedekind-cuts-题目理解.md",
-        "assignment/02-assignment-1-dedekind-cuts-解答.md"
+        "assignment/Assignment01 dedekind cuts 题目理解.md",
+        "assignment/Assignment01 dedekind cuts 解答.md"
       ],
-      "processed_at": "2026-09-04"
+      "processed_at": "2026-09-04",
+      "renamed_from": "assignment/01-assignment-1-dedekind-cuts.pdf"
     },
-    "exercise/01-extra-exercises-bartle.pdf": {
+    "exercise/Exercise01 extra bartle.pdf": {
       "mtime": 1788489049,
       "size": 49821,
       "outputs": [
-        "exercise/01-extra-exercises-bartle-题目理解.md"
+        "exercise/Exercise01 extra bartle 题目理解.md"
       ],
       "processed_at": "2026-09-05",
-      "renamed_from": "assignment/02-extra-exercises-bartle.pdf"
+      "renamed_from": "exercise/01-extra-exercises-bartle.pdf"
     },
-    "Lec/textbook/01-bartle-sherbert-introduction-to-real-analysis-4ed.pdf": {
+    "Lec/textbook/Textbook01 bartle sherbert introduction to real analysis 4ed.pdf": {
       "mtime": 1788593770,
       "size": 9621983,
       "outputs": [],
       "processed_at": "2026-09-05",
       "skip_reason": "optional_textbook",
       "large_doc": true,
-      "renamed_from": "Lec/05-bartle-sherbert-introduction-to-real-analysis-4ed.pdf"
+      "renamed_from": "Lec/textbook/01-bartle-sherbert-introduction-to-real-analysis-4ed.pdf"
     },
-    "Lec/textbook/02-ross-elementary-analysis-2ed.pdf": {
+    "Lec/textbook/Textbook02 ross elementary analysis 2ed.pdf": {
       "mtime": 1788594329,
       "size": 3390521,
       "outputs": [],
       "processed_at": "2026-09-05",
       "skip_reason": "optional_textbook",
       "large_doc": true,
-      "renamed_from": "Lec/06-ross-elementary-analysis-2ed.pdf"
-    },
-    "assignment/02-assignment-1-dedekind-cuts-submitted.pdf": {
-      "mtime": 1788606015,
-      "size": 1729203,
-      "outputs": [],
-      "processed_at": "2026-09-05",
-      "skip_reason": "submitted_work",
-      "renamed_from": "assignment/Assignment1.pdf"
+      "renamed_from": "Lec/textbook/02-ross-elementary-analysis-2ed.pdf"
     },
     "docs/MATH2241.webarchive": {
       "mtime": 1788243735,
@@ -94,6 +91,508 @@
       ],
       "processed_at": "2026-09-09",
       "skip_reason": "course_info_html"
+    },
+    "Lec/Lec05 chapter2 sequences part1.pdf": {
+      "mtime": 1789530942,
+      "size": 226685,
+      "outputs": [
+        "Lec/Lec05 chapter2 sequences part1 讲义.md"
+      ],
+      "processed_at": "2026-09-16",
+      "renamed_from": "Lec/05-chapter2-sequences-part1.pdf"
+    },
+    "tut/Tut01.pdf": {
+      "mtime": 1789530955,
+      "size": 106741,
+      "outputs": [
+        "tut/Tut01 总结.md"
+      ],
+      "processed_at": "2026-09-16",
+      "renamed_from": "tut/01-tutorial-01.pdf"
+    },
+    "assignment/Assignment01-Dai Yuxuan-3036292116.pdf": {
+      "mtime": 1788606015,
+      "size": 1729203,
+      "outputs": [],
+      "processed_at": "2026-09-05",
+      "skip_reason": "submitted_work",
+      "renamed_from": "assignment/assignment 1-Dai Yuxuan-3036292116.pdf"
+    },
+    "Lec/Lec06 chapter2 sequences part2.pdf": {
+      "mtime": 1789716090,
+      "size": 211525,
+      "processed_at": "2026-09-18T20:21:16",
+      "outputs": [
+        "Lec/Lec06 chapter2 sequences part2 讲义.md"
+      ],
+      "renamed_from": "Lec/06-chapter2-sequences-part2.pdf"
+    },
+    "assignment/Assignment01 official solution.pdf": {
+      "mtime": 1789716116,
+      "size": 1314493,
+      "processed_at": "2026-09-18T20:21:16",
+      "outputs": [],
+      "skip_reason": "official_solution",
+      "renamed_from": "assignment/03-assignment-1-official-solution.pdf"
+    },
+    "assignment/Assignment02.pdf": {
+      "mtime": 1789716105,
+      "size": 113815,
+      "processed_at": "2026-09-18T20:21:16",
+      "outputs": [
+        "assignment/Assignment02 题目理解.md",
+        "assignment/Assignment02 解答.md"
+      ],
+      "renamed_from": "assignment/04-assignment-2.pdf"
+    },
+    "assignment/Assignment02-Dai Yuxuan-3036292116.pdf": {
+      "mtime": 1789959358,
+      "size": 1599068,
+      "processed_at": "2026-09-21T10:57:33",
+      "type": "assignment_submission",
+      "skip_reason": "user_handwritten_submission",
+      "renamed_from": "assignment/assignment 2-Dai Yuxuan-3036292116.pdf",
+      "outputs": []
+    },
+    "assignment/Assignment03.pdf": {
+      "mtime": 1790490210,
+      "size": 224017,
+      "processed_at": "2026-09-27",
+      "outputs": [
+        "assignment/Assignment03 题目理解.md",
+        "assignment/Assignment03 解答.md"
+      ],
+      "renamed_from": "assignment/06-assignment-3.pdf"
+    },
+    "Lec/Lec07 chapter2 sequences part3.pdf": {
+      "mtime": 1790490210,
+      "size": 259868,
+      "processed_at": "2026-09-27",
+      "outputs": [
+        "Lec/Lec07 chapter2 sequences part3 讲义.md"
+      ],
+      "renamed_from": "Lec/07-chapter2-sequences-part3.pdf"
+    },
+    "tut/Tut02.pdf": {
+      "mtime": 1790561045,
+      "size": 187690,
+      "outputs": [
+        "tut/Tut02 总结.md"
+      ],
+      "processed_at": "2026-09-28",
+      "renamed_from": "tut/02-tutorial-02.pdf"
+    },
+    "tut/Tut02 sol.pdf": {
+      "mtime": 1790561045,
+      "size": 219749,
+      "outputs": [],
+      "processed_at": "2026-09-28",
+      "renamed_from": "tut/02-tutorial-02-sol.pdf",
+      "skip_reason": "official_solution"
+    },
+    "tut/Tut01 sol.pdf": {
+      "mtime": 1790561147,
+      "size": 129208,
+      "outputs": [],
+      "processed_at": "2026-09-28",
+      "skip_reason": "official_solution",
+      "renamed_from": "tut/01-tutorial-01-sol.pdf"
+    },
+    "assignment/Assignment03-Dai Yuxuan-3036292116.pdf": {
+      "mtime": 1790569026,
+      "size": 1503198,
+      "outputs": [],
+      "processed_at": "2026-09-28",
+      "skip_reason": "user_handwritten_submission",
+      "renamed_from": "assignment/assignment 3-Dai Yuxuan-3036292116.pdf"
+    },
+    "tut/Tut03 sol.pdf": {
+      "mtime": 1790927536,
+      "size": 149993,
+      "processed_at": "2026-10-03",
+      "outputs": [],
+      "renamed_from": "TUT3-S.pdf",
+      "note": "question PDF not yet in repo; summary from official sol",
+      "skip_reason": "official_solution"
+    },
+    "exercise/Exercise02 review1 worksheet.pdf": {
+      "mtime": 1790927536,
+      "size": 119886,
+      "processed_at": "2026-10-02",
+      "outputs": [
+        "exercise/Exercise02 review1 worksheet 题目理解.md"
+      ],
+      "renamed_from": "2241_review1_worksheet_Q.pdf"
+    },
+    "test&quiz/Test01 practice.pdf": {
+      "mtime": 1790927536,
+      "size": 144001,
+      "processed_at": "2026-10-02",
+      "outputs": [
+        "test&quiz/Test01 practice 题目理解.md"
+      ],
+      "renamed_from": "Practice Problems 1.pdf"
+    },
+    "tut/Tut03.pdf": {
+      "mtime": 1790998393,
+      "size": 132941,
+      "outputs": [
+        "tut/Tut03 总结.md"
+      ],
+      "processed_at": "2026-10-03",
+      "renamed_from": "TUT3-Q.pdf",
+      "note": "question PDF; summary also covers Tut03 sol"
+    },
+    "docs/archives/previous/Lec/Chapter1.pdf": {
+      "mtime": 1791264276,
+      "size": 279329,
+      "outputs": [],
+      "processed_at": "2026-10-06",
+      "skip_reason": "previous_year_archive",
+      "note": "2025 秋讲义, 与本学期重叠, 不另写讲义"
+    },
+    "docs/archives/previous/Lec/Chapter2 part1.pdf": {
+      "mtime": 1791264276,
+      "size": 225619,
+      "outputs": [],
+      "processed_at": "2026-10-06",
+      "skip_reason": "previous_year_archive",
+      "note": "2025 秋讲义, 与本学期重叠, 不另写讲义"
+    },
+    "docs/archives/previous/Lec/Chapter2 part2.pdf": {
+      "mtime": 1791264276,
+      "size": 212604,
+      "outputs": [],
+      "processed_at": "2026-10-06",
+      "skip_reason": "previous_year_archive",
+      "note": "2025 秋讲义, 与本学期重叠, 不另写讲义"
+    },
+    "docs/archives/previous/Lec/Chapter2 part3.pdf": {
+      "mtime": 1791264276,
+      "size": 258575,
+      "outputs": [],
+      "processed_at": "2026-10-06",
+      "skip_reason": "previous_year_archive",
+      "note": "2025 秋讲义, 与本学期重叠, 不另写讲义"
+    },
+    "docs/archives/previous/Lec/Chapter3 part1.pdf": {
+      "mtime": 1791264276,
+      "size": 273402,
+      "outputs": [],
+      "processed_at": "2026-10-06",
+      "skip_reason": "previous_year_archive",
+      "note": "2025 秋讲义, 与本学期重叠, 不另写讲义"
+    },
+    "docs/archives/previous/Lec/Chapter3 part2.pdf": {
+      "mtime": 1791264276,
+      "size": 298408,
+      "outputs": [],
+      "processed_at": "2026-10-06",
+      "skip_reason": "previous_year_archive",
+      "note": "2025 秋讲义, 与本学期重叠, 不另写讲义"
+    },
+    "docs/archives/previous/Lec/Chapter4.pdf": {
+      "mtime": 1791264276,
+      "size": 305999,
+      "outputs": [],
+      "processed_at": "2026-10-06",
+      "skip_reason": "previous_year_archive",
+      "note": "2025 秋讲义, 与本学期重叠, 不另写讲义"
+    },
+    "docs/archives/previous/test&quiz/Midterm solution.pdf": {
+      "mtime": 1791264276,
+      "size": 114462,
+      "outputs": [],
+      "processed_at": "2026-10-06",
+      "skip_reason": "previous_year_archive",
+      "note": "往年试卷; Test 1 范围见 exam-review/Review02"
+    },
+    "docs/archives/previous/test&quiz/Midterm.pdf": {
+      "mtime": 1791264276,
+      "size": 95747,
+      "outputs": [],
+      "processed_at": "2026-10-06",
+      "skip_reason": "previous_year_archive",
+      "note": "往年试卷; Test 1 范围见 exam-review/Review02"
+    },
+    "docs/archives/previous/test&quiz/Sample Test01 solution.pdf": {
+      "mtime": 1791264276,
+      "size": 117912,
+      "outputs": [],
+      "processed_at": "2026-10-06",
+      "skip_reason": "previous_year_archive",
+      "note": "往年试卷; Test 1 范围见 exam-review/Review02"
+    },
+    "docs/archives/previous/test&quiz/Sample Test01.pdf": {
+      "mtime": 1791264276,
+      "size": 95653,
+      "outputs": [],
+      "processed_at": "2026-10-06",
+      "skip_reason": "previous_year_archive",
+      "note": "往年试卷; Test 1 范围见 exam-review/Review02"
+    },
+    "docs/archives/previous/test&quiz/Sample Test02 solution.pdf": {
+      "mtime": 1791264276,
+      "size": 132852,
+      "outputs": [],
+      "processed_at": "2026-10-06",
+      "skip_reason": "previous_year_archive",
+      "note": "往年试卷; Test 1 范围见 exam-review/Review02"
+    },
+    "docs/archives/previous/test&quiz/Sample Test02.pdf": {
+      "mtime": 1791264276,
+      "size": 99570,
+      "outputs": [],
+      "processed_at": "2026-10-06",
+      "skip_reason": "previous_year_archive",
+      "note": "往年试卷; Test 1 范围见 exam-review/Review02"
+    },
+    "docs/archives/previous/test&quiz/Study guide Test01 2025.pdf": {
+      "mtime": 1791264276,
+      "size": 102924,
+      "outputs": [],
+      "processed_at": "2026-10-06",
+      "skip_reason": "previous_year_archive",
+      "note": "往年试卷; Test 1 范围见 exam-review/Review02"
+    },
+    "docs/archives/previous/test&quiz/Study guide Test02 2025.pdf": {
+      "mtime": 1791264276,
+      "size": 86823,
+      "outputs": [],
+      "processed_at": "2026-10-06",
+      "skip_reason": "previous_year_archive",
+      "note": "往年试卷; Test 1 范围见 exam-review/Review02"
+    },
+    "docs/archives/previous/test&quiz/Test01 2020-10-09 solution.pdf": {
+      "mtime": 1791264276,
+      "size": 110671,
+      "outputs": [],
+      "processed_at": "2026-10-06",
+      "skip_reason": "previous_year_archive",
+      "note": "往年试卷; Test 1 范围见 exam-review/Review02"
+    },
+    "docs/archives/previous/test&quiz/Test01 2020-10-09.pdf": {
+      "mtime": 1791264276,
+      "size": 99065,
+      "outputs": [],
+      "processed_at": "2026-10-06",
+      "skip_reason": "previous_year_archive",
+      "note": "往年试卷; Test 1 范围见 exam-review/Review02"
+    },
+    "docs/archives/previous/test&quiz/Test01 2025.pdf": {
+      "mtime": 1791264183,
+      "size": 141708,
+      "outputs": [],
+      "processed_at": "2026-10-06",
+      "skip_reason": "previous_year_archive",
+      "note": "往年试卷; Test 1 范围见 exam-review/Review02"
+    },
+    "docs/archives/previous/test&quiz/Test01 solution 17-18 second.pdf": {
+      "mtime": 1791264276,
+      "size": 139697,
+      "outputs": [],
+      "processed_at": "2026-10-06",
+      "skip_reason": "previous_year_archive",
+      "note": "往年试卷; Test 1 范围见 exam-review/Review02"
+    },
+    "docs/archives/previous/test&quiz/Test01 solution 18-19 first.pdf": {
+      "mtime": 1791264276,
+      "size": 136167,
+      "outputs": [],
+      "processed_at": "2026-10-06",
+      "skip_reason": "previous_year_archive",
+      "note": "往年试卷; Test 1 范围见 exam-review/Review02"
+    },
+    "docs/archives/previous/test&quiz/Test02 2020-11-13 solution.pdf": {
+      "mtime": 1791264276,
+      "size": 119537,
+      "outputs": [],
+      "processed_at": "2026-10-06",
+      "skip_reason": "previous_year_archive",
+      "note": "往年试卷; Test 1 范围见 exam-review/Review02"
+    },
+    "docs/archives/previous/test&quiz/Test02 2020-11-13.pdf": {
+      "mtime": 1791264276,
+      "size": 109689,
+      "outputs": [],
+      "processed_at": "2026-10-06",
+      "skip_reason": "previous_year_archive",
+      "note": "往年试卷; Test 1 范围见 exam-review/Review02"
+    },
+    "docs/archives/previous/test&quiz/Test02 2022-11-25.pdf": {
+      "mtime": 1791264276,
+      "size": 130272,
+      "outputs": [],
+      "processed_at": "2026-10-06",
+      "skip_reason": "previous_year_archive",
+      "note": "往年试卷; Test 1 范围见 exam-review/Review02"
+    },
+    "docs/archives/previous/test&quiz/Test02 2023-04-17.pdf": {
+      "mtime": 1791264276,
+      "size": 115909,
+      "outputs": [],
+      "processed_at": "2026-10-06",
+      "skip_reason": "previous_year_archive",
+      "note": "往年试卷; Test 1 范围见 exam-review/Review02"
+    },
+    "docs/archives/previous/test&quiz/Test02 2025.pdf": {
+      "mtime": 1791264191,
+      "size": 106296,
+      "outputs": [],
+      "processed_at": "2026-10-06",
+      "skip_reason": "previous_year_archive",
+      "note": "往年试卷; Test 1 范围见 exam-review/Review02"
+    },
+    "docs/archives/previous/test&quiz/Test02 report.pdf": {
+      "mtime": 1791264276,
+      "size": 145329,
+      "outputs": [],
+      "processed_at": "2026-10-06",
+      "skip_reason": "previous_year_archive",
+      "note": "往年试卷; Test 1 范围见 exam-review/Review02"
+    },
+    "docs/archives/previous/test&quiz/Test02 solution 17-18 second.pdf": {
+      "mtime": 1791264276,
+      "size": 135035,
+      "outputs": [],
+      "processed_at": "2026-10-06",
+      "skip_reason": "previous_year_archive",
+      "note": "往年试卷; Test 1 范围见 exam-review/Review02"
+    },
+    "docs/archives/previous/test&quiz/Test02 solution 18-19 first.pdf": {
+      "mtime": 1791264276,
+      "size": 159214,
+      "outputs": [],
+      "processed_at": "2026-10-06",
+      "skip_reason": "previous_year_archive",
+      "note": "往年试卷; Test 1 范围见 exam-review/Review02"
+    },
+    "docs/archives/previous/tut/Tut01 solution.pdf": {
+      "mtime": 1791264276,
+      "size": 129649,
+      "outputs": [],
+      "processed_at": "2026-10-06",
+      "skip_reason": "previous_year_archive",
+      "note": "往年 tutorial, 不覆盖本学期 tut/"
+    },
+    "docs/archives/previous/tut/Tut02 solution.pdf": {
+      "mtime": 1791264276,
+      "size": 130541,
+      "outputs": [],
+      "processed_at": "2026-10-06",
+      "skip_reason": "previous_year_archive",
+      "note": "往年 tutorial, 不覆盖本学期 tut/"
+    },
+    "docs/archives/previous/tut/Tut03 solution.pdf": {
+      "mtime": 1791264276,
+      "size": 117930,
+      "outputs": [],
+      "processed_at": "2026-10-06",
+      "skip_reason": "previous_year_archive",
+      "note": "往年 tutorial, 不覆盖本学期 tut/"
+    },
+    "docs/archives/previous/tut/Tut04 solution.pdf": {
+      "mtime": 1791264276,
+      "size": 142209,
+      "outputs": [],
+      "processed_at": "2026-10-06",
+      "skip_reason": "previous_year_archive",
+      "note": "往年 tutorial, 不覆盖本学期 tut/"
+    },
+    "docs/archives/previous/tut/Tut05 solution.pdf": {
+      "mtime": 1791264276,
+      "size": 127929,
+      "outputs": [],
+      "processed_at": "2026-10-06",
+      "skip_reason": "previous_year_archive",
+      "note": "往年 tutorial, 不覆盖本学期 tut/"
+    },
+    "docs/archives/previous/tut/Tut06 solution.pdf": {
+      "mtime": 1791264276,
+      "size": 118857,
+      "outputs": [],
+      "processed_at": "2026-10-06",
+      "skip_reason": "previous_year_archive",
+      "note": "往年 tutorial, 不覆盖本学期 tut/"
+    },
+    "docs/archives/previous/tut/Tut07.pdf": {
+      "mtime": 1791264276,
+      "size": 118452,
+      "outputs": [],
+      "processed_at": "2026-10-06",
+      "skip_reason": "previous_year_archive",
+      "note": "往年 tutorial, 不覆盖本学期 tut/"
+    },
+    "docs/archives/previous/tut/Tut08 solution.pdf": {
+      "mtime": 1791264276,
+      "size": 131261,
+      "outputs": [],
+      "processed_at": "2026-10-06",
+      "skip_reason": "previous_year_archive",
+      "note": "往年 tutorial, 不覆盖本学期 tut/"
+    },
+    "docs/archives/previous/tut/Tut08.pdf": {
+      "mtime": 1791264276,
+      "size": 107597,
+      "outputs": [],
+      "processed_at": "2026-10-06",
+      "skip_reason": "previous_year_archive",
+      "note": "往年 tutorial, 不覆盖本学期 tut/"
+    },
+    "tut/Tut04.pdf": {
+      "mtime": 1791353036,
+      "size": 129162,
+      "outputs": [
+        "tut/Tut04 总结.md",
+        "tut/Tut04 解答.md"
+      ],
+      "processed_at": "2026-10-08",
+      "renamed_from": "TUT4-Q.pdf"
+    },
+    "Lec/Lec08 chapter3 limits of functions part1.pdf": {
+      "mtime": 1791353032,
+      "size": 5320366,
+      "outputs": [
+        "Lec/Lec08 chapter3 limits of functions part1 讲义.md"
+      ],
+      "processed_at": "2026-10-07",
+      "renamed_from": "Chapter 3 (Part 1).pdf"
+    },
+    "exam-review/Review01 slides.pdf": {
+      "mtime": 1791353025,
+      "size": 970692,
+      "outputs": [
+        "exam-review/Review01 slides 总结.md"
+      ],
+      "processed_at": "2026-10-07",
+      "renamed_from": "2241_review1_slides.pdf"
+    },
+    "exercise/Exercise02 review1 worksheet sol.pdf": {
+      "mtime": 1791353027,
+      "size": 181532,
+      "outputs": [
+        "exercise/Exercise02 review1 worksheet 解答.md"
+      ],
+      "processed_at": "2026-10-07",
+      "renamed_from": "2241_review1_worksheet_S.pdf"
+    },
+    "exam-review/Summary01 test1 key points.pdf": {
+      "mtime": 1791353023,
+      "size": 118554,
+      "outputs": [
+        "exam-review/Summary01 test1 key points 总结.md"
+      ],
+      "processed_at": "2026-10-07",
+      "renamed_from": "SummaryTest1.pdf"
+    },
+    "test&quiz/Test01 practice sol.pdf": {
+      "mtime": 1791353029,
+      "size": 188150,
+      "outputs": [
+        "test&quiz/Test01 practice 解答.md"
+      ],
+      "processed_at": "2026-10-07",
+      "renamed_from": "PracticeProblems(Solution).pdf"
     }
   }
 }

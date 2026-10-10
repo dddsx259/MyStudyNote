@@ -1,0 +1,21 @@
+To: bkane@hku.hk
+Subject: CCST5037 group project: history of mathematics, or mathematics and culture?
+
+Dear Professor Kane,
+
+I hope you are well. I am Dai Yuxuan (Tim), UID 3036292116, a student in CCST5037. I am writing with my group partner, Ryan Zhao (UID 3036297398), about the emphasis of our group project.
+
+We are working on Cantor and the infinite, and we are not sure which emphasis would fit the course better.
+
+One possibility is a history-of-mathematics study: to follow how a piece of mathematics developed. For example, we could trace how the concepts of the limit and of infinity changed over time, through to their axiomatization. That account would be a popular exposition of the mathematics.
+
+The other is a study of how mathematics meets another area of culture. Our present draft takes this line. The working title is "Is Infinity Only for God? Cantor's Mathematics and Catholic Theology." We would ask why Catholic theologians could accept Cantor's distinction between the transfinite and the absolute infinite, yet reject further conclusions he drew from it. We would read the January 1886 correspondence and Gutberlet's argument that God knows every digit of pi, with Dauben's biography (chapter 6) as the main secondary source. The claim we want to test is that accepting a mathematical concept need not mean accepting what its author inferred from it.
+
+Could you advise which emphasis you think suits our course better: a popular account of the history of mathematics, or a discussion of the relationship between mathematics and the humanities?
+
+Thank you very much for your time.
+
+Best regards,
+Dai Yuxuan (Tim)
+UID 3036292116
+CCST5037 Mathematics: A Cultural Heritage
