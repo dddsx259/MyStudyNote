@@ -67,12 +67,25 @@ __MACOSX/
 # 若需把某次 .c 终稿入库: git add -f path/to/file.c
 
 # ----- 超大扫描/图片型课件 (单文件常 >10MB; 讲义 md 已覆盖知识点) -----
+# 文件夹已改为空格分词 (旧连字符路径保留一行, 防残留)
+HKU CCST5037 Mathematics A Cultural Heritage/Lec/Lec05 Mathematics and Education/*.pdf
+HKU CCST5037 Mathematics A Cultural Heritage/Lec/Lec06 Student Version/*.pdf
+HKU CCST5037 Mathematics A Cultural Heritage/Lec/Lec07 Non Euclidean Geometry/*.pdf
+HKU CCST5037 Mathematics A Cultural Heritage/Lec/Lec09/*.pdf
+HKU CCST5037 Mathematics A Cultural Heritage/Lec/Lec10 Movies and Literature/*.pdf
+HKU CCST5037 Mathematics A Cultural Heritage/Lec/Lec11 Mathematics and Society/*.pdf
 HKU CCST5037 Mathematics A Cultural Heritage/Lec/Lec05-Mathematics-and-Education/*.pdf
 HKU CCST5037 Mathematics A Cultural Heritage/Lec/Lec06-Student-Version/*.pdf
 HKU CCST5037 Mathematics A Cultural Heritage/Lec/Lec07-Non-Euclidean-Geometry/*.pdf
-HKU CCST5037 Mathematics A Cultural Heritage/Lec/Lec09/*.pdf
 HKU CCST5037 Mathematics A Cultural Heritage/Lec/Lec10-Movies-and-Literature/*.pdf
 HKU CCST5037 Mathematics A Cultural Heritage/Lec/Lec11-Mathematics-and-Society/*.pdf
+
+# ----- GitHub 体积限制 (硬限 100MB; 警告 ≥50MB; 本库对扫描讲义/超大论文也按 ≥10MB 挡) -----
+# MATH3603 往年 in-class 扫描笔记 (单文件 22–64MB)
+HKU MATH3603 Probability theory/docs/archives/previous/Lec/in-class-notes/
+# MIT 论文 PDF / CCGL 阅读 (单文件 >10MB)
+Finished/MIT 6.S978 Deep Generative Models/Lec2/Glow*/
+Finished/HKU CCGL5022 Globalization in Question/Readings/Lec3 Global Culture in Daily Life Food/Watson, 2006.pdf
 
 # ----- 已知超大成品 (路径敏感) -----
 **/Project presentation.pdf
@@ -81,6 +94,7 @@ Finished/HKU CCGL5022 Globalization in Question/Presentation/
 #   git rm -r --cached -- <path>   (不要在未请求时 commit)
 Finished/Machine Learning & Deep Learning/d2l-zh/paddle/
 Finished/HKU COMP3366 Quantum algorithms and computer architecture/cheatsheet 3.pdf
+Finished/HKU COMP3366 Quantum algorithms and computer architecture/cheatsheet 3_compressed.pdf
 Finished/HKU MATH2211 Multivariable calculus/HKU MATH2211 note.pdf
 
 # ----- C / lab 编译产物 (保留 .c / Makefile / README / lec*_code_example 源码) -----
