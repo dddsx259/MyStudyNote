@@ -1,6 +1,6 @@
 # MATH3603 Probability Theory
 
-> 最后更新: 2026-10-06 — 往年资料统一在 `docs/archives/previous/`; 补入 HW1–HW5 题面
+> 最后更新: 2026-10-14 — Tut05 sol + Tut06 入库; 更新 Tut05/Tut06 总结
 
 ## 目录结构
 

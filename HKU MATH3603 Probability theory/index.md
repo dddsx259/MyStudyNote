@@ -1,6 +1,6 @@
 # MATH3603 — AI 文档索引
 
-> 自动维护 · 最后更新: 2026-10-08
+> 自动维护 · 最后更新: 2026-10-14
 
 ## 快捷
 
@@ -36,6 +36,7 @@
 - [Tut03 总结](tut/Tut03 总结.md)
 - [Tut04 总结](tut/Tut04 总结.md)
 - [Tut05 总结](tut/Tut05 总结.md)
+- [Tut06 总结](tut/Tut06 总结.md)
 - [题集01 ch01 foundations](题集/题集01 ch01 foundations.md)
 - [题集02 ch02 random variables distributions](题集/题集02 ch02 random variables distributions.md)
 - [题集03 ch03 conditional transformations](题集/题集03 ch03 conditional transformations.md)

@@ -1,6 +1,6 @@
 # MATH2241 Introduction to Mathematical Analysis
 
-> 最后更新: 2026-10-07 — 归位 Review1 slides/Summary/Tut04/Ch3 Part1/Test01 practice sol; 生成对应 md
+> 最后更新: 2026-10-14 — 入库 Lec09 Ch3 Part2 讲义; cheatsheet 补 Continuity 词条
 
 ## 目录结构
 

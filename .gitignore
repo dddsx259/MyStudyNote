@@ -39,7 +39,9 @@ wandb/
 **/*.ckpt
 **/*.safetensors
 **/*.onnx
-!SU CS336/assignment1-basics/tests/fixtures/**/*.pt
+# 大 fixture 也忽略 (勿用 ! 把 ≥5MB 的 model.pt / 语料再加回索引)
+SU CS336/assignment1-basics/tests/fixtures/ts_tests/model.pt
+SU CS336/assignment1-basics/tests/fixtures/tinystories_sample_5M.txt
 
 # ----- 浏览器另存 / 压缩包 / 磁盘镜像 (webarchive 常 8MB+) -----
 *.webarchive
@@ -80,22 +82,37 @@ HKU CCST5037 Mathematics A Cultural Heritage/Lec/Lec07-Non-Euclidean-Geometry/*.
 HKU CCST5037 Mathematics A Cultural Heritage/Lec/Lec10-Movies-and-Literature/*.pdf
 HKU CCST5037 Mathematics A Cultural Heritage/Lec/Lec11-Mathematics-and-Society/*.pdf
 
-# ----- GitHub 体积限制 (硬限 100MB; 警告 ≥50MB; 本库对扫描讲义/超大论文也按 ≥10MB 挡) -----
-# MATH3603 往年 in-class 扫描笔记 (单文件 22–64MB)
+# ----- 大文件挡板 (≥5MB 已盘点; gitignore 不能按字节过滤, 靠路径/类型) -----
+# MATH3603 往年 in-class 扫描 (22–64MB)
 HKU MATH3603 Probability theory/docs/archives/previous/Lec/in-class-notes/
-# MIT 论文 PDF / CCGL 阅读 (单文件 >10MB)
+# MIT 大论文 / 大课件 PDF
 Finished/MIT 6.S978 Deep Generative Models/Lec2/Glow*/
+Finished/MIT 6.S978 Deep Generative Models/Lec1/Deep Image Prior/
+Finished/MIT 6.S978 Deep Generative Models/Lec1/PatchMatch*/
+Finished/MIT 6.S978 Deep Generative Models/Lec1/lec1_intro.pdf
+Finished/MIT 6.S978 Deep Generative Models/Lec2/lec2_vae.pdf
+# CCGL 大阅读 / Presentation
 Finished/HKU CCGL5022 Globalization in Question/Readings/Lec3 Global Culture in Daily Life Food/Watson, 2006.pdf
-
-# ----- 已知超大成品 (路径敏感) -----
+Finished/HKU CCGL5022 Globalization in Question/Readings/Lec3 Global Culture in Daily Life Food/Tam, 2002.pdf
 **/Project presentation.pdf
 Finished/HKU CCGL5022 Globalization in Question/Presentation/
-# 下列已在历史上被 track; gitignore 仅阻止「重新加入」. 若要从索引移除需:
-#   git rm -r --cached -- <path>   (不要在未请求时 commit)
+# d2l paddle 与大 cheatsheet
 Finished/Machine Learning & Deep Learning/d2l-zh/paddle/
+Finished/Machine Learning & Deep Learning/COMP3314 Cheatsheet.pdf
+# COMP3366 超大 slides / cheatsheet
 Finished/HKU COMP3366 Quantum algorithms and computer architecture/cheatsheet 3.pdf
 Finished/HKU COMP3366 Quantum algorithms and computer architecture/cheatsheet 3_compressed.pdf
+Finished/HKU COMP3366 Quantum algorithms and computer architecture/Lec 1 note.pdf
+Finished/HKU COMP3366 Quantum algorithms and computer architecture/Lec 4.pdf
+Finished/HKU COMP3366 Quantum algorithms and computer architecture/Lec 7 Implementation.pdf
+Finished/HKU COMP3366 Quantum algorithms and computer architecture/12 QML.pdf
+Finished/HKU COMP3366 Quantum algorithms and computer architecture/13 Supermacy.pdf
+# 其他 Finished 大 PDF
 Finished/HKU MATH2211 Multivariable calculus/HKU MATH2211 note.pdf
+Finished/HKU MATH2102 Linear algebra II/MATH2102 Cheatsheet print version.pdf
+# 当前学期: 扫描感/体积偏大的单份课件 (讲义 md 已覆盖)
+HKU MATH2241 Introduction to mathematical analysis /Lec/Lec08 chapter3 limits of functions part1.pdf
+# 已 tracked 的大文件需: git rm --cached -- <path> (勿在未请求时 commit)
 
 # ----- C / lab 编译产物 (保留 .c / Makefile / README / lec*_code_example 源码) -----
 *.o

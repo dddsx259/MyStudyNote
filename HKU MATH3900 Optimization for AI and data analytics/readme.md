@@ -1,6 +1,6 @@
 # MATH3900 Optimization for AI and Data Analytics
 
-> 最后更新: 2026-10-06 — Test1 cheatsheet 扫描归入 exam-review
+> 最后更新: 2026-10-14 — Handout03 目录索引; Tut05(+sol) 总结; HW2 已在 assignment/
 
 ## 结构规范
 

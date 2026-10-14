@@ -137,6 +137,22 @@
   - **假设**: 右/左极限分别要求 $c$ 是 $A\cap(c,\infty)$ / $A\cap(-\infty,c)$ 的聚点
   - **定义**: 半邻域上的 $\varepsilon$-$\delta$ 极限; 双边极限存在 $\Leftrightarrow$ 左右极限存在且相等
 
+### Chapter 3 Part 2 (Continuity)
+
+- [ ] **Ch3 P2 Def 1.1 — Continuity at a point** / **在一点连续**:
+  - **假设**: $f:A\to\mathbb{R}$, $c\in A$
+  - **定义**: $\forall\varepsilon>0$, $\exists\delta>0$, 使 $x\in A$ 且 $|x-c|<\delta$ $\Rightarrow$ $|f(x)-f(c)|<\varepsilon$
+  - **注**: $c$ 为聚点时 $\Leftrightarrow$ $\lim_{x\to c}f=f(c)$; 孤立点自动连续
+
+- [ ] **Ch3 P2 Def 6.1 — Uniform continuity** / **一致连续**:
+  - **假设**: $f:A\to\mathbb{R}$
+  - **定义**: $\forall\varepsilon>0$, $\exists\delta>0$, 使凡 $x,y\in A$ 且 $|x-y|<\delta$ 都有 $|f(x)-f(y)|<\varepsilon$ ($\delta$ 不依赖点)
+
+- [ ] **Ch3 P2 Def 6.12 — Lipschitz function** / **Lipschitz 函数**:
+  - **假设**: $f:A\to\mathbb{R}$, $L\ge0$
+  - **定义**: $|f(x)-f(y)|\le L|x-y|$ ($\forall x,y\in A$)
+  - **注**: Lipschitz $\Rightarrow$ 一致连续
+
 ---
 
 
@@ -363,6 +379,36 @@
 - [ ] **Ch3 P1 Thm 4.6 — Squeeze theorem (functions)** / **函数夹逼定理**:
   - **假设**: 靠近 $c$ 有 $f\le g\le h$ 且 $\lim f=\lim h=L$
   - **结论**: $\lim g=L$
+
+### Chapter 3 Part 2 (Continuity)
+
+- [ ] **Ch3 P2 Thm 2.1 — Algebra of continuous functions** / **连续函数的代数运算**:
+  - **假设**: $f,g$ 在 $c$ 连续
+  - **结论**: $f\pm g$, $fg$ 在 $c$ 连续; $g(c)\ne0$ 时 $f/g$ 在 $c$ 连续
+
+- [ ] **Ch3 P2 Thm 2.3 — Composition of continuous functions** / **连续函数的复合**:
+  - **假设**: $f(A)\subset B$; $f$ 在 $c$ 连续, $g$ 在 $f(c)$ 连续
+  - **结论**: $g\circ f$ 在 $c$ 连续
+
+- [ ] **Ch3 P2 Thm 4.3 — Boundedness on a closed bounded interval** / **闭有界区间上连续则有界**:
+  - **假设**: $I=[a,b]$, $f:I\to\mathbb{R}$ 连续
+  - **结论**: $f$ 在 $I$ 上有界
+
+- [ ] **Ch3 P2 Thm 5.4 — Extreme Value Theorem** / **最大最小值定理**:
+  - **假设**: $I=[a,b]$, $f:I\to\mathbb{R}$ 连续
+  - **结论**: $f$ 在 $I$ 上达到最大值与最小值
+
+- [ ] **Ch3 P2 Thm 5.7 — Bolzano's intermediate value theorem** / **Bolzano 介值定理**:
+  - **假设**: $I$ 为区间, $f:I\to\mathbb{R}$ 连续
+  - **结论**: $f(I)$ 为区间 (特别地闭区间上异号则有根)
+
+- [ ] **Ch3 P2 Thm 6.8 — Continuous on compact interval ⇒ uniformly continuous** / **闭有界区间上连续 ⇒ 一致连续**:
+  - **假设**: $I=[a,b]$, $f:I\to\mathbb{R}$ 连续
+  - **结论**: $f$ 在 $I$ 上一致连续
+
+- [ ] **Ch3 P2 Thm 6.16 — Lipschitz ⇒ uniformly continuous** / **Lipschitz ⇒ 一致连续**:
+  - **假设**: $f$ 为 Lipschitz
+  - **结论**: $f$ 一致连续
 
 ---
 

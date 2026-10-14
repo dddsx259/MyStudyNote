@@ -1,6 +1,7 @@
 # Tutorial 2 — Processes 总结
 
 - **来源**: `tut/Tut02 processes.pdf` (50 页)
+- **详细讲义**: [`Tut02 processes 讲义.md`](Tut02%20processes%20讲义.md)
 - **主题**: 进程抽象 → `fork` / `exit`/`wait` → `exec` → signals & pipes → **PA1 3230yash 规格对齐**
 
 ---

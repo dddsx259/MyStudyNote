@@ -1,6 +1,7 @@
 # Tutorial 3 — Pthread 总结
 
 - **来源**: `tut/Tut03 pthread.pdf` (26 页)
+- **详细讲义**: [`Tut03 pthread 讲义.md`](Tut03%20pthread%20讲义.md)
 - **主题**: POSIX threads — create/join → mutex 保护共享数据 → condition variable 等待条件
 - **对齐**: `Lec/Lec07 thread concept` · `Lec/Lec08 synchronization` · OSTEP Ch.26–28, 30 · MiniLab4
 

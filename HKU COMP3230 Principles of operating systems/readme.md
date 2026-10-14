@@ -12,7 +12,7 @@
 |---|---|
 | `Lec/` | lecture slides (`Lec{NN} …`) + OSTEP 阅读 (`OSTEP {章} …`) |
 | `assignment/` | Problem Set / Programming Assignment |
-| `tut/` | Tutorial slides + 总结 |
+| `tut/` | Tutorial slides + 讲义 + 总结 |
 | `lab/Mini-lab/` | Mini-Lab 题面 + starter `.c` + 题目理解 |
 | `lab/Mini-lab/submission/` | 已提交稿 (`lab*_3036292116.c`) |
 | `题集/` | 按章节练习题 + 课件证明 |
@@ -53,9 +53,9 @@
 | `assignment/PS01 problem set 1 解答.md` | PS1 | 完整解答 (中文说明 + 英文 Answer; 多解全列) |
 | `assignment/PA01 programming assignment 1 题目理解.md` | PA1 yash | due 2026-10-16 10:29; 15 pts |
 | `assignment/PA01 programming assignment 1 解答.md` | PA1 | 设计/伪代码解答 (中文说明 + 英文 Answer; 多实现并列) |
-| `tut/Tut01 warmup 总结.md` | Tut1 | Warm Up |
-| `tut/Tut02 processes 总结.md` | Tut2 | Processes + PA1 对照 |
-| `tut/Tut03 pthread 总结.md` | Tut3 | Pthread create/join · mutex · cond |
+| `tut/Tut01 warmup 讲义.md` | Tut1 | Warm Up (详解) |
+| `tut/Tut02 processes 讲义.md` | Tut2 | Processes + PA1 对照 (详解) |
+| `tut/Tut03 pthread 讲义.md` | Tut3 | Pthread create/join · mutex · cond (详解) |
 | `lab/Mini-lab/Lab0x … 题目理解.md` | Lab0–4 | Mini-labs |
 
 ## 备注

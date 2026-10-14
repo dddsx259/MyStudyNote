@@ -1,6 +1,7 @@
 # Tutorial 1 — Warm Up 总结
 
 - **来源**: `tut/Tut01 warmup.pdf` (41 页)
+- **详细讲义**: [`Tut01 warmup 讲义.md`](Tut01%20warmup%20讲义.md)
 - **Tutor**: Mingyan Gao · 2026
 - **主题**: Lec01–03 概念复习 + Linux 工作流 + C for OS + 信号/调试就绪检查
 

@@ -1,6 +1,6 @@
 # MATH2241 — AI 文档索引
 
-> 自动维护 · 最后更新: 2026-10-08
+> 自动维护 · 最后更新: 2026-10-14
 
 ## 快捷
 
@@ -16,6 +16,7 @@
 - [Lec06 chapter2 sequences part2 讲义](Lec/Lec06 chapter2 sequences part2 讲义.md)
 - [Lec07 chapter2 sequences part3 讲义](Lec/Lec07 chapter2 sequences part3 讲义.md)
 - [Lec08 chapter3 limits of functions part1 讲义](Lec/Lec08 chapter3 limits of functions part1 讲义.md)
+- [Lec09 chapter3 limits of functions part2 讲义](Lec/Lec09 chapter3 limits of functions part2 讲义.md)
 - [Assignment01 dedekind cuts 解答](assignment/Assignment01 dedekind cuts 解答.md)
 - [Assignment01 dedekind cuts 题目理解](assignment/Assignment01 dedekind cuts 题目理解.md)
 - [Assignment02 解答](assignment/Assignment02 解答.md)

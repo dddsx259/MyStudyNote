@@ -1,19 +1,98 @@
-Is Infinity Only for God?
-Cantor’s Mathematics and Catholic Theology
-CCST5037 Assignment 1 Group Project Plan
-Group members and tutorial
+THE UNIVERSITY OF HONG KONG
+DEPARTMENT OF MATHEMATICS
+CCST5037: MATHEMATICS: A CULTURAL HERITAGE
+ASSIGNMENT 1: GROUP PROJECT PLAN
+
+BILINGUAL WORKING DRAFT
+The English plan below is a bilingual working draft. Submit only the English version required by the course. Count after this revision: the two English content paragraphs are about 225 words. Title, topic, names, tutorial line, reference paragraph, and those two paragraphs together are about 355 words.
+
+============================================================
+
+TENTATIVE TITLE / 暂定标题
+
+An Infinite Set, Not Every Totality: From Cantor to Zermelo
+一个无穷集合, 并非每一个总体: 从康托尔到策梅洛
+
+TOPIC / 选题
+
+How Cantor's 1899 distinction between sets and inconsistent totalities compares with the rules Zermelo made explicit in 1908.
+比较康托尔 1899 年对集合与不一致总体的区分, 和策梅洛 1908 年写明的规则.
+
+GROUP MEMBERS AND TUTORIAL / 组员与 Tutorial
+
 Ryan Zhao (UID 3036297398); Dai Yuxuan, Tim (UID 3036292116).
-Tutorial: [tutor, group, day and time].
-Topic and motivation
-We chose this topic because Cantor’s distinction between mathematical and divine infinity could ease religious concerns while leaving further disagreements unresolved. Why could readers accept a concept but reject what its author inferred from it?
-Main work and central theme
-Our main work is Dauben’s biography, especially chapter 6. We argue that the theologians assessed particular claims through their views of divine perfection: Franzelin defended freedom in creation; Gutberlet defended divine knowledge. We will develop Dauben’s account of recognition by distinguishing acceptance of a concept from acceptance of its consequences.
+Tutorial: [Tutor name], Group [number], [day and time].
 
+Ryan Zhao (UID 3036297398); Dai Yuxuan, Tim (UID 3036292116).
+Tutorial: [导师姓名], Group [组别], [星期及时间].
 
-Proposed content and course connections
-We will explain Cantor’s distinction accessibly, using Aquinas as historical background. Close readings of the January 1886 correspondence and Gutberlet’s argument about God knowing every digit of pi will test our interpretation. Their comparison will show why recognising infinite objects of knowledge need not entail an infinite creation. This addresses CLO 2 through mathematics as a human cultural activity and CLO 3 through its interaction with theology. Our conclusions will concern these documented exchanges.
-Basic references
-Dauben, J. W. (1979). Georg Cantor: His Mathematics and Philosophy of the Infinite. Harvard University Press, ch. 6. Main work.
-Cantor, G. (1932). Gesammelte Abhandlungen mathematischen und philosophischen Inhalts (E. Zermelo, Ed.). Springer: Grundlagen §8; correspondence, pp. 385–386, 399–400. Primary sources.
-Gutberlet, C. (1886). Das Problem des Unendlichen. Zeitschrift für Philosophie und philosophische Kritik, 88, 179–223. Primary source.
-Aquinas, T. Summa Theologiae, I, q. 7. Primary source.
+MAIN WORK AND BASIC REFERENCES / 主要作品与基础参考
+
+Using Dauben, Georg Cantor: His Mathematics and Philosophy of the Infinite (Harvard University Press, 1979), chapters 5 and 6, as a starting point for Cantor's distinctions, we compare two primary texts: Cantor to Richard Dedekind, 3 August 1899, and Zermelo, "Untersuchungen über die Grundlagen der Mengenlehre I" (1908). Aristotle, Physics III.4–8, and Gauss to H. C. Schumacher, 12 July 1831, are two brief and separate background views. The Hilbert Hotel, from Hilbert's 1924/25 lectures (published 2013), is only an opening illustration.
+
+主要作品: 以 Dauben, Georg Cantor: His Mathematics and Philosophy of the Infinite (Harvard University Press, 1979) 第 5, 6 章为起点, 理解康托尔自己的区分, 再比较两份一手文本: Cantor 1899 年 8 月 3 日给 Richard Dedekind 的信, 以及 Zermelo, "Untersuchungen über die Grundlagen der Mengenlehre I" (1908). Aristotle, Physics 第 III 卷第 4–8 章, 和 Gauss 1831 年 7 月 12 日给 H. C. Schumacher 的信, 是两种分开的简短背景. 希尔伯特旅馆出自 Hilbert 1924/25 年讲稿 (2013 年出版), 只作开场.
+
+PROPOSED CENTRAL THEME AND ESSAY CONTENT / 中心主题与论文内容
+
+The central theme is what happened between Cantor's 1899 distinction of sets from inconsistent totalities and Zermelo's 1908 axioms, which made that restriction explicit as public rules. The essay will open with the Hilbert Hotel as one completed infinite collection, and ask: if it may be a set, may every collection be a set? Three steps follow. First, Cantor's letter to Dedekind of 3 August 1899 distinguishes multiplicities that can form one finished set from absolutely infinite, inconsistent ones, such as the totality of all ordinals. Second, Zermelo's 1908 axioms state the boundary as rules: the Axiom of Infinity postulates that an infinite set exists, and separation blocks unrestricted set formation. Third, the essay will ask what those public rules added to Cantor's then-unpublished distinction, taking the set of all natural numbers as its working example, contrasted in Figure 1 with a totality the 1908 system does not admit as a set. The essay stays with these two texts and does not survey later axiomatic set theory.
+
+中心主题: 康托尔 1899 年把集合与不一致总体区分开, 策梅洛 1908 年的公理把这条限制写成明确的公开规则, 文章研究这两件事之间发生了什么. 文章将以希尔伯特旅馆开场, 用一个已经完成的无穷集合提出问题: 如果它可以成为集合, 是不是每一个总体都可以? 之后分三步. 第一步, Cantor 1899 年 8 月 3 日给 Dedekind 的信区分能构成一个完成集合的总体, 和绝对无穷的, 不一致的总体, 例如全体序数. 第二步, Zermelo 1908 年的公理把边界写成规则: 无穷公理断定存在一个无穷集合, 分离公理阻止不受限制的集合构造. 第三步, 文章追问这些公开规则在康托尔当时未发表的区分之外加了什么, 以全体自然数的集合为例, 在图 1 里对照这套系统不承认为集合的总体. 文章只处理这两份文本, 不综述后来的公理集合论.
+
+This addresses CLO 2: what may count as a set was settled by argument and revision among mathematicians, not discovered once and left unchanged, and the essay follows that process. Aristotle, Physics III.4–8, and Gauss's 1831 letter to Schumacher appear as two separate background objections, showing that resistance to completed infinity took more than one form before Cantor.
+
+本项目对应 CLO 2: 什么可以算作集合, 是经数学家的争论和修订定下的, 不是一次发现后就不再改变, 文章跟随这一过程. Aristotle, Physics 第 III 卷第 4–8 章, 和 Gauss 1831 年给 Schumacher 的信, 作为两种分开的背景反对意见, 说明康托尔以前对完成无穷的抵制不止一种形式.
+
+============================================================
+REFERENCES / 参考文献
+
+Aristotle. Physics, III.4–8. In Jonathan Barnes (ed.), The Complete Works of Aristotle, vol. 1. Princeton University Press, 1984. Translation by R. P. Hardie and R. K. Gaye.
+Cantor, G. (1883). Grundlagen einer allgemeinen Mannigfaltigkeitslehre. Leipzig: Teubner. Also in Mathematische Annalen, 21, 545–591. English translation by William Ewald in From Kant to Hilbert: A Source Book in the Foundations of Mathematics, vol. 2. Oxford: Clarendon Press, 1996, pp. 878–920. Use §1 (p. 882) and §5 (p. 891). §8 (p. 895) concerns the immanent reality of numbers, not the Absolute Infinite.
+Cantor, G. (1899). Letter to Richard Dedekind, 3 August 1899. In Ewald, From Kant to Hilbert, vol. 2, pp. 923ff. Absolutely infinite multiplicities cannot be treated as one finished set.
+Dauben, J. W. (1979). Georg Cantor: His Mathematics and Philosophy of the Infinite. Cambridge, MA: Harvard University Press. Chapters 5 and 6, for Cantor's distinctions. Chapter 3, on denumerability, is not main evidence for this claim.
+Gauss, C. F. (1831). Letter to H. C. Schumacher, 12 July 1831. In C. A. F. Peters (ed.), Briefwechsel zwischen C. F. Gauss und H. C. Schumacher, vol. 2. Altona: Gustav Esch, 1860, no. 396. Reprinted in Gauss, Werke, vol. 8. Leipzig: Teubner, 1900, p. 216.
+Hilbert, D. (1924/25). Passage on the infinite hotel. In William Ewald and Wilfried Sieg (eds.), David Hilbert's Lectures on the Foundations of Arithmetic and Logic 1917–1933. Berlin: Springer, 2013, pp. 730–731. Opening illustration only. This passage is not in the 1926 paper.
+Hilbert, D. (1926). Über das Unendliche. Mathematische Annalen, 95, 161–190. English translation by Stefan Bauer-Mengelberg in Jean van Heijenoort (ed.), From Frege to Gödel: A Source Book in Mathematical Logic, 1879–1931. Cambridge, MA: Harvard University Press, 1967, pp. 367–392. Not the source of the hotel, and not the main evidence.
+Zermelo, E. (1908). Untersuchungen über die Grundlagen der Mengenlehre I. Mathematische Annalen, 65, 261–281. English translation by Stefan Bauer-Mengelberg in van Heijenoort (1967), pp. 199–215. He states that he has not proved the axioms consistent. He claims that the antinomies then known disappear under these principles.
+
+============================================================
+FIGURE 1. AN INFINITE SET, NOT EVERY TOTALITY
+图 1. 一个无穷集合, 并非每一个总体
+
+DOCX redraw guide / DOCX 重绘说明:
+One figure only. Two columns, not a timeline.
+
+Kept as a set / 仍是集合
+The set of all natural numbers / 全体自然数组成的集合
+Axiom of Infinity: postulates the existence of an infinite set.
+无穷公理: 断定存在一个无穷集合.
+
+Not a set in Zermelo's 1908 system / 在策梅洛 1908 年的系统里不是集合
+An unrestricted totality. Classroom label for readers: a set of all sets.
+不受限制的总体. 给读者的说法: 所有集合的集合.
+Cantor's own 1899 example was the totality of all ordinals. Do not attribute the phrase "set of all sets" to him.
+康托尔 1899 年自己的例子是全体序数的总体. 不要把 "set of all sets" 写成他的原话.
+Separation: blocks unrestricted set formation.
+分离: 阻止不受限制的集合构造.
+
+Caption / 图注:
+A completed infinite set remains. Not every totality is a set.
+完成的无穷集合仍然留下. 并非每一个总体都是集合.
+
+Figure 2 is dropped. It repeated the same sequence.
+
+希尔伯特旅馆不另作交稿图. 只在开场说明一个可数的完成无穷集合, 不是策梅洛公理的证据.
+
+============================================================
+SUBMISSION CHECK / 交稿前核对
+
+[ ] Replace the tutorial placeholder with the actual tutor, group, day and time.
+[ ] Verify all primary-source editions, translations, dates, and page references before citing them.
+[ ] Confirm the final English plan is 200–400 words. See the word count in the header.
+[ ] Keep the diagram if space permits, and cite Figure 1 in the plan text as above.
+[ ] Ensure all group members understand the argument and can explain the sources, in line with the course's responsible generative-AI guidance.
+
+[ ] 将 tutorial 占位替换为实际导师、组别、星期和时间.
+[ ] 引用前核实一手文献的版本、译本、日期和页码.
+[ ] 按课程的计词规则确认英文计划为 200–400 词. 词数见文首.
+[ ] 如篇幅允许, 保留图示, 并像正文所示引用 Figure 1.
+[ ] 确保所有组员理解论点并能解释所用文献, 遵循课程对生成式 AI 负责任使用的要求.

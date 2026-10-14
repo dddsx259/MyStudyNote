@@ -1,0 +1,59 @@
+CCST5037 选题计划修改建议
+供组内讨论与修改 Assignment 1 使用　｜　2026年10月14日
+这份 plan 的选题和资料基础已经比较完整。建议保留“从康托尔到 Zermelo，数学如何接受无限”的方向，优先修正中心论点，再调整资料分工、课程联系和图文排版。
+1 调整中心论点
+现在的标题和正文强调公理化“改写了无限的含义”，容易让人理解为它创造了另一种无限。但公理化之后，自然数集合仍然是一个完整的无限集合；主要变化在于哪些总体能够被当作集合，以及可以依据什么规则构造集合。
+建议标题改为：
+Accepting Infinity, Limiting Sets: From Cantor to Zermelo
+建议将 central theme 改为：
+We argue that accepting completed infinity required clearer rules about which collections could count as mathematical objects. Comparing Cantor’s 1899 correspondence with Zermelo’s 1908 axioms, we will examine how axiomatization preserved infinite sets while making restrictions on set formation explicit.
+2 替换容易误解的概念表述
+“restricted completed infinity”容易被理解为一种新的、受到数量限制的无限。建议改为：
+completed infinite sets governed by explicit axioms
+同时删除“neither the completed infinity rejected before Cantor”这部分，因为它把公理化保留的实际无限与早先受到反对的实际无限分得过于彻底。
+3 让康托尔的书信成为关键转折
+康托尔在1899年的通信中已经区分了一致与不一致的总体，因此不能暗示只有 Zermelo 才意识到集合形成需要限制。[1] 论文应进一步追问：
+If Cantor already distinguished consistent from inconsistent multiplicities, what did Zermelo’s axiomatization add?
+这可以成为全文最有分析价值的问题：公理化如何把已有的边界意识转化为明确的研究规则。
+4 缩小历史背景并突出文本比较
+“Before Cantor”涵盖的时代太长，不宜写成统一立场。建议将 Aristotle 和 Gauss 作为两种具体的历史观点，简短交代背景。正文集中比较康托尔如何为完整的无限对象辩护、Zermelo 如何明确集合规则，以及两者之间的延续与变化。神学与希尔伯特旅馆保留为辅助背景，避免发展成独立主线。
+ 
+5 明确 Dauben 作为主书的作用
+目前 Dauben 被列为 main work，但还需要说明我们如何利用这本书展开自己的分析。建议加入：
+Using Dauben’s account as our starting point, we will compare Cantor’s conceptual distinctions with Zermelo’s explicit axioms, examining both continuity and change.
+后续论文需要指出：Dauben 的叙述帮助我们理解了什么，而书信和原始论文又使我们如何补充或限定这一理解。
+6 调整课程联系
+CLO 2 最有说服力，应作为主要联系：数学研究规则如何通过人的论证、争议和修订形成。CLO 4 目前解释不足，“成为数学基础”与“影响文明发展”之间还需要具体论证；如果篇幅不足，可以弱化这一项。Assignment 1 没有要求每个选题覆盖全部四条 CLO。[3]
+7 合并图表并解释具体区别
+两张图都重复了历史发展顺序，建议只保留一张，并加入以下对照，让读者看清“限制了什么”。
+保留的无限对象	被排除的总体
+全部自然数组成的集合	在所讨论的公理体系中，包含所有集合的集合
+图的重点应是：完整的无限集合仍被保留，但不是任何总体都能构成集合。图中“Infinity Axiom: permits an infinite set”建议改为：
+Axiom of Infinity: postulates the existence of an inf nite set.
+8 提交前检查字数和版面
+Assignment 1 要求200–400词、1–2页。目前可提取文字约377词，尚未计入图片中的文字；要求没有明确豁免图中文字，因此建议删除重复图和重复说明，留出余量。同时避免把 CLO 段落拆到两页，并放大保留图中的文字。[3]
+全文还应避免把“公理化排除了已知悖论”写成“公理化证明整个系统绝对不会矛盾”。Zermelo 在1908年明确承认，他尚未完成一般的一致性证明。[2]
+核对依据
+[1] 康托尔通信节选  包含1899年致 Dedekind 的信
+[2] Zermelo’s Axiomatization of Set Theory  含1908年论文原文引述
+[3] CCST5037 Assignment 1: Group Project Plan，课程文件 Assignment1Description-Modified.pdf，第1页。
+
+============================================================
+未照单采纳的几点
+2026-10-14. 其余各点已写入 plan.txt: 中心论点改为「留下无穷集合, 写明哪些总体不能成为集合」; 删掉 restricted completed infinity 和 neither the completed infinity rejected before Cantor; 以 1899 年的信对 1908 年的公理为比较; Aristotle 与 Gauss 只作两种背景; 只保留 CLO 2; 只留一张对照图; 不把排除已知悖论写成一致性证明.
+
+1. 标题没有用 Accepting Infinity, Limiting Sets.
+两半在逻辑上不是同一句话. 一边是留下一个无穷集合, 一边是拒绝某些总体. 只做前者, 仍可以允许「所有集合的集合」. 只做后者, 也可以把无穷集合一起拒绝. 两个并列的动名词读起来却像同一个动作说了两遍. 现用标题是 An Infinite Set, Not Every Totality: From Cantor to Zermelo. Accepting 还有另一层问题: 1908 年以后仍有人拒绝完成的无穷, 例如 Poincaré 和 Brouwer. 标题不能写成当时的数学界已经接受了无穷.
+
+2. Dauben 用来理解 Cantor, 不承担 Cantor 与 Zermelo 的比较.
+第 5 点要求写明这本书怎么用, 这一点已采纳. 建议句把「以 Dauben 为起点」和「比较两套文本」接成同一个动作. Dauben (1979) 是 Cantor 的传记. 第 5, 6 章负责 Cantor 的区分. 比较来自 1899 年 8 月 3 日的信和 1908 年的论文. 第 3 章讲可数性, 不再当作主要章节.
+
+3. 第 3 点的问题成立, 但不能写成 Zermelo 只是公开了 Cantor 已有的规则.
+1899 年那封信当时没有发表. Cantor 区分的是能成为一个完成物的总体, 和不能的总体, 他举的是全体序数. Zermelo 的分离公理是另一句话: 只能从已有的集合里分出子集. 无穷公理再断定存在一个无穷集合. plan 里保留的问题是: 这些公开规则在那封当时未发表的信之外加了什么.
+
+4. 图里的「所有集合的集合」可以给读者看, 不能写成 Cantor 的原话.
+第 7 点的两栏对照已经采纳, 无穷公理的措辞也改成 postulates the existence of an infinite set. Cantor 1899 年点名的是全体序数这种不一致总体. 「所有集合的集合」是后来的课堂说法. Zermelo 1908 年的分离公理会挡住这种全集, 正文不要把这句安到 Cantor 名下.
+
+5. 题面没有规定把图中文字计入 200–400 词.
+Assignment 1 写的是 plan 200–400 词, 并且 1–2 页. 它没有说图里面的词要另加进词数. 第二张图仍然删掉, 原因是它和第一张重复, 1–2 页也放不下. 只留一张图这一点采纳, 换掉的是理由.
+
